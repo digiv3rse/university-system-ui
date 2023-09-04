@@ -1,27 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Heebo", sans-serif;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+p {
+  @apply text-zinc-400;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container_fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Extra small screens (576px and below) */
+@media (min-width: 576px) {
+  .container_fluid {
+    max-width: 96%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Small screens (768px and below) */
+@media (min-width: 768px) {
+  .container_fluid {
+    max-width: 94%;
+  }
+}
+
+/* Medium screens (992px and below) */
+@media (min-width: 992px) {
+  .container_fluid {
+    max-width: 94%;
+  }
+}
+
+/* Large screens (1200px and below) */
+@media (min-width: 1200px) {
+  .container_fluid {
+    max-width: 1140px;
+  }
+}
+
+/* Extra large screens (1400px and below) */
+@media (min-width: 1400px) {
+  .container_fluid {
+    max-width: 1300px;
+  }
 }
