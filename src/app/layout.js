@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        {children}
+        <main className="container_fluid">{children}</main>
       </body>
     </html>
   );
