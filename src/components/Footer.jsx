@@ -120,8 +120,8 @@ const Footer = () => {
         <div className="text-zinc-500 text-[0.94rem] leading-5 py-4">
           <hr />
           <div>
-            <div className="items-center flex justify-between py-4 text-center">
-              <div>
+            <div className="items-center flex justify-between py-4 text-center flex-col-reverse md:flex-row">
+              <div className="text-sm">
                 {" "}
                 Copyrights{" "}
                 <a className="cursor-pointer" href="/">
@@ -130,11 +130,11 @@ const Footer = () => {
                 . All rights reserved.{" "}
               </div>
 
-              <div className="justify-center">
-                <ul className="flex flex-wrap justify-center">
+              <div className="justify-center mb-5">
+                <ul className="space-y-2 sm:space-y-0 sm:flex flex-wrap justify-center">
                   <li className="mr-2">
-                    <div className="text-right">
-                      <a className="cursor-pointer py-1 px-3" href="#">
+                    <div className="sm:text-right">
+                      <a className="cursor-pointer py-1 pr-3 md:px-3" href="#">
                         <i className="inline-block mr-2" />
                         Language
                       </a>
@@ -148,7 +148,7 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <a className="cursor-pointer py-1 pl-3" href="#">
+                    <a className="cursor-pointer py-1 sm:pl-3" href="#">
                       Privacy policy
                     </a>
                   </li>
