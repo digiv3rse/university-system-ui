@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="hidden md:block">
       <div className="items-center text-zinc-500 flex text-[0.94rem] leading-5 justify-between px-3.5 container_fluid">
         <a className="text-black cursor-pointer text-xl mr-4 py-8" href="/">
           <img className="h-9 w-36 align-middle overflow-clip" src="/logo.svg" alt="" />
