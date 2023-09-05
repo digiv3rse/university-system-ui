@@ -1,4 +1,7 @@
+import Navbar from "@/components/Navbar";
 import "../styles/globals.css";
+import Footer from "@/components/Footer";
+import Menu from "@/components/Menu";
 
 export const metadata = {
   title: "University",
@@ -8,7 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        <Menu />
+        <main className="container_fluid">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
