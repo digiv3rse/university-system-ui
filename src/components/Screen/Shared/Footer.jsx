@@ -19,7 +19,7 @@ const Footer = () => {
         <hr />
         <div className="text-zinc-500 text-[0.94rem] leading-5 py-5 relative">
           <div>
-            <div className="items-center flex justify-between py-4 text-center flex-col-reverse md:flex-row gap-y-3 md:gap-y-0">
+            <div className="items-center flex justify-between py-4 text-center flex-wrap flex-row gap-y-3 md:gap-y-0">
               <div className="text-sm">
                 {" "}
                 Copyrights{" "}
@@ -29,8 +29,8 @@ const Footer = () => {
                 . All rights reserved.{" "}
               </div>
 
-              <div className="justify-center">
-                <ul className="space-y-2 sm:space-y-0 sm:flex flex-wrap justify-center items-center">
+              <div className="">
+                <ul className="space-y-2 sm:space-y-0 flex flex-wrap justify-center items-center">
                   <li className="mr-2 group">
                     <div className="sm:text-right">
                       {lang && (
@@ -100,6 +100,7 @@ const Footer = () => {
                       Terms of use
                     </Link>
                   </li>
+
                   <li>
                     <Link className=" py-1 sm:pl-3 cursor-pointer hover:text-primary-400 duration-300 ease-in-out transition" href="#">
                       Privacy policy
@@ -335,7 +336,7 @@ function FooterContentAndLinks() {
           <span className="text-zinc-800 mb-2 ml-2">example@gmail.com</span>
         </p>
 
-        <div className="flex flex-wrap -ml-1 -mr-1 mt-2">
+        <div className="flex  -ml-1 -mr-1 mt-2">
           <div className=" mt-2 px-1">
             <Link className="text-sky-600 cursor-pointer" href="#">
               {" "}
