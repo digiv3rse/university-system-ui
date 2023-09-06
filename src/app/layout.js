@@ -1,7 +1,7 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Screen/Shared/Navbar";
 import "../styles/globals.css";
-import Footer from "@/components/Footer";
-import Menu from "@/components/Menu";
+import Footer from "@/components/Screen/Shared/Footer";
+import Menu from "@/components/Screen/Shared/Menu";
 
 export const metadata = {
   title: "University",

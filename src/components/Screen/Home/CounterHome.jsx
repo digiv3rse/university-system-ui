@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import countImg from "../assets/count.png";
+import countImg from "../../../assets/count.png";
 import CountUp from "react-countup";
 
 const CounterHome = () => {

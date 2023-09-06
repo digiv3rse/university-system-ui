@@ -1,9 +1,9 @@
-import Blogs from "@/components/Blogs";
-import CounterHome from "@/components/CounterHome";
-import Hero from "@/components/Hero";
-import News from "@/components/News";
-import TopCollege from "@/components/TopCollege";
-import Welcome from "@/components/Welcome";
+import Blogs from "@/components/Screen/Home/Blogs";
+import CounterHome from "@/components/Screen/Home/CounterHome";
+import Hero from "@/components/Screen/Home/Hero";
+import News from "@/components/Screen/Home/News";
+import TopCollege from "@/components/Screen/Home/TopCollege";
+import Welcome from "@/components/Screen/Home/Welcome";
 
 export default function Home() {
   return (

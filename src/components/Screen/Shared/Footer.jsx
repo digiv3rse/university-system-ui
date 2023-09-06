@@ -43,14 +43,14 @@ const Footer = () => {
                           <li onClick={() => handleLang("German")} className="py-1 mx-1 hover:bg-primary-50 px-2 cursor-pointer rounded">
                             {" "}
                             <span className="inline-block h-5 w-5 align-middle mr-2">
-                              <img className="w-full h-full -mt-1" src="/usa.svg" alt="" />
+                              <img className="w-full h-full -mt-1" src="/germany.svg" alt="" />
                             </span>
                             German
                           </li>
                           <li onClick={() => handleLang("France")} className="py-1 mx-1 hover:bg-primary-50 px-2 cursor-pointer rounded">
                             {" "}
                             <span className="inline-block h-5 w-5 align-middle mr-2">
-                              <img className="w-full h-full -mt-1" src="/usa.svg" alt="" />
+                              <img className="w-full h-full -mt-1" src="/france.svg" alt="" />
                             </span>
                             France
                           </li>
