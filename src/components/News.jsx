@@ -41,7 +41,7 @@ const News = () => {
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img
-                className="h-64 w-full align-middle rounded-lg overflow-clip"
+                className="h-64 w-full align-middle rounded-lg overflow-clip object-cover object-center"
                 src="https://eduport.webestica.com/assets/images/event/02.jpg"
                 alt=""
               />
@@ -159,7 +159,7 @@ const News = () => {
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img
-                className="h-56 w-full rounded-tl-lg rounded-tr-lg align-middle overflow-clip"
+                className="h-56 w-full rounded-tl-lg rounded-tr-lg align-middle overflow-clip object-cover object-center"
                 src="https://eduport.webestica.com/assets/images/event/03.jpg"
                 alt=""
               />
