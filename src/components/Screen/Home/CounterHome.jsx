@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
-import countImg from "../assets/count.png";
+import countImg from "../../../assets/count.png";
+import CountUp from "react-countup";
 
 const CounterHome = () => {
   return (
@@ -27,7 +30,9 @@ const CounterHome = () => {
               </div>
               <div className="mt-4 px-2 text-center">
                 <div className="flex justify-center">
-                  <h4 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold">89</h4>
+                  <h4 className="text-white text-3xl md:text-[3.50rem] leading-none font-bold">
+                    <CountUp start={40} end={89} duration={5} delay={2} />
+                  </h4>
                 </div>
 
                 <h6 className="text-zinc-800 font-bold">Total Instructors</h6>
@@ -35,7 +40,10 @@ const CounterHome = () => {
 
               <div className="mt-4 px-2 text-center">
                 <div className="flex justify-center">
-                  <h4 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold">12</h4>
+                  <h4 className="text-white text-3xl md:text-[3.50rem] leading-none font-bold">
+                    {" "}
+                    <CountUp start={1} end={12} duration={5} delay={2} />
+                  </h4>
                 </div>
 
                 <h6 className="text-zinc-800 font-bold">Total Campuses</h6>
@@ -43,9 +51,12 @@ const CounterHome = () => {
 
               <div className="mt-4 px-2 text-center">
                 <div className="flex justify-center">
-                  <h4 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold">180</h4>
+                  <h4 className="text-white text-3xl md:text-[3.50rem] leading-none font-bold">
+                    {" "}
+                    <CountUp start={35} end={180} duration={5} delay={2} />
+                  </h4>
 
-                  <span className="text-white text-2xl md:text-[3.50rem] leading-none font-bold">K</span>
+                  <span className="text-white text-3xl md:text-[3.50rem] leading-none font-bold">K</span>
                 </div>
 
                 <h6 className="text-zinc-800 font-bold">Students till date</h6>
@@ -53,9 +64,12 @@ const CounterHome = () => {
 
               <div className="mt-4 px-2 text-center">
                 <div className="flex justify-center">
-                  <h4 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold">23</h4>
+                  <h4 className="text-white text-3xl md:text-[3.50rem] leading-none font-bold">
+                    {" "}
+                    <CountUp start={2} end={23} duration={5} delay={2} />
+                  </h4>
 
-                  <span className="text-white text-2xl md:text-[3.50rem] leading-none font-bold">+</span>
+                  <span className="text-white text-3xl md:text-[3.50rem] leading-none font-bold">+</span>
                 </div>
 
                 <h6 className="text-zinc-800 font-bold">Types of Courses</h6>

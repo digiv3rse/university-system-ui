@@ -82,23 +82,23 @@ const TopCollege = () => {
                               </div>
 
                               <div className="text-zinc-800 text-[1.31rem] leading-7 font-bold">
-                                <a
+                                <Link
                                   className="bg-emerald-500 text-white cursor-pointer inline-block text-[1.12rem] leading-6 py-1.5 px-3 text-center rounded-md"
                                   href="https://eduport.webestica.com/#"
                                 >
                                   Admission Open
-                                </a>
+                                </Link>
                               </div>
                             </div>
 
                             <div className="flex justify-between mb-4">
                               <span>
-                                <a
+                                <Link
                                   className="bg-zinc-800 text-white cursor-pointer inline-block text-[0.80rem] py-1 px-2 text-center rounded-md"
                                   href="https://eduport.webestica.com/#"
                                 >
                                   Public
-                                </a>
+                                </Link>
                               </span>
 
                               <ul className="items-center self-stretch flex">
@@ -188,9 +188,9 @@ const TopCollege = () => {
                             </div>
 
                             <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-4">
-                              <a className="cursor-pointer" href="https://eduport.webestica.com/#">
+                              <Link className="cursor-pointer" href="https://eduport.webestica.com/#">
                                 Indiana College of - Bloomington
-                              </a>
+                              </Link>
                             </h5>
 
                             <ul className="text-zinc-800 flex flex-wrap mb-4 space-x-4">
