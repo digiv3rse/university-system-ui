@@ -14,13 +14,13 @@ const Menu = () => {
         <div className="flex items-center space-x-4">
           {!menuOpen ? (
             <button onClick={() => setMenuOpen(true)}>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
             </button>
           ) : (
             <button onClick={() => setMenuOpen(!menuOpen)}>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
@@ -36,37 +36,41 @@ const Menu = () => {
         </div>
       </div>
       {menuOpen && (
-        <div className="absolute top-20 left-0 w-full h-screen bg-white p-5 z-10">
-          <ul className="flex mx-auto flex-col space-y-3">
-            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item">
-              <Link className="text-sky-600 cursor-pointer font-medium py-1 px-4" href="/courses">
+        <div className=" w-full h-full bg-white mb-5 z-[999] border-t ">
+          <ul className="flex mx-auto flex-col ">
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="text-sky-600 cursor-pointer font-medium py-2 align-middle px-4 " href="/courses">
                 Course
               </Link>
             </li>
 
-            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item">
-              <Link className="cursor-pointer font-medium py-1 px-4" href="/about">
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/about">
                 About
               </Link>
             </li>
 
-            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item">
-              <Link className="cursor-pointer font-medium py-1 px-4" href="/accounts">
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/accounts">
                 Accounts
               </Link>
             </li>
 
-            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item">
-              <Link className="cursor-pointer font-medium py-1 px-4" href="/components">
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/components">
                 Components
               </Link>
             </li>
 
-            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item">
-              <Link className="cursor-pointer font-medium py-1 px-4" href="/">
-                <i className="inline-block" />
-              </Link>
-            </li>
+            <div onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2">
+              <form className="relative w-full cursor-pointer font-medium py-2 align-middle px-4">
+                <input
+                  className="w-full h-10 text-zinc-700 cursor-text py-2 pl-4 pr-12 border border-zinc-200 border-solid rounded-md"
+                  placeholder="Search"
+                  type="search"
+                />
+              </form>
+            </div>
           </ul>
         </div>
       )}

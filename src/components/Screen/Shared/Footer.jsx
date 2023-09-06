@@ -86,7 +86,7 @@ const Footer = () => {
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            class="lucide lucide-chevron-up inline-block ml-1"
+                            className="lucide lucide-chevron-up inline-block ml-1"
                           >
                             <path d="m18 15-6-6-6 6" />
                           </svg>
