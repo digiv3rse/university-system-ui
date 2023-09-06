@@ -1,3 +1,4 @@
+import Blogs from "@/components/Blogs";
 import CounterHome from "@/components/CounterHome";
 import Hero from "@/components/Hero";
 import News from "@/components/News";
@@ -12,6 +13,7 @@ export default function Home() {
       <TopCollege />
       <CounterHome />
       <News />
+      <Blogs />
     </div>
   );
 }

@@ -262,7 +262,7 @@ const Footer = () => {
                 <ul className="space-y-2 sm:space-y-0 sm:flex flex-wrap justify-center">
                   <li className="mr-2">
                     <div className="sm:text-right">
-                      <a className="cursor-pointer py-1 pr-3 md:px-3" href="#">
+                      <div className="cursor-pointer py-1 pr-3 md:px-3 inline-block" href="#">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -273,14 +273,19 @@ const Footer = () => {
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="lucide lucide-globe inline-block mr-2"
+                          className="lucide lucide-globe inline-block"
                         >
                           <circle cx="12" cy="12" r="10" />
                           <line x1="2" x2="22" y1="12" y2="12" />
                           <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                         </svg>
-                        Language
-                      </a>
+                        <select name="lang" id="lang" className="pr-4 pl-1 bg-transparent outline-none">
+                          <option value="Language">Language</option>
+                          <option value="English">English</option>
+                          <option value="Hindi">Hindi</option>
+                          <option value="Arabic">Arabic</option>
+                        </select>
+                      </div>
                     </div>
                   </li>
 
