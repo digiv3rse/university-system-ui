@@ -15,7 +15,7 @@ import { EffectFade, Navigation } from "swiper/modules";
 const Hero = () => {
   return (
     <>
-      <Swiper spaceBetween={30} effect={"fade"} navigation={true} modules={[EffectFade, Navigation]} className="swiper_hero">
+      <Swiper spaceBetween={30} loop={true} effect={"fade"} navigation={true} modules={[EffectFade, Navigation]} className="swiper_hero">
         <SwiperSlide>
           <div className="relative">
             <img className="w-full h-[500px] md:h-[600px] object-cover object-center" src="https://i.ibb.co/zrFBwwn/05.jpg" loading="lazy" alt="" />
