@@ -46,7 +46,7 @@ const News = () => {
                 alt=""
               />
 
-              <div className="items-start bottom-0 flex flex-col left-0 absolute top-0 z-[2] rounded-lg p-4">
+              <div className="items-start bottom-0 flex flex-row left-0 absolute top-0 z-[2] rounded-lg p-4">
                 <span className="bg-rose-600 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md">Student life</span>
               </div>
             </div>
@@ -118,10 +118,8 @@ const News = () => {
                 alt=""
               />
 
-              <div className="items-start bottom-0 flex flex-col left-0 absolute top-0 z-[2] rounded-lg p-4">
-                <Link className="bg-cyan-600 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md" href="#">
-                  Student story
-                </Link>
+              <div className="bottom-0 left-0 absolute top-0 z-[2] rounded-lg p-4">
+                <span className="bg-cyan-600 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md">Student story</span>
               </div>
             </div>
 
@@ -162,7 +160,7 @@ const News = () => {
                 alt=""
               />
 
-              <div className="items-start bottom-0 flex flex-col left-0 absolute top-0 z-10 rounded-lg p-4">
+              <div className="items-start bottom-0 left-0 absolute top-0 z-10 rounded-lg p-4">
                 <span className="bg-violet-700 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md">Covid-19</span>
               </div>
             </div>

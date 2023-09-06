@@ -15,7 +15,7 @@ import Link from "next/link";
 const Blogs = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold px-3.5">Upcoming Events</h2>
+      <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Upcoming Events</h2>
 
       {/* blogs */}
       <div className="blog">
