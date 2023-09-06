@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 const Welcome = () => {
@@ -236,12 +237,12 @@ const Welcome = () => {
             </div>
           </div>
 
-          <a
+          <Link
             className="bg-sky-600/[0.1] hover:bg-primary-500 text-sky-600 hover:text-white transition duration-300 ease-in-out cursor-pointer inline-block font-medium mt-6 py-2 px-4 text-center align-middle border border-solid rounded-md overflow-hidden"
             href="https://eduport.webestica.com/#"
           >
             More about us
-          </a>
+          </Link>
         </div>
       </div>
     </div>

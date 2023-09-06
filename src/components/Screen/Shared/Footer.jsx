@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 
@@ -22,9 +23,9 @@ const Footer = () => {
               <div className="text-sm">
                 {" "}
                 Copyrights{" "}
-                <a className="cursor-pointer" href="/">
+                <Link className="cursor-pointer" href="/">
                   ©2023 EduPort
-                </a>
+                </Link>
                 . All rights reserved.{" "}
               </div>
 
@@ -95,14 +96,14 @@ const Footer = () => {
                   </li>
 
                   <li className="mr-2">
-                    <a className=" py-1 px-3 cursor-pointer hover:text-primary-400 duration-300 ease-in-out transition" href="#">
+                    <Link className=" py-1 px-3 cursor-pointer hover:text-primary-400 duration-300 ease-in-out transition" href="#">
                       Terms of use
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className=" py-1 sm:pl-3 cursor-pointer hover:text-primary-400 duration-300 ease-in-out transition" href="#">
+                    <Link className=" py-1 sm:pl-3 cursor-pointer hover:text-primary-400 duration-300 ease-in-out transition" href="#">
                       Privacy policy
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -121,9 +122,9 @@ function FooterContentAndLinks() {
   return (
     <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-7 gap-6 md:gap-8 mb-8">
       <div className="text-zinc-500 text-[0.94rem] leading-5 px-3 lg:col-span-2">
-        <a className="text-sky-600 cursor-pointer" href="/">
+        <Link className="text-sky-600 cursor-pointer" href="/">
           <img className="h-10 w-48 align-middle overflow-clip" src="/logo.svg" alt="" />
-        </a>
+        </Link>
 
         <p className="my-4">
           Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.{" "}
@@ -131,7 +132,7 @@ function FooterContentAndLinks() {
         <ul className="text-zinc-500 text-[0.94rem] leading-5">
           <li className="inline-block mr-2">
             {" "}
-            <a
+            <Link
               className="bg-white  text-[#5D7CBE] cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
@@ -149,12 +150,12 @@ function FooterContentAndLinks() {
               >
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
               </svg>
-            </a>{" "}
+            </Link>{" "}
           </li>
 
           <li className="inline-block mr-2">
             {" "}
-            <a
+            <Link
               className="bg-white text-pink-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
@@ -174,12 +175,12 @@ function FooterContentAndLinks() {
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
-            </a>{" "}
+            </Link>{" "}
           </li>
 
           <li className="inline-block mr-2">
             {" "}
-            <a
+            <Link
               className="bg-white text-sky-400 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
@@ -197,12 +198,12 @@ function FooterContentAndLinks() {
               >
                 <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
               </svg>
-            </a>{" "}
+            </Link>{" "}
           </li>
 
           <li className="inline-block">
             {" "}
-            <a
+            <Link
               className="bg-white text-sky-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
@@ -222,7 +223,7 @@ function FooterContentAndLinks() {
                 <rect width="4" height="12" x="2" y="9" />
                 <circle cx="4" cy="4" r="2" />
               </svg>
-            </a>{" "}
+            </Link>{" "}
           </li>
         </ul>
       </div>
@@ -233,33 +234,33 @@ function FooterContentAndLinks() {
 
         <ul className="flex flex-col flex-wrap gap-y-3">
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               About us
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Contact us
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               News and Blogs
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Library
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Career
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -270,27 +271,27 @@ function FooterContentAndLinks() {
 
         <ul className="flex flex-col flex-wrap gap-y-3">
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Documentation
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Faq
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Forum
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Sitemap
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -301,21 +302,21 @@ function FooterContentAndLinks() {
 
         <ul className="flex flex-col flex-wrap gap-y-3">
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Become a teacher
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               How to guide
-            </a>
+            </Link>
           </li>
 
           <li className="list-item">
-            <a className="list_style" href="#">
+            <Link className="list_style" href="#">
               Terms & Conditions
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -336,25 +337,25 @@ function FooterContentAndLinks() {
 
         <div className="flex flex-wrap -ml-1 -mr-1 mt-2">
           <div className=" mt-2 px-1">
-            <a className="text-sky-600 cursor-pointer" href="#">
+            <Link className="text-sky-600 cursor-pointer" href="#">
               {" "}
               <img
                 className="h-11 w-36 align-middle overflow-clip"
                 src="https://eduport.webestica.com/assets/images/client/google-play.svg"
                 alt=""
               />{" "}
-            </a>
+            </Link>
           </div>
 
           <div className=" mt-2 px-1">
-            <a className="text-sky-600 cursor-pointer" href="#">
+            <Link className="text-sky-600 cursor-pointer" href="#">
               {" "}
               <img
                 className="h-11 w-36 align-middle overflow-clip"
                 src="https://eduport.webestica.com/assets/images/client/app-store.svg"
                 alt=""
               />{" "}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,45 +1,46 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
   return (
     <header className="hidden md:block">
       <div className="items-center text-zinc-500 flex text-[0.94rem] leading-5 justify-between px-3.5 container_fluid">
-        <a className="text-black cursor-pointer text-xl mr-4 py-8" href="/">
+        <Link className="text-black cursor-pointer text-xl mr-4 py-8" href="/">
           <img className="h-9 w-36 align-middle overflow-clip" src="/logo.svg" alt="" />
-        </a>
+        </Link>
 
         <div className="w-full items-center flex flex-grow">
           <ul className="flex mx-auto">
             <li className="list-item">
-              <a className="text-sky-600 cursor-pointer font-medium py-1 px-4" href="/courses">
+              <Link className="text-sky-600 cursor-pointer font-medium py-1 px-4" href="/courses">
                 Course
-              </a>
+              </Link>
             </li>
 
             <li className="list-item">
-              <a className="cursor-pointer font-medium py-1 px-4" href="/about">
+              <Link className="cursor-pointer font-medium py-1 px-4" href="/about">
                 About
-              </a>
+              </Link>
             </li>
 
             <li className="list-item">
-              <a className="cursor-pointer font-medium py-1 px-4" href="/accounts">
+              <Link className="cursor-pointer font-medium py-1 px-4" href="/accounts">
                 Accounts
-              </a>
+              </Link>
             </li>
 
             <li className="list-item">
-              <a className="cursor-pointer font-medium py-1 px-4" href="/components">
+              <Link className="cursor-pointer font-medium py-1 px-4" href="/components">
                 Components
-              </a>
+              </Link>
             </li>
 
             <li className="list-item">
-              <a className="cursor-pointer font-medium py-1 px-4" href="/">
+              <Link className="cursor-pointer font-medium py-1 px-4" href="/">
                 <i className="inline-block" />
-              </a>
+              </Link>
             </li>
           </ul>
 
@@ -61,13 +62,13 @@ const Navbar = () => {
         </div>
 
         <div>
-          <a className="h-10 w-10 text-sky-600 cursor-pointer inline-block" href="/">
+          <Link className="h-10 w-10 text-sky-600 cursor-pointer inline-block" href="/">
             <img
               className="h-full w-full object-cover align-middle rounded-full overflow-clip"
               src="https://eduport.webestica.com/assets/images/avatar/01.jpg"
               alt=""
             />
-          </a>
+          </Link>
         </div>
       </div>
     </header>

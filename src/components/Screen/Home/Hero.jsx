@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 // import required modules
 import { EffectFade, Navigation } from "swiper/modules";
+import Link from "next/link";
 const Hero = () => {
   return (
     <>
@@ -29,19 +30,19 @@ const Hero = () => {
                     University, Courses Hub, Training Center, or any Academy.
                   </p>
 
-                  <a
+                  <Link
                     className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
                     href="https://eduport.webestica.com/university-admission-form.html"
                   >
                     Admissions
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
                     href="https://eduport.webestica.com/#"
                   >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -60,19 +61,19 @@ const Hero = () => {
                     University, Courses Hub, Training Center, or any Academy.
                   </p>
 
-                  <a
+                  <Link
                     className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
                     href="https://eduport.webestica.com/university-admission-form.html"
                   >
                     Admissions
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
                     href="https://eduport.webestica.com/#"
                   >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -91,19 +92,19 @@ const Hero = () => {
                     University, Courses Hub, Training Center, or any Academy.
                   </p>
 
-                  <a
+                  <Link
                     className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
                     href="https://eduport.webestica.com/university-admission-form.html"
                   >
                     Admissions
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
                     href="https://eduport.webestica.com/#"
                   >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

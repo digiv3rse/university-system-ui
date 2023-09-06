@@ -79,7 +79,7 @@ const Blogs = () => {
                     </div>
 
                     <div className="w-full mt-auto">
-                      <a className="bg-white text-black cursor-pointer inline-block py-1.5 px-2 text-center rounded" href="#">
+                      <Link className="bg-white text-black cursor-pointer inline-block py-1.5 px-2 text-center rounded" href="#">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -104,7 +104,7 @@ const Blogs = () => {
                           <path d="M16 18h.01" />
                         </svg>
                         Tomorrow
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

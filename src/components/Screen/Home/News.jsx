@@ -47,17 +47,15 @@ const News = () => {
               />
 
               <div className="items-start bottom-0 flex flex-col left-0 absolute top-0 z-[2] rounded-lg p-4">
-                <a className="bg-rose-600 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md" href="#">
-                  Student life
-                </a>
+                <span className="bg-rose-600 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md">Student life</span>
               </div>
             </div>
 
             <div className="flex-grow p-1 mt-1">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
-                <a className="cursor-pointer" href="#">
+                <Link className="cursor-pointer" href="#">
                   Student Loan Survey: Many Owe $50K-plus
-                </a>
+                </Link>
               </h5>
 
               <p
@@ -72,9 +70,9 @@ const News = () => {
 
               <div className="flex justify-between">
                 <h6 className="text-zinc-800 font-bold hover:text-primary-600">
-                  <a className="cursor-pointer" href="#">
+                  <Link className="cursor-pointer" href="#">
                     Frances Guerrero
-                  </a>
+                  </Link>
                 </h6>
 
                 <span className="text-[0.82rem]">30M Ago</span>
@@ -85,14 +83,14 @@ const News = () => {
         <div className="lg:col-span-2 px-3">
           <div className="bg-slate-100 flex flex-col mb-6 break-words rounded-lg p-4">
             <div className="flex-grow py-4 px-5">
-              <a className="bg-emerald-500 text-white cursor-pointer inline-block text-[0.80rem] mb-2 py-1 px-2 text-center rounded-md" href="#">
+              <span className="bg-emerald-500 text-white cursor-pointer inline-block text-[0.80rem] mb-2 py-1 px-2 text-center rounded-md">
                 Research
-              </a>
+              </span>
 
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
-                <a className="cursor-pointer" href="#">
+                <Link className="cursor-pointer" href="#">
                   How to make a college list
-                </a>
+                </Link>
               </h5>
 
               <p className="mb-4">
@@ -102,9 +100,9 @@ const News = () => {
 
               <div className="flex justify-between">
                 <h6 className="text-zinc-800 font-bold hover:text-primary-600">
-                  <a className="cursor-pointer" href="#">
+                  <Link className="cursor-pointer" href="#">
                     Louis Crawford
-                  </a>
+                  </Link>
                 </h6>
 
                 <span className="text-[0.82rem]">12H Ago</span>
@@ -121,17 +119,17 @@ const News = () => {
               />
 
               <div className="items-start bottom-0 flex flex-col left-0 absolute top-0 z-[2] rounded-lg p-4">
-                <a className="bg-cyan-600 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md" href="#">
+                <Link className="bg-cyan-600 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md" href="#">
                   Student story
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="flex-grow p-4">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
-                <a className="cursor-pointer" href="#">
+                <Link className="cursor-pointer" href="#">
                   Campus Support for First-Year Students
-                </a>
+                </Link>
               </h5>
 
               <p
@@ -145,9 +143,9 @@ const News = () => {
 
               <div className="flex justify-between">
                 <h6 className="text-zinc-800 font-bold hover:text-primary-600">
-                  <a className="cursor-pointer" href="#">
+                  <Link className="cursor-pointer" href="#">
                     Lori Stevens
-                  </a>
+                  </Link>
                 </h6>
 
                 <span className="text-[0.82rem]">3M Ago</span>
@@ -164,27 +162,25 @@ const News = () => {
                 alt=""
               />
 
-              <div className="items-start bottom-0 flex flex-col left-0 absolute top-0 z-[2] rounded-lg p-4">
-                <a className="bg-violet-700 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md" href="#">
-                  Covid-19
-                </a>
+              <div className="items-start bottom-0 flex flex-col left-0 absolute top-0 z-10 rounded-lg p-4">
+                <span className="bg-violet-700 text-white cursor-pointer text-[0.80rem] py-1 px-2 text-center rounded-md">Covid-19</span>
               </div>
             </div>
 
             <div className="flex-grow p-4">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
-                <a className="cursor-pointer" href="#">
+                <Link className="cursor-pointer" href="#">
                   Covid-19 and the college experienced
-                </a>
+                </Link>
               </h5>
 
               <p className="mb-4">Rooms oh fully taken by worse do. Points afraid but may end law.Points afraid but may end law. </p>
 
               <div className="flex justify-between">
                 <h6 className="text-zinc-800 font-bold hover:text-primary-600">
-                  <a className="cursor-pointer" href="#">
+                  <Link className="cursor-pointer" href="#">
                     Amanda Reed
-                  </a>
+                  </Link>
                 </h6>
 
                 <span className="text-[0.82rem]">July 21, 2021</span>
