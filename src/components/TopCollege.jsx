@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
+import Link from "next/link";
 
 const TopCollege = () => {
   return (
@@ -34,7 +35,7 @@ const TopCollege = () => {
                 <Swiper
                   spaceBetween={30}
                   slidesPerView={3}
-                  centeredSlides={true}
+                  loop={true}
                   breakpoints={{
                     "@0.00": {
                       slidesPerView: 1,
@@ -289,12 +290,12 @@ const TopCollege = () => {
                               </div>
 
                               <div className="mt-4">
-                                <a
-                                  className="bg-sky-600/[0.1] text-sky-600 cursor-pointer inline-block font-medium mb-1.5 py-2 px-4 text-center align-middle border border-solid rounded-md overflow-hidden"
-                                  href="https://eduport.webestica.com/#"
+                                <Link
+                                  className="bg-sky-600/[0.1] text-sky-600 cursor-pointer inline-block font-medium mb-1.5 py-2 px-4 text-center align-middle border border-solid rounded-md overflow-hidden hover:text-white hover:bg-sky-600 transition duration-300 ease-in-out"
+                                  href="#"
                                 >
                                   View more
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>

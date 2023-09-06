@@ -1,3 +1,4 @@
+import CounterHome from "@/components/CounterHome";
 import Hero from "@/components/Hero";
 import TopCollege from "@/components/TopCollege";
 import Welcome from "@/components/Welcome";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Welcome />
       <TopCollege />
+      <CounterHome />
     </div>
   );
 }
