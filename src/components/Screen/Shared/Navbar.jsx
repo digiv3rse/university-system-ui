@@ -53,7 +53,7 @@ const Navbar = () => {
                   type="search"
                 />
 
-                <button className="cursor-pointer p-2 absolute inline-block top-0 left-48">
+                <button className="cursor-pointer p-2 absolute hidden lg:inline-block top-0 left-48">
                   <svg viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" className="inline-block" width={24} height={24}>
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
