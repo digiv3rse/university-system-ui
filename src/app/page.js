@@ -7,13 +7,13 @@ import Welcome from "@/components/Screen/Home/Welcome";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Hero />
       <Welcome />
       <TopCollege />
       <CounterHome />
       <News />
       <Blogs />
-    </div>
+    </>
   );
 }
