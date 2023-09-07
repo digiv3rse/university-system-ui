@@ -14,8 +14,8 @@ import { Autoplay } from "swiper/modules";
 const Team = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12">
-        <div className="md:col-span-2">
+      <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 md:gap-12">
+        <div className="lg:col-span-2">
           <div className="text-zinc-500 text-[0.94rem] leading-5 px-3.5">
             <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold my-2">Awards&apos;N Stuff</h2>
 
@@ -58,7 +58,7 @@ const Team = () => {
             </ul>
           </div>
         </div>
-        <div className="col-span-3">
+        <div className="lg:col-span-3">
           <div className="text-zinc-500 text-[0.94rem] flex flex-col md:flex-row gap-4 items-center justify-between">
             <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Meet Our Team</h2>
 
@@ -203,7 +203,7 @@ const Team = () => {
                         </svg>
                       </li>
 
-                      <li className="text-zinc-800 ml-2">(4.5)</li>
+                      {/* <li className="text-zinc-800 ml-2">(4.5)</li> */}
                     </ul>
                   </div>
                 </SwiperSlide>
