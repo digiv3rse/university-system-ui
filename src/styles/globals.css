@@ -82,7 +82,11 @@ li {
 /* ================ slider hero */
 
 .swiper_hero {
-  @apply overflow-hidden h-[450px] md:h-[500px] lg:h-[600px] text-center rounded-[8px] z-0;
+  @apply overflow-hidden h-[450px] md:h-[500px] lg:h-[600px] text-center rounded-[8px] z-0 cursor-pointer;
+}
+
+.swiper-wrapper {
+  position: relative;
 }
 
 .swiper-slide {
@@ -96,6 +100,44 @@ li {
   /* height: 100%; */
   object-fit: cover;
   object-position: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+  width: 55px !important;
+  height: 55px !important;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 5px;
+  border-radius: 50%;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper_hero:hover .swiper-button-prev,
+.swiper_hero:hover .swiper-button-next {
+  display: inline-block !important;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.479);
+}
+.swiper-button-prev::after {
+  content: "\2190" !important;
+  color: white;
+  display: inline-block;
+  font-size: 32px !important;
+  margin-top: 2px !important;
+}
+.swiper-button-next::after {
+  content: "\2192" !important;
+  color: white;
+  display: inline-block;
+  font-size: 32px !important;
+  margin-top: 2px !important;
 }
 
 .list_style {

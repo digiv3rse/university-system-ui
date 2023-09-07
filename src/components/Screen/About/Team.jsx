@@ -92,7 +92,7 @@ const Team = () => {
                   slidesPerView: 3,
                   spaceBetween: 40,
                 },
-                "@1.50": {
+                "@1.75": {
                   slidesPerView: 4,
                   spaceBetween: 50,
                 },

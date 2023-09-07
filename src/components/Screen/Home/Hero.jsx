@@ -26,7 +26,7 @@ const Hero = () => {
               loading="lazy"
               alt=""
             />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/60 rounded-2xl">
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
               <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-full lg:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
                   <h1 className="text-white text-3xl md:text-[44px] lg:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
@@ -62,7 +62,7 @@ const Hero = () => {
               loading="lazy"
               alt=""
             />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/60 rounded-2xl">
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
               <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-full lg:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
                   <h1 className="text-white text-3xl md:text-[44px] lg:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
@@ -98,7 +98,7 @@ const Hero = () => {
               loading="lazy"
               alt=""
             />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/60 rounded-2xl">
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
               <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-full lg:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
                   <h1 className="text-white text-3xl md:text-[44px] lg:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
