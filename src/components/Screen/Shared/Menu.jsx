@@ -39,29 +39,30 @@ const Menu = () => {
         <div className=" w-full h-full bg-white mb-5 z-[999] border-t ">
           <ul className="flex mx-auto flex-col ">
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
-              <Link className="text-sky-600 cursor-pointer font-medium py-2 align-middle px-4 " href="/courses">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/">
+                Home
+              </Link>
+            </li>{" "}
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/courses">
                 Course
               </Link>
             </li>
-
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
               <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/about">
                 About
               </Link>
             </li>
-
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
               <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/accounts">
                 Accounts
               </Link>
             </li>
-
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
               <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/components">
                 Components
               </Link>
             </li>
-
             <div onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2">
               <form className="relative w-full cursor-pointer font-medium py-2 align-middle px-4">
                 <input

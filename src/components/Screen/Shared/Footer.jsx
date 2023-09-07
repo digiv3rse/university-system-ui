@@ -34,7 +34,7 @@ const Footer = () => {
                   <li className="mr-2 group">
                     <div className="sm:text-right">
                       {lang && (
-                        <ul className="bg-white p-4 shadow rounded-md text-left absolute -top-24">
+                        <ul className="bg-white p-4 shadow rounded-md text-left absolute -top-14 md:-top-24">
                           <li onClick={() => handleLang("English")} className="py-1 mx-1 hover:bg-primary-50 px-2 cursor-pointer rounded">
                             <span className="inline-block h-5 w-5 align-middle mr-2">
                               <img className="w-full h-full -mt-1" src="/usa.svg" alt="" />
