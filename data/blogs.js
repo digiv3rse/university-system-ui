@@ -29,4 +29,20 @@ export const blogs = [
     id: 6,
     blog_image: b1,
   },
+  {
+    id: 7,
+    blog_image: b3,
+  },
+  {
+    id: 8,
+    blog_image: b4,
+  },
+  {
+    id: 9,
+    blog_image: b5,
+  },
+  {
+    id: 10,
+    blog_image: b1,
+  },
 ];

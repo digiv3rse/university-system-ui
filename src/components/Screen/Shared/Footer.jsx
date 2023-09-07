@@ -134,7 +134,7 @@ function FooterContentAndLinks() {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="bg-white  text-[#5D7CBE] cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white  text-[#5D7CBE] cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-[#5D7CBE] hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg
@@ -157,7 +157,7 @@ function FooterContentAndLinks() {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="bg-white text-pink-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white text-pink-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-pink-600 hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg
@@ -182,7 +182,7 @@ function FooterContentAndLinks() {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="bg-white text-sky-400 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white text-sky-400 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-sky-400 hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg
@@ -205,7 +205,7 @@ function FooterContentAndLinks() {
           <li className="inline-block">
             {" "}
             <Link
-              className="bg-white text-sky-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white text-sky-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-sky-600 hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg

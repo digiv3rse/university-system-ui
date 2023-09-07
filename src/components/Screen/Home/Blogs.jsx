@@ -108,7 +108,7 @@ const Blogs = () => {
                 </div>
 
                 <div className="flex-grow p-3">
-                  <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-normal font-bold mb-2">
+                  <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-normal font-bold mb-2 hover:text-primary-500 duration-300 transition ease-in-out">
                     <Link className="cursor-pointer" href="#">
                       International Conference on Information Technology
                     </Link>
