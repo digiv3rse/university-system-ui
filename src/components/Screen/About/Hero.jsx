@@ -7,7 +7,7 @@ const Hero = () => {
       {/* ================== */}
       <div className="text-zinc-500 flex flex-wrap text-[0.94rem] leading-5">
         <div className="lg:w-[83.3333%] mx-auto mt-6 px-3 relative text-center">
-          <h1 className="text-zinc-800 text-3xl sm:text-[2.34rem] leading-none font-bold mb-2">
+          <h1 className="text-zinc-800 text-2xl sm:text-[2.34rem] leading-normal font-bold mb-2">
             Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.
           </h1>
         </div>
@@ -44,9 +44,11 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <div className="bg-gradient-to-r from-[#f28e26] to-[#fd644f] p-4 xl:p-12 rounded-2xl">
+          <div className="bg-gradient-to-r from-[#f28e26] to-[#fd644f] p-8 xl:p-12 rounded-2xl">
             <span className="text-white text-[0.94rem] leading-5">Our goal:</span>
-            <h3 className="text-white text-3xl font-bold">“Be open to new ideas and approaches. Develop your problem-solving skills.”</h3>
+            <h3 className="text-white text-2xl leading-loose lg:text-3xl font-bold">
+              “Be open to new ideas and approaches. Develop your problem-solving skills.”
+            </h3>
           </div>
           <div className="mt-6">
             <img

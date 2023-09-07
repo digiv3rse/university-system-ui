@@ -10,6 +10,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
+import { teamMembers } from "../../../../data/teamMembers";
+import Image from "next/image";
 
 const Team = () => {
   return (
@@ -102,15 +104,11 @@ const Team = () => {
               modules={[Autoplay]}
               className="mySwiper"
             >
-              {Array.from({ length: 9 }).map((_, idx) => (
+              {teamMembers.map(({ team_image }, idx) => (
                 <SwiperSlide key={idx}>
                   <div className="text-zinc-500 text-[0.94rem] leading-5  text-center align-top">
                     <div className="h-32 w-32 inline-block mb-4">
-                      <img
-                        className="h-full w-full object-cover align-middle rounded-full overflow-clip"
-                        src="https://eduport.webestica.com/assets/images/avatar/04.jpg"
-                        alt=""
-                      />
+                      <Image className="h-full w-full object-cover align-middle rounded-full overflow-clip" src={team_image} alt="" />
                     </div>
 
                     <h6 className="text-zinc-800 font-bold">
