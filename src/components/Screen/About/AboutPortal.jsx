@@ -4,7 +4,7 @@ import React from "react";
 const AboutPortal = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <div className="text-zinc-500 text-[0.94rem] leading-5 px-3.5 w-full lg:w-[65%]">
+      <div className="text-zinc-500 text-[0.94rem] leading-5 lg:px-3.5 w-full lg:w-[65%]">
         <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold mb-2">About Eduport Portal</h2>
 
         <p>

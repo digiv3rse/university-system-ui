@@ -30,11 +30,11 @@ const Footer = () => {
               </div>
 
               <div className="">
-                <ul className="space-y-2 sm:space-y-0 flex flex-wrap justify-center items-center">
+                <ul className=" flex flex-wrap justify-center items-center">
                   <li className="mr-2 group">
                     <div className="sm:text-right">
                       {lang && (
-                        <ul className="bg-white p-4 shadow rounded-md text-left absolute -top-24">
+                        <ul className="bg-white p-4 shadow rounded-md text-left absolute -top-14 md:-top-24">
                           <li onClick={() => handleLang("English")} className="py-1 mx-1 hover:bg-primary-50 px-2 cursor-pointer rounded">
                             <span className="inline-block h-5 w-5 align-middle mr-2">
                               <img className="w-full h-full -mt-1" src="/usa.svg" alt="" />
@@ -134,7 +134,7 @@ function FooterContentAndLinks() {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="bg-white  text-[#5D7CBE] cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white  text-[#5D7CBE] cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-[#5D7CBE] hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg
@@ -157,7 +157,7 @@ function FooterContentAndLinks() {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="bg-white text-pink-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white text-pink-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-pink-600 hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg
@@ -182,7 +182,7 @@ function FooterContentAndLinks() {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="bg-white text-sky-400 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white text-sky-400 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-sky-400 hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg
@@ -205,7 +205,7 @@ function FooterContentAndLinks() {
           <li className="inline-block">
             {" "}
             <Link
-              className="bg-white text-sky-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-transparent duration-300 transition ease-in-out rounded overflow-hidden"
+              className="bg-white text-sky-600 cursor-pointer inline-block mb-1.5 py-1.5 px-2 align-middle hover:bg-sky-600 hover:text-white duration-300 transition ease-in-out rounded overflow-hidden"
               href="#"
             >
               <svg

@@ -11,11 +11,13 @@ import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
 import Link from "next/link";
+import { blogs } from "../../../../data/blogs";
+import Image from "next/image";
 
 const Blogs = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Upcoming Events</h2>
+      <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold">Upcoming Events</h2>
 
       {/* blogs */}
       <div className="blog">
@@ -29,12 +31,16 @@ const Blogs = () => {
               spaceBetween: 10,
             },
             "@0.75": {
-              slidesPerView: 1,
+              slidesPerView: 2,
               spaceBetween: 20,
             },
             "@1.00": {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 40,
+            },
+            "@1.25": {
+              slidesPerView: 3,
+              spaceBetween: 50,
             },
             "@1.75": {
               slidesPerView: 4,
@@ -48,15 +54,11 @@ const Blogs = () => {
           modules={[Autoplay]}
           className="mySwiper"
         >
-          {Array.from({ length: 9 }).map((_, idx) => (
+          {blogs.map(({ blog_image }, idx) => (
             <SwiperSlide key={idx}>
               <div className="text-zinc-500 inline-block flex-col text-[0.94rem] leading-5 break-words relative align-top rounded-lg mt-10">
-                <div className="relative">
-                  <img
-                    className="h-56 w-72 align-middle rounded-lg overflow-clip"
-                    src="https://eduport.webestica.com/assets/images/courses/4by3/16.jpg"
-                    alt=""
-                  />
+                <div className="relative overflow-hidden">
+                  <Image className="h-56 w-72 align-middle rounded-lg overflow-clip object-fill object-center" src={blog_image} alt="" />
 
                   <div className="items-start bottom-0 flex flex-col right-0 absolute top-0 z-[2] rounded-lg p-4">
                     <div className="w-full flex justify-end mb-auto">
@@ -109,8 +111,8 @@ const Blogs = () => {
                   </div>
                 </div>
 
-                <div className="flex-grow py-4 px-2">
-                  <h5 className="text-zinc-800 text-md lg:text-[1.31rem] leading-7 font-bold mb-2">
+                <div className="flex-grow p-3">
+                  <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-normal font-bold mb-2 hover:text-primary-500 duration-300 transition ease-in-out">
                     <Link className="cursor-pointer" href="#">
                       International Conference on Information Technology
                     </Link>

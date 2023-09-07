@@ -10,16 +10,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
+import { teamMembers } from "../../../../data/teamMembers";
+import Image from "next/image";
 
 const Team = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 md:gap-12">
         <div className="lg:col-span-2">
-          <div className="text-zinc-500 text-[0.94rem] leading-5 px-3.5">
+          <div className="text-zinc-500 text-[0.94rem] leading-5">
             <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold my-2">Awards&apos;N Stuff</h2>
 
-            <ul className="flex flex-col list-disc mt-8 rounded-md">
+            <ul className="flex flex-col list-disc mt-8 rounded-md px-3">
               <li className="items-center rounded-tl-md rounded-tr-md flex py-1.5">
                 <h6 className="text-zinc-800 font-bold">2015</h6>
 
@@ -59,7 +61,7 @@ const Team = () => {
           </div>
         </div>
         <div className="lg:col-span-3">
-          <div className="text-zinc-500 text-[0.94rem] flex flex-col md:flex-row gap-4 items-center justify-between">
+          <div className="text-zinc-500 text-[0.94rem] flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
             <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Meet Our Team</h2>
 
             <Link
@@ -90,7 +92,7 @@ const Team = () => {
                   slidesPerView: 3,
                   spaceBetween: 40,
                 },
-                "@1.50": {
+                "@1.75": {
                   slidesPerView: 4,
                   spaceBetween: 50,
                 },
@@ -102,15 +104,11 @@ const Team = () => {
               modules={[Autoplay]}
               className="mySwiper"
             >
-              {Array.from({ length: 9 }).map((_, idx) => (
+              {teamMembers.map(({ team_image }, idx) => (
                 <SwiperSlide key={idx}>
-                  <div className="text-zinc-500 inline-block text-[0.94rem] leading-5 pr-8 text-center align-top">
+                  <div className="text-zinc-500 text-[0.94rem] leading-5  text-center align-top">
                     <div className="h-32 w-32 inline-block mb-4">
-                      <img
-                        className="h-full w-full object-cover align-middle rounded-full overflow-clip"
-                        src="https://eduport.webestica.com/assets/images/avatar/04.jpg"
-                        alt=""
-                      />
+                      <Image className="h-full w-full object-cover align-middle rounded-full overflow-clip" src={team_image} alt="" />
                     </div>
 
                     <h6 className="text-zinc-800 font-bold">

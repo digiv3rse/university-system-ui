@@ -9,16 +9,16 @@ const Welcome = () => {
         <img className="rounded-xl" src="https://i.ibb.co/xm7tdfv/04.jpg" alt="" />
       </div>
       <div className="order-1 lg:order-2">
-        <div className="text-zinc-500 text-[0.94rem] leading-5 px-6">
-          <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold mb-4">Welcome to WBS University</h2>
+        <div className="text-zinc-500 text-[0.94rem] leading-5 lg:px-6">
+          <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold mb-4">Welcome to WBS University</h2>
 
           <p className="mb-6">
             Two before narrow not relied on how except moment myself Dejection assurance Mrs led certainly So gate at no only none open Betrayed.
           </p>
 
-          <div className="flex flex-wrap -ml-3 -mr-3 -mt-6">
-            <div className="w-[50%] mt-6 px-3">
-              <div className="items-center flex">
+          <div className="grid grid-cols-2 -ml-3 -mr-3 -mt-6">
+            <div className="mt-6 px-3">
+              <div className="lg:items-center flex flex-col lg:flex-row gap-y-2 lg:gap-y-0">
                 <div className="h-10 w-10 bg-amber-400 text-white text-[1.31rem] leading-7 text-center rounded-md ">
                   <svg
                     fill="#fff"
@@ -37,7 +37,7 @@ const Welcome = () => {
                   </svg>
                 </div>
 
-                <div className="ml-4">
+                <div className="lg:ml-4">
                   <h6 className="text-zinc-800 font-bold">Undergraduate</h6>
 
                   <div className="text-[0.82rem]">
@@ -66,8 +66,8 @@ const Welcome = () => {
               </div>
             </div>
 
-            <div className="w-[50%] mt-6 px-3">
-              <div className="items-center flex">
+            <div className="mt-6 px-3">
+              <div className="lg:items-center flex flex-col lg:flex-row gap-y-2 lg:gap-y-0">
                 <div className="h-10 w-10 bg-cyan-600 text-white text-[1.31rem] leading-7 text-center rounded-md">
                   <svg
                     viewBox="0 0 24 24"
@@ -98,7 +98,7 @@ const Welcome = () => {
                   </svg>
                 </div>
 
-                <div className="ml-4">
+                <div className="lg:ml-4">
                   <h6 className="text-zinc-800 font-bold">Graduate</h6>
 
                   <div className="text-[0.82rem]">
@@ -127,8 +127,8 @@ const Welcome = () => {
               </div>
             </div>
 
-            <div className="w-[50%] mt-6 px-3">
-              <div className="items-center flex">
+            <div className="mt-6 px-3">
+              <div className="lg:items-center flex flex-col lg:flex-row gap-y-2 lg:gap-y-0">
                 <div className="h-10 w-10 bg-rose-600 text-white text-[1.31rem] leading-7 text-center rounded-md">
                   <svg
                     viewBox="0 0 24 24"
@@ -151,7 +151,7 @@ const Welcome = () => {
                   </svg>
                 </div>
 
-                <div className="ml-4">
+                <div className="lg:ml-4">
                   <h6 className="text-zinc-800 font-bold">Post Graduate</h6>
 
                   <div className="text-[0.82rem]">
@@ -180,8 +180,8 @@ const Welcome = () => {
               </div>
             </div>
 
-            <div className="w-[50%] mt-6 px-3">
-              <div className="items-center flex">
+            <div className="mt-6 px-3">
+              <div className="lg:items-center flex flex-col lg:flex-row gap-y-2 lg:gap-y-0">
                 <div className="h-10 w-10 bg-violet-700 text-white text-[1.31rem] leading-7 text-center rounded-md">
                   <svg
                     viewBox="0 0 24 24"
@@ -207,7 +207,7 @@ const Welcome = () => {
                   </svg>
                 </div>
 
-                <div className="ml-4">
+                <div className="lg:ml-4">
                   <h6 className="text-zinc-800 font-bold">Online education</h6>
 
                   <div className="text-[0.82rem]">
@@ -239,7 +239,7 @@ const Welcome = () => {
 
           <Link
             className="bg-sky-600/[0.1] hover:bg-primary-500 text-sky-600 hover:text-white transition duration-300 ease-in-out cursor-pointer inline-block font-medium mt-6 py-2 px-4 text-center align-middle border border-solid rounded-md overflow-hidden"
-            href="https://eduport.webestica.com/#"
+            href="#"
           >
             More about us
           </Link>
