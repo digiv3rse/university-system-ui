@@ -6,7 +6,7 @@ const News = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between px-3.5">
-        <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Eduport Latest News</h2>
+        <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold">Eduport Latest News</h2>
 
         <div>
           <span className="mr-2">Want to read more?</span>
@@ -51,7 +51,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="flex-grow p-3 mt-1">
+            <div className="flex-grow p-3 mt-1 z-10">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
                 <Link className="cursor-pointer" href="#">
                   Student Loan Survey: Many Owe $50K-plus
@@ -123,7 +123,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="flex-grow p-4">
+            <div className="flex-grow p-4 z-10">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
                 <Link className="cursor-pointer" href="#">
                   Campus Support for First-Year Students
@@ -165,7 +165,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="flex-grow p-4">
+            <div className="flex-grow p-4 z-10">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
                 <Link className="cursor-pointer" href="#">
                   Covid-19 and the college experienced
