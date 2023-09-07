@@ -10,13 +10,15 @@ import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
 import Link from "next/link";
+import { topColleges } from "../../../../data/topColleges";
+import Image from "next/image";
 
 const TopCollege = () => {
   return (
     <section id="college" className="mt-10 md:mt-20">
       <div className="text-zinc-500 flex flex-wrap text-[0.94rem] leading-5 mb-8">
-        <div className="mx-auto px-3.5 text-center">
-          <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Top Listed College</h2>
+        <div className="mx-auto lg:px-3.5 text-center">
+          <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold mb-2">Top Listed College</h2>
 
           <p>Perceived end knowledge certainly day sweetness why cordially.</p>
         </div>
@@ -61,30 +63,26 @@ const TopCollege = () => {
                   modules={[Autoplay]}
                   className="mySwiper"
                 >
-                  {Array.from({ length: 6 }).map((_, idx) => (
+                  {topColleges.map(({ college_image, logo }, idx) => (
                     <SwiperSlide key={idx}>
                       <div className="inline-block pr-8 align-top">
                         <div className="mb-1 break-words border border-gray-100 border-solid rounded-lg">
-                          <img
-                            className="h-72 w-96 rounded-tl-lg rounded-tr-lg align-middle overflow-clip"
-                            src="https://eduport.webestica.com/assets/images/university/04.jpg"
+                          <Image
+                            className="h-72 w-96 rounded-tl-lg rounded-tr-lg align-middle overflow-clip object-cover object-center"
+                            src={college_image}
                             alt=""
                           />
 
                           <div className="text-zinc-500 flex-grow text-[0.94rem] leading-5 break-words py-4 px-5">
                             <div className="items-center flex justify-between mb-4 -mt-14">
                               <div className="bg-white rounded-md p-2">
-                                <img
-                                  className="!h-16 !w-12 align-middle rounded overflow-clip"
-                                  src="https://eduport.webestica.com/assets/images/client/uni-logo-03.svg"
-                                  alt=""
-                                />
+                                <Image className="!h-16 !w-16 align-middle rounded overflow-clip object-contain object-center" src={logo} alt="" />
                               </div>
 
                               <div className="text-zinc-800 text-[1.31rem] leading-7 font-bold">
                                 <Link
                                   className="bg-emerald-500 text-white cursor-pointer inline-block text-[1.12rem] leading-6 py-1.5 px-3 text-center rounded-md"
-                                  href="https://eduport.webestica.com/#"
+                                  href="#"
                                 >
                                   Admission Open
                                 </Link>
@@ -95,7 +93,7 @@ const TopCollege = () => {
                               <span>
                                 <Link
                                   className="bg-zinc-800 text-white cursor-pointer inline-block text-[0.80rem] py-1 px-2 text-center rounded-md"
-                                  href="https://eduport.webestica.com/#"
+                                  href="#"
                                 >
                                   Public
                                 </Link>
@@ -188,7 +186,7 @@ const TopCollege = () => {
                             </div>
 
                             <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-4">
-                              <Link className="cursor-pointer" href="https://eduport.webestica.com/#">
+                              <Link className="cursor-pointer" href="#">
                                 Indiana College of - Bloomington
                               </Link>
                             </h5>

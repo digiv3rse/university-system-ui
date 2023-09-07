@@ -239,7 +239,7 @@ const Welcome = () => {
 
           <Link
             className="bg-sky-600/[0.1] hover:bg-primary-500 text-sky-600 hover:text-white transition duration-300 ease-in-out cursor-pointer inline-block font-medium mt-6 py-2 px-4 text-center align-middle border border-solid rounded-md overflow-hidden"
-            href="https://eduport.webestica.com/#"
+            href="#"
           >
             More about us
           </Link>
