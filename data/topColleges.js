@@ -36,7 +36,7 @@ export const topColleges = [
     logo: l1,
   },
   {
-    id: 1,
+    id: 6,
     college_image: c1,
     logo: l1,
   },

@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
 
               <div className="">
-                <ul className="space-y-2 sm:space-y-0 flex flex-wrap justify-center items-center">
+                <ul className=" flex flex-wrap justify-center items-center">
                   <li className="mr-2 group">
                     <div className="sm:text-right">
                       {lang && (

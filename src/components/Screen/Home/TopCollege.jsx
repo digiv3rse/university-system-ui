@@ -25,7 +25,7 @@ const TopCollege = () => {
       </div>
 
       {/* cards */}
-      <div className="text-zinc-500 text-[0.94rem] leading-5 px-3.5 overflow-hidden">
+      <div className="text-zinc-500 text-[0.94rem] leading-5 lg:px-3.5 overflow-hidden">
         <div className="relative">
           <div className="bottom-[42.90rem] left-[-9375.00rem] absolute right-[9447.44rem] top-0">
             slide <span>7 to 11</span>

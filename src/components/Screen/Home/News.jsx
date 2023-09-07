@@ -37,7 +37,7 @@ const News = () => {
       {/* ================== news started here */}
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-10">
-        <div className="px-3">
+        <div className="lg:px-3">
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img
@@ -80,7 +80,7 @@ const News = () => {
             </div>
           </div>
         </div>
-        <div className="lg:col-span-2 px-3">
+        <div className="lg:col-span-2 lg:px-3">
           <div className="bg-slate-100 flex flex-col mb-6 break-words rounded-lg">
             <div className="flex-grow py-4 px-5">
               <span className="bg-emerald-500 text-white cursor-pointer inline-block text-[0.80rem] mb-2 py-1 px-2 text-center rounded-md">
@@ -151,7 +151,7 @@ const News = () => {
             </div>
           </div>
         </div>
-        <div className="px-3">
+        <div className="lg:px-3">
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img
