@@ -5,7 +5,7 @@ import React from "react";
 const News = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <div className="items-center text-zinc-500 flex text-[0.94rem] leading-5 justify-between px-3.5">
+      <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between px-3.5">
         <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Eduport Latest News</h2>
 
         <div>
@@ -36,8 +36,8 @@ const News = () => {
 
       {/* ================== news started here */}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-        <div className=" px-3">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-10">
+        <div className="px-3">
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img
@@ -51,7 +51,7 @@ const News = () => {
               </div>
             </div>
 
-            <div className="flex-grow p-1 mt-1">
+            <div className="flex-grow p-3 mt-1">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600">
                 <Link className="cursor-pointer" href="#">
                   Student Loan Survey: Many Owe $50K-plus
@@ -81,7 +81,7 @@ const News = () => {
           </div>
         </div>
         <div className="lg:col-span-2 px-3">
-          <div className="bg-slate-100 flex flex-col mb-6 break-words rounded-lg p-4">
+          <div className="bg-slate-100 flex flex-col mb-6 break-words rounded-lg">
             <div className="flex-grow py-4 px-5">
               <span className="bg-emerald-500 text-white cursor-pointer inline-block text-[0.80rem] mb-2 py-1 px-2 text-center rounded-md">
                 Research
@@ -113,7 +113,7 @@ const News = () => {
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img
-                className="h-28 w-full align-middle overflow-clip object-fill object-center"
+                className="h-full lg:h-28 w-full align-middle overflow-clip object-fill object-center"
                 src="https://eduport.webestica.com/assets/images/event/01.jpg"
                 alt=""
               />

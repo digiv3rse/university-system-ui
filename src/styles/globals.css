@@ -82,7 +82,7 @@ li {
 /* ================ slider hero */
 
 .swiper_hero {
-  @apply overflow-hidden h-[500px] md:h-[600px] text-center rounded-[8px] z-0;
+  @apply overflow-hidden h-[450px] md:h-[500px] lg:h-[600px] text-center rounded-[8px] z-0;
 }
 
 .swiper-slide {

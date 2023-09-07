@@ -5,7 +5,7 @@ import React from "react";
 const Welcome = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mt-10 md:mt-20 items-center">
-      <div className="order-2 lg:order-1">
+      <div className="order-2 lg:order-1 mt-5 lg:mt-0">
         <img className="rounded-xl" src="https://i.ibb.co/xm7tdfv/04.jpg" alt="" />
       </div>
       <div className="order-1 lg:order-2">
