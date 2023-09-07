@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="mt-10 md:mt-16">
+    <div className="">
       {/* ================== */}
       <div className="text-zinc-500 flex flex-wrap text-[0.94rem] leading-5">
         <div className="lg:w-[83.3333%] mx-auto mt-6 px-3 relative text-center">
