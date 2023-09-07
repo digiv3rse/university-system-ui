@@ -36,7 +36,7 @@ const Blogs = () => {
               slidesPerView: 3,
               spaceBetween: 40,
             },
-            "@1.50": {
+            "@1.75": {
               slidesPerView: 4,
               spaceBetween: 50,
             },
@@ -110,7 +110,7 @@ const Blogs = () => {
                 </div>
 
                 <div className="flex-grow py-4 px-2">
-                  <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2">
+                  <h5 className="text-zinc-800 text-md lg:text-[1.31rem] leading-7 font-bold mb-2">
                     <Link className="cursor-pointer" href="#">
                       International Conference on Information Technology
                     </Link>
