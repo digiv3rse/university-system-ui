@@ -6,7 +6,7 @@ const Clients = () => {
     <div className="mt-10 md:mt-20">
       <div className="bg-slate-100 text-zinc-500 text-[0.94rem] leading-5 pb-11 pt-14 rounded-2xl">
         <div className="px-3.5">
-          <div className="flex flex-wrap justify-center -ml-3.5 -mr-3.5">
+          <div className="grid grid-cols-2 md:flex flex-wrap justify-center -ml-3.5 -mr-3.5">
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
