@@ -19,13 +19,18 @@ const Hero = () => {
       <Swiper spaceBetween={30} loop={true} effect={"fade"} navigation={true} modules={[EffectFade, Navigation]} className="swiper_hero">
         <SwiperSlide>
           <div className="relative">
-            <img className="w-full h-[500px] md:h-[600px] object-cover object-center" src="https://i.ibb.co/zrFBwwn/05.jpg" loading="lazy" alt="" />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50">
-              <div className="flex justify-center items-center h-[500px] md:h-[600px]">
+            <img
+              className="w-full h-[450px] md:h-[500px] lg:h-[600px] object-cover object-center rounded-2xl"
+              src="https://i.ibb.co/zrFBwwn/05.jpg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
+              <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-[90%] md:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
-                  <h1 className="text-white text-4xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
+                  <h1 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
 
-                  <p className="text-white mb-4">
+                  <p className="text-white mb-4 text-[0.75rem]">
                     This Bootstrap 5 based theme is ideal for all types of sites that offer education such as Kindergarten, School, College,
                     University, Courses Hub, Training Center, or any Academy.
                   </p>
@@ -50,13 +55,18 @@ const Hero = () => {
         </SwiperSlide>{" "}
         <SwiperSlide>
           <div className="relative">
-            <img className="w-full h-[500px] md:h-[600px] object-cover object-center" src="https://i.ibb.co/NF0CvdX/02.jpg" loading="lazy" alt="" />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50">
-              <div className="flex justify-center items-center h-[500px] md:h-[600px]">
+            <img
+              className="w-full h-[450px] md:h-[500px] lg:h-[600px] object-cover object-center"
+              src="https://i.ibb.co/NF0CvdX/02.jpg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
+              <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-[90%] md:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
-                  <h1 className="text-white text-4xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
+                  <h1 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
 
-                  <p className="text-white mb-4">
+                  <p className="text-white mb-4 text-[0.75rem]">
                     This Bootstrap 5 based theme is ideal for all types of sites that offer education such as Kindergarten, School, College,
                     University, Courses Hub, Training Center, or any Academy.
                   </p>
@@ -81,13 +91,18 @@ const Hero = () => {
         </SwiperSlide>{" "}
         <SwiperSlide>
           <div className="relative">
-            <img className="w-full h-[500px] md:h-[600px] object-cover object-center" src="https://i.ibb.co/ZKYdZxS/01.jpg" loading="lazy" alt="" />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50">
-              <div className="flex justify-center items-center h-[500px] md:h-[600px]">
+            <img
+              className="w-full h-[450px] md:h-[500px] lg:h-[600px] object-cover object-center"
+              src="https://i.ibb.co/ZKYdZxS/01.jpg"
+              loading="lazy"
+              alt=""
+            />
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
+              <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-[90%] md:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
-                  <h1 className="text-white text-4xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
+                  <h1 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
 
-                  <p className="text-white mb-4">
+                  <p className="text-white mb-4 text-[0.75rem]">
                     This Bootstrap 5 based theme is ideal for all types of sites that offer education such as Kindergarten, School, College,
                     University, Courses Hub, Training Center, or any Academy.
                   </p>

@@ -49,7 +49,7 @@ const TopCollege = () => {
                       slidesPerView: 2,
                       spaceBetween: 40,
                     },
-                    "@1.50": {
+                    "@1.75": {
                       slidesPerView: 3,
                       spaceBetween: 50,
                     },
