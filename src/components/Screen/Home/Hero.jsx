@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 // import required modules
 import { EffectFade, Navigation } from "swiper/modules";
 import Link from "next/link";
+
 const Hero = () => {
   return (
     <>
@@ -25,7 +26,7 @@ const Hero = () => {
               loading="lazy"
               alt=""
             />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/60 rounded-2xl">
               <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-[90%] md:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
                   <h1 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
@@ -37,14 +38,14 @@ const Hero = () => {
 
                   <Link
                     className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
-                    href="https://eduport.webestica.com/university-admission-form.html"
+                    href="/"
                   >
                     Admissions
                   </Link>
 
                   <Link
                     className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
-                    href="https://eduport.webestica.com/#"
+                    href="#"
                   >
                     Learn More
                   </Link>
@@ -56,12 +57,12 @@ const Hero = () => {
         <SwiperSlide>
           <div className="relative">
             <img
-              className="w-full h-[450px] md:h-[500px] lg:h-[600px] object-cover object-center"
+              className="w-full h-[450px] md:h-[500px] lg:h-[600px] object-cover object-center rounded-2xl"
               src="https://i.ibb.co/NF0CvdX/02.jpg"
               loading="lazy"
               alt=""
             />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/60 rounded-2xl">
               <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-[90%] md:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
                   <h1 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
@@ -73,14 +74,14 @@ const Hero = () => {
 
                   <Link
                     className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
-                    href="https://eduport.webestica.com/university-admission-form.html"
+                    href="/"
                   >
                     Admissions
                   </Link>
 
                   <Link
                     className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
-                    href="https://eduport.webestica.com/#"
+                    href="#"
                   >
                     Learn More
                   </Link>
@@ -92,12 +93,12 @@ const Hero = () => {
         <SwiperSlide>
           <div className="relative">
             <img
-              className="w-full h-[450px] md:h-[500px] lg:h-[600px] object-cover object-center"
+              className="w-full h-[450px] md:h-[500px] lg:h-[600px] object-cover object-center rounded-2xl"
               src="https://i.ibb.co/ZKYdZxS/01.jpg"
               loading="lazy"
               alt=""
             />
-            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/50 rounded-2xl">
+            <div className="absolute top-0 left-0 w-full overflow-hidden bg-black/60 rounded-2xl">
               <div className="flex justify-center items-center h-[450px] md:h-[500px] lg:h-[600px] ">
                 <div className="w-[90%] md:w-[58.6667%] text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 text-center">
                   <h1 className="text-white text-2xl md:text-[3.50rem] leading-none font-bold mb-2">Discover Lifelong Learning</h1>
@@ -109,14 +110,14 @@ const Hero = () => {
 
                   <Link
                     className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
-                    href="https://eduport.webestica.com/university-admission-form.html"
+                    href="/"
                   >
                     Admissions
                   </Link>
 
                   <Link
                     className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
-                    href="https://eduport.webestica.com/#"
+                    href="#"
                   >
                     Learn More
                   </Link>
