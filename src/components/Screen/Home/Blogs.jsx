@@ -13,11 +13,12 @@ import { Autoplay } from "swiper/modules";
 import Link from "next/link";
 import { blogs } from "../../../../data/blogs";
 import Image from "next/image";
+import Title from "@/components/Common/Title";
 
 const Blogs = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold">Upcoming Events</h2>
+      <Title>Upcoming Events</Title>
 
       {/* blogs */}
       <div className="blog">
