@@ -36,7 +36,7 @@ const Menu = () => {
         </div>
       </div>
       {menuOpen && (
-        <div className=" w-full h-full bg-white mb-5 z-[999] border-t ">
+        <div className=" w-full h-full bg-white mb-5 z-[999] border-t container_fluid">
           <ul className="flex mx-auto flex-col ">
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
               <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/">
