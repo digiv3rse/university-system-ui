@@ -11,13 +11,24 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 // import required modules
-import { EffectFade, Navigation } from "swiper/modules";
+import { EffectFade, Navigation, Autoplay } from "swiper/modules";
 import Link from "next/link";
 
 const Hero = () => {
   return (
     <>
-      <Swiper spaceBetween={30} loop={true} effect={"fade"} navigation={true} modules={[EffectFade, Navigation]} className="swiper_hero">
+      <Swiper
+        spaceBetween={30}
+        loop={true}
+        effect={"fade"}
+        navigation={true}
+        modules={[EffectFade, Navigation, Autoplay]}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+        className="swiper_hero"
+      >
         <SwiperSlide>
           <div className="relative">
             <img

@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
+import Title from "@/components/Common/Title";
 import React from "react";
 
 const AboutPortal = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="text-zinc-500 text-[0.94rem] leading-5 lg:px-3.5 w-full lg:w-[65%]">
-        <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold mb-2">About Eduport Portal</h2>
+        <Title>About Eduport Portal</Title>
 
-        <p>
+        <p className="mt-4">
           How promotion excellent curiosity yet attempted happiness Gay prosperous impression had conviction For every delay death ask to style Me
           mean able my by in they Extremity now strangers contained.
         </p>
@@ -31,10 +32,10 @@ function AboutPortalDescribe() {
         <img className="rounded-2xl overflow-clip w-full" src="https://eduport.webestica.com/assets/images/about/06.jpg" alt="" />
       </div>
       <div>
-        <div className="text-zinc-500 text-[0.94rem] leading-5 px-3.5">
-          <h4 className="text-zinc-800 text-[1.64rem] leading-8 font-bold mb-4">35,000+ happy students joined with us to achieve their goals</h4>
+        <div className="text-zinc-500 text-[0.94rem] leading-5">
+          <Title>35,000+ happy students joined with us to achieve their goals</Title>
 
-          <p className="mb-4">
+          <p className="my-4">
             How promotion excellent curiosity yet attempted happiness Gay prosperous impression had conviction For every delay death ask to style Me
             mean able my by in they Extremity now strangers contained breakfast him discourse additions Sincerity collected contented led now
             perpetual extremely forfeited{" "}

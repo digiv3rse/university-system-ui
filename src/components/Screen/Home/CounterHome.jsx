@@ -8,7 +8,7 @@ import CountUp from "react-countup";
 const CounterHome = () => {
   return (
     <section className="mt-10 md:mt-20">
-      <div className="bg-[#F2AE30]/70 text-zinc-500 text-[0.94rem] leading-5 relative rounded-md p-3 lg:p-12 ">
+      <div className="bg-[#F2AE30]/70 text-zinc-500 text-[0.94rem] leading-5 relative rounded-md pb-5 lg:p-12 ">
         <figure className="absolute right-0 top-0 hidden md:block">
           <svg
             className="h-40 w-[42.25rem] inline opacity-20"
@@ -23,7 +23,7 @@ const CounterHome = () => {
         </figure>
 
         <div className="">
-          <div className="px-3.5 w-full">
+          <div className="w-full">
             <div className="grid grid-cols-2 lg:grid-cols-4 items-center gap-2 lg:gap-8 lg:pl-[14rem]">
               <div className="absolute bottom-0 left-10 z-10 hidden lg:block">
                 <Image src={countImg} alt="" />

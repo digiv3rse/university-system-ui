@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Title from "@/components/Common/Title";
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +7,7 @@ const News = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between xl:px-3.5">
-        <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold pt-5">Eduport Latest News</h2>
+        <Title>Eduport Latest News</Title>
 
         <div>
           <span className="mr-2">Want to read more?</span>

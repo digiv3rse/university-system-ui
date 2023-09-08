@@ -129,15 +129,22 @@ li {
   content: "\2190" !important;
   color: white;
   display: inline-block;
-  font-size: 32px !important;
-  margin-top: 2px !important;
+  font-size: 30px !important;
+  margin-top: 5px !important;
 }
 .swiper-button-next::after {
   content: "\2192" !important;
   color: white;
   display: inline-block;
-  font-size: 32px !important;
-  margin-top: 2px !important;
+  font-size: 30px !important;
+  margin-top: 5px !important;
+}
+
+.swiper-button-next {
+  @apply !-right-0 bg-slate-700/70 lg:!right-3 lg:bg-black;
+}
+.swiper-button-prev {
+  @apply !-left-0 bg-slate-700/70 lg:!left-3 lg:bg-black;
 }
 
 .list_style {

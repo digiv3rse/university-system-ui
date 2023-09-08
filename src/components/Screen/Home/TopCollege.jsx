@@ -12,13 +12,14 @@ import { Autoplay } from "swiper/modules";
 import Link from "next/link";
 import { topColleges } from "../../../../data/topColleges";
 import Image from "next/image";
+import Title from "@/components/Common/Title";
 
 const TopCollege = () => {
   return (
     <section id="college" className="mt-10 md:mt-20">
       <div className="text-zinc-500 flex flex-wrap text-[0.94rem] leading-5 mb-8">
         <div className="mx-auto lg:px-3.5 text-center">
-          <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold mb-2">Top Listed College</h2>
+          <Title>Top Listed College</Title>
 
           <p>Perceived end knowledge certainly day sweetness why cordially.</p>
         </div>
@@ -44,7 +45,7 @@ const TopCollege = () => {
                       spaceBetween: 10,
                     },
                     "@0.75": {
-                      slidesPerView: 1,
+                      slidesPerView: 2,
                       spaceBetween: 20,
                     },
                     "@1.00": {

@@ -10,7 +10,7 @@ const Clients = () => {
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-7 w-32 align-middle overflow-clip grayscale"
+                  className="h-7 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer"
                   src="https://eduport.webestica.com/assets/images/client/microsoft.svg"
                   alt=""
                 />
@@ -20,7 +20,7 @@ const Clients = () => {
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-9 w-32 align-middle overflow-clip grayscale "
+                  className="h-9 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/linkedin.svg"
                   alt=""
                 />
@@ -30,7 +30,7 @@ const Clients = () => {
             <div className="px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-9 w-32 align-middle overflow-clip grayscale "
+                  className="h-9 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/netflix.svg"
                   alt=""
                 />
@@ -40,7 +40,7 @@ const Clients = () => {
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-11 w-32 align-middle overflow-clip grayscale "
+                  className="h-11 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/coca-cola.svg"
                   alt=""
                 />
@@ -50,7 +50,7 @@ const Clients = () => {
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-6 w-32 align-middle overflow-clip grayscale "
+                  className="h-6 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/envato.svg"
                   alt=""
                 />
@@ -60,7 +60,7 @@ const Clients = () => {
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-7 w-32 align-middle overflow-clip grayscale "
+                  className="h-7 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/android.svg"
                   alt=""
                 />
@@ -70,7 +70,7 @@ const Clients = () => {
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-11 w-32 align-middle overflow-clip grayscale "
+                  className="h-11 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/coca-cola.svg"
                   alt=""
                 />
@@ -80,7 +80,7 @@ const Clients = () => {
             <div className=" px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-8 w-32 align-middle overflow-clip grayscale "
+                  className="h-8 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/shippable.svg"
                   alt=""
                 />
@@ -90,7 +90,7 @@ const Clients = () => {
             <div className="px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-8 w-32 align-middle overflow-clip grayscale "
+                  className="h-8 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/algolia.svg"
                   alt=""
                 />
@@ -100,7 +100,7 @@ const Clients = () => {
             <div className="px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-10 w-32 align-middle overflow-clip grayscale "
+                  className="h-10 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/importio.svg"
                   alt=""
                 />
@@ -110,7 +110,7 @@ const Clients = () => {
             <div className="px-3.5">
               <div className="blur-[1px] text-center p-6">
                 <img
-                  className="h-8 w-32 align-middle overflow-clip grayscale "
+                  className="h-8 w-32 align-middle overflow-clip grayscale hover:grayscale-0 duration-300 transition ease-in-out cursor-pointer "
                   src="https://eduport.webestica.com/assets/images/client/yamaha.svg"
                   alt=""
                 />

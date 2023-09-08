@@ -1,16 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
+import Title from "@/components/Common/Title";
 import Link from "next/link";
 import React from "react";
 
 const Welcome = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mt-10 md:mt-20 items-center">
-      <div className="order-2 lg:order-1 mt-5 lg:mt-0">
+      <div className=" mt-5 lg:mt-0">
         <img className="rounded-xl" src="https://i.ibb.co/xm7tdfv/04.jpg" alt="" />
       </div>
-      <div className="order-1 lg:order-2">
+      <div className="mt-5">
         <div className="text-zinc-500 text-[0.94rem] leading-5 lg:px-6">
-          <h2 className="text-zinc-800 text-[25px] md:text-[2.34rem] leading-none font-bold mb-4">Welcome to WBS University</h2>
+          <Title>Welcome to WBS University</Title>
 
           <p className="mb-6">
             Two before narrow not relied on how except moment myself Dejection assurance Mrs led certainly So gate at no only none open Betrayed.
