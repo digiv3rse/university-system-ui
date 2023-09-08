@@ -34,8 +34,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/components">
-                Components
+              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/contact">
+                Contact
               </Link>
             </li>
           </ul>

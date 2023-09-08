@@ -59,8 +59,8 @@ const Menu = () => {
               </Link>
             </li>
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
-              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/components">
-                Components
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/contact">
+                Contact
               </Link>
             </li>
             <div onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2">
