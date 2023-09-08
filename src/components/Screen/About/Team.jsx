@@ -12,14 +12,15 @@ import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import { teamMembers } from "../../../../data/teamMembers";
 import Image from "next/image";
+import Title from "@/components/Common/Title";
 
 const Team = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 md:gap-12">
         <div className="lg:col-span-2">
-          <div className="text-zinc-500 text-[0.94rem] leading-5">
-            <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold my-2">Awards&apos;N Stuff</h2>
+          <div className="text-zinc-500 text-[0.94rem] leading-5 mt-3">
+            <Title>Awards&apos;N Stuff</Title>
 
             <ul className="flex flex-col list-disc mt-8 rounded-md px-3">
               <li className="items-center rounded-tl-md rounded-tr-md flex py-1.5">
@@ -62,7 +63,7 @@ const Team = () => {
         </div>
         <div className="lg:col-span-3">
           <div className="text-zinc-500 text-[0.94rem] flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
-            <h2 className="text-zinc-800 text-[2.34rem] leading-none font-bold">Meet Our Team</h2>
+            <Title>Meet Our Team</Title>
 
             <Link
               className="bg-slate-100 text-zinc-950 cursor-pointer font-medium mb-1.5 mt-4 py-2 px-4 text-center align-middle border border-slate-100 border-solid rounded-md overflow-hidden hover:bg-slate-300 duration-300 transition"
