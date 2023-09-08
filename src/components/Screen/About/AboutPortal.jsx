@@ -31,7 +31,7 @@ function AboutPortalDescribe() {
         <img className="rounded-2xl overflow-clip w-full" src="https://eduport.webestica.com/assets/images/about/06.jpg" alt="" />
       </div>
       <div>
-        <div className="text-zinc-500 text-[0.94rem] leading-5 px-3.5">
+        <div className="text-zinc-500 text-[0.94rem] leading-5">
           <h4 className="text-zinc-800 text-[1.64rem] leading-8 font-bold mb-4">35,000+ happy students joined with us to achieve their goals</h4>
 
           <p className="mb-4">
