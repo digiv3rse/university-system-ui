@@ -6,7 +6,7 @@ import Title from "../Common/Title";
 
 const Login = () => {
   return (
-    <section className="w-full h-full lg:h-screen grid grid-cols-1 lg:grid-cols-2 pb-5">
+    <section className="w-full h-full lg:h-screen grid grid-cols-1 lg:grid-cols-2 pb-5 lg:pb-0">
       <div className="bg-primary-50 flex justify-center items-center px-3 py-10">
         <div>
           <div className="text-zinc-500 text-[0.94rem] leading-5 text-center p-3">
