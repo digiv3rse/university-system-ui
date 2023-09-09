@@ -127,9 +127,7 @@ function FooterContentAndLinks() {
           <img className="h-10 w-48 align-middle overflow-clip" src="/logo.svg" alt="" />
         </Link>
 
-        <p className="my-4">
-          Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.{" "}
-        </p>
+        <p className="my-4">education theme, built specifically for the education centers which is dedicated to teaching and involve learners. </p>
         <ul className="text-zinc-500 text-[0.94rem] leading-5">
           <li className="inline-block mr-2">
             {" "}

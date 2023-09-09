@@ -11,9 +11,9 @@ const LoginForm = () => {
   return (
     <div className="mt-10 lg:mt-0">
       <div className="text-zinc-500 text-[0.94rem] leading-5">
-        <p className="text-zinc-500 text-[2.81rem] leading-none mb-5">👋</p>
+        <p className="text-zinc-500 text-[2.81rem] leading-none mb-3">👋</p>
 
-        <Title>Login into Eduport!</Title>
+        <Title>Login</Title>
 
         <p className="text-[1.17rem] leading-7 my-4">Nice to see you! Please log in with your account.</p>
 
@@ -62,9 +62,9 @@ const LoginForm = () => {
                 name="password"
                 {...register("password", { required: "your password is required" })}
               />
-              <div className="text-neutral-800/[0.75] text-[0.82rem]">Your password must be 8 characters at least</div>
               {errors.password && <span className="text-red-500 my-1">{errors.password?.message}</span>}
             </div>
+            <div className="text-neutral-800/[0.75] text-[0.82rem]">Your password must be 8 characters at least</div>
           </div>
 
           <div className="mb-6">
@@ -89,7 +89,7 @@ const LoginForm = () => {
           <div className="items-center">
             <div className="grid">
               <button className="items-start bg-sky-600 text-white cursor-pointer font-medium py-2 px-4 text-center align-middle border border-sky-600 border-solid rounded-md overflow-hidden">
-                Sign Up
+                Login
               </button>
             </div>
           </div>
