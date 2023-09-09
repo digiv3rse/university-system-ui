@@ -21,6 +21,14 @@ const ContactForm = () => {
           <FormDetails />
         </div>
       </div>
+      <div>
+        <div className="w-full text-zinc-500 text-[0.94rem] leading-5 mt-10 md:mt-20">
+          <iframe
+            className="h-96 blur-[1px] rounded-md overflow-clip !w-full grayscale hover:grayscale-0 duration-300 transition"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sin!4v1586000412513!5m2!1sen!2sin"
+          />
+        </div>
+      </div>
     </div>
   );
 };
