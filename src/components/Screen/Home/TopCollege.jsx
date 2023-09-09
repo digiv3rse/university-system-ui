@@ -19,7 +19,7 @@ const TopCollege = () => {
     <section id="college" className="mt-10 md:mt-20">
       <div className="text-zinc-500 flex flex-wrap text-[0.94rem] leading-5 mb-8">
         <div className="mx-auto lg:px-3.5 text-center">
-          <Title>Top Listed College</Title>
+          <Title>Top Listed Course</Title>
 
           <p>Perceived end knowledge certainly day sweetness why cordially.</p>
         </div>
