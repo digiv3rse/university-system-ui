@@ -57,7 +57,7 @@ const Login = () => {
         </div>
       </div>
 
-      <div className="bg-white flex justify-center items-center px-3 py-10">
+      <div className="bg-white flex justify-center items-center px-3 py-0 md:py-10">
         <div className="w-full md:w-[85%] lg:w-[65%]">
           {" "}
           <LoginForm />

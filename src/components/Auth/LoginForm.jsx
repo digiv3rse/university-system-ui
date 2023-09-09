@@ -75,7 +75,7 @@ const LoginForm = () => {
                   type="checkbox"
                 />
 
-                <label className="cursor-pointer inline-block">Remember me</label>
+                <label className="cursor-pointer inline-block text-[.85rem] xl:text-base">Remember me</label>
               </div>
 
               <div>
