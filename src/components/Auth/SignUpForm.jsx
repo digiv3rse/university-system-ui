@@ -97,7 +97,7 @@ const SignUpForm = () => {
                 type="checkbox"
               />
 
-              <label className="cursor-pointer inline-block">
+              <label className="cursor-pointer inline-block text-[.85rem] xl:text-base">
                 By signing up, you agree to the
                 <a className="text-sky-600" href="#">
                   {" "}
