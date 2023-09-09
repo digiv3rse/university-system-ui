@@ -6,8 +6,8 @@ import React from "react";
 const News = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between xl:px-3.5">
-        <Title>Eduport Latest News</Title>
+      <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between">
+        <Title>Latest News</Title>
 
         <div>
           <span className="mr-2">Want to read more?</span>
@@ -38,7 +38,7 @@ const News = () => {
       {/* ================== news started here */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mt-10">
-        <div className="xl:px-3">
+        <div>
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img
@@ -81,7 +81,7 @@ const News = () => {
             </div>
           </div>
         </div>
-        <div className="xl:col-span-2 xl:px-3">
+        <div className="xl:col-span-2">
           <div className="bg-slate-100 flex flex-col mb-6 break-words rounded-lg">
             <div className="flex-grow py-4 px-5">
               <span className="bg-emerald-500 text-white cursor-pointer inline-block text-[0.80rem] mb-2 py-1 px-2 text-center rounded-md">
@@ -152,7 +152,7 @@ const News = () => {
             </div>
           </div>
         </div>
-        <div className="xl:px-3">
+        <div className="">
           <div className="flex flex-col break-words relative rounded-lg">
             <div className="rounded-lg overflow-hidden">
               <img

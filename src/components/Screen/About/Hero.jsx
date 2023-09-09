@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="text-zinc-500 flex flex-wrap text-[0.94rem] leading-5">
         <div className="lg:w-[83.3333%] mx-auto mt-6 px-3 relative text-center">
           <h1 className="text-zinc-800 text-2xl sm:text-[2.34rem] leading-normal font-bold mb-2">
-            Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.
+            Education theme, built specifically for the education centers which is dedicated to teaching and involve learners.
           </h1>
         </div>
       </div>

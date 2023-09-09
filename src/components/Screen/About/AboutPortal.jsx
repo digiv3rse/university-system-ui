@@ -6,7 +6,7 @@ const AboutPortal = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="text-zinc-500 text-[0.94rem] leading-5 lg:px-3.5 w-full lg:w-[65%]">
-        <Title>About Eduport Portal</Title>
+        <Title>About Portal</Title>
 
         <p className="mt-4">
           How promotion excellent curiosity yet attempted happiness Gay prosperous impression had conviction For every delay death ask to style Me
