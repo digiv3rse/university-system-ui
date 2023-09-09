@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      boxShadow: {
+        "3xl": "rgba(17, 17, 26, 0.1) 0px 0px 16px",
+      },
       colors: {
         primary: {
           50: "#f0f7ff",
