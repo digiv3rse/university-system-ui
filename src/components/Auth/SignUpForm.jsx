@@ -108,7 +108,7 @@ const SignUpForm = () => {
 
         <div className="">
           <p className="my-8 text-center">Or</p>
-          <div className="grid grid-cols-1 gap-6 xl:grid-cols-2 justify-center items-center">
+          <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 justify-center items-center">
             <Link className="bg-blue-500 text-white rounded-md p-3 block text-center" href="#">
               {/* <i className="w-5 inline-block mr-2" /> */}
               Signup with Google

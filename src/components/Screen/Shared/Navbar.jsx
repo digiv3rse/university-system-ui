@@ -38,6 +38,11 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li className="list-item">
+              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/signup">
+                Sign Up
+              </Link>
+            </li>
           </ul>
 
           <div className="items-center hidden lg:flex px-6">
