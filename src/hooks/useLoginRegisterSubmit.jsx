@@ -32,10 +32,21 @@ const useLoginRegisterSubmit = () => {
     }
   };
 
+  // on submit forgot password
+  const onForgotPassword = async (data) => {
+    try {
+      console.log(data);
+      return router.push("/");
+    } catch (error) {
+      console.log(err.message);
+    }
+  };
+
   return {
     errors,
     register,
     handleSubmit,
+    onForgotPassword,
     onSubmitLogin,
     onSubmitRegister,
   };
