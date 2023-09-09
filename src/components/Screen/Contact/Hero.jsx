@@ -1,3 +1,4 @@
+import { LocationIcons } from "@/components/Common/SVGCollection";
 import Title from "@/components/Common/Title";
 import React from "react";
 
@@ -18,15 +19,15 @@ const Hero = () => {
 
             <ul>
               <li className="list-item mb-4">
-                <a className="text-white cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="text-white cursor-pointer" href="#">
                   {" "}
-                  <i className="w-5 inline-block mr-2 mt-1" />
+                  <LocationIcons className="w-5 inline-block mr-2 -mt-1" fill="#fff" fillColor="#231F20" />
                   Chicago HQ Estica Cop. Macomb, MI 48042{" "}
                 </a>
               </li>
 
               <li className="list-item mb-4">
-                <a className="text-white cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="text-white cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2" />
                   (423) 733-8222{" "}
@@ -34,7 +35,7 @@ const Hero = () => {
               </li>
 
               <li className="list-item">
-                <a className="text-white cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="text-white cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2" />
                   example@email.com{" "}
@@ -49,7 +50,7 @@ const Hero = () => {
 
             <ul>
               <li className="text-zinc-800 list-item mb-4">
-                <a className="cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2 mt-1" />
                   2492 Centennial NW, Acworth, GA, 30102{" "}
@@ -57,7 +58,7 @@ const Hero = () => {
               </li>
 
               <li className="text-zinc-800 list-item mb-4">
-                <a className="cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2" />
                   +896-789-546{" "}
@@ -65,7 +66,7 @@ const Hero = () => {
               </li>
 
               <li className="text-zinc-800 list-item">
-                <a className="cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2" />
                   example@email.com{" "}
@@ -80,7 +81,7 @@ const Hero = () => {
 
             <ul>
               <li className="text-zinc-800 list-item mb-4">
-                <a className="cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2 mt-1" />
                   2002 Horton Ford Rd, Eidson, TN, 37731{" "}
@@ -88,7 +89,7 @@ const Hero = () => {
               </li>
 
               <li className="text-zinc-800 list-item mb-4">
-                <a className="cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2" />
                   (678) 324-1251{" "}
@@ -96,7 +97,7 @@ const Hero = () => {
               </li>
 
               <li className="text-zinc-800 list-item">
-                <a className="cursor-pointer" href="https://eduport.webestica.com/#">
+                <a className="cursor-pointer" href="#">
                   {" "}
                   <i className="w-5 inline-block mr-2" />
                   example@email.com{" "}
