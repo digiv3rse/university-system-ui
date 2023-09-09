@@ -1,9 +1,13 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Title from "../Common/Title";
 import Link from "next/link";
+import useLoginRegisterSubmit from "@/hooks/useLoginRegisterSubmit";
 
 const SignUpForm = () => {
+  const { onSubmitRegister, handleSubmit, register, errors } = useLoginRegisterSubmit();
+
   return (
     <div className="mt-10 lg:mt-0">
       <div className="text-zinc-500 text-[0.94rem] leading-5">
@@ -13,7 +17,7 @@ const SignUpForm = () => {
 
         <p className="text-[1.17rem] leading-7 my-4">Nice to see you! Please Sign up with your account.</p>
 
-        <form>
+        <form onSubmit={handleSubmit(onSubmitRegister)}>
           <div className="mb-6">
             <label className="inline-block mb-2">Email address *</label>
 
@@ -31,8 +35,10 @@ const SignUpForm = () => {
                 className="w-full h-12 bg-slate-100 rounded-br-md rounded-tr-md text-zinc-700 cursor-text flex-grow py-3 pr-6 pl-14"
                 placeholder="E-mail"
                 type="email"
-                required
+                name="email"
+                {...register("email", { required: "your email is required" })}
               />
+              {errors.email && <span className="text-red-500 my-1">{errors.email?.message}</span>}
             </div>
           </div>
 
@@ -53,8 +59,10 @@ const SignUpForm = () => {
                 className="w-full h-12 bg-slate-100 rounded-br-md rounded-tr-md text-zinc-700 cursor-text flex-grow py-3 pr-6 pl-14"
                 placeholder="*********"
                 type="password"
-                required
+                name="password"
+                {...register("password", { required: "your password is required" })}
               />
+              {errors.password && <span className="text-red-500 my-1">{errors.password?.message}</span>}
             </div>
           </div>
 
@@ -75,8 +83,10 @@ const SignUpForm = () => {
                 className="w-full h-12 bg-slate-100 rounded-br-md rounded-tr-md text-zinc-700 cursor-text flex-grow py-3 pr-6 pl-14"
                 placeholder="*********"
                 type="password"
-                required
+                name="confirm_password"
+                {...register("confirm_password", { required: "Re-type your password" })}
               />
+              {errors.confirm_password && <span className="text-red-500 my-1">{errors.confirm_password?.message}</span>}
             </div>
           </div>
 
