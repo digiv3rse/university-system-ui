@@ -5,19 +5,19 @@ import Title from "../Common/Title";
 import Link from "next/link";
 import useLoginRegisterSubmit from "@/hooks/useLoginRegisterSubmit";
 
-const SignUpForm = () => {
-  const { onSubmitRegister, handleSubmit, register, errors } = useLoginRegisterSubmit();
+const LoginForm = () => {
+  const { onSubmitLogin, handleSubmit, register, errors } = useLoginRegisterSubmit();
 
   return (
     <div className="mt-10 lg:mt-0">
       <div className="text-zinc-500 text-[0.94rem] leading-5">
-        <img className="h-10 w-10 mb-2 align-middle overflow-clip" src="https://eduport.webestica.com/assets/images/element/03.svg" alt="" />
+        <p className="text-zinc-500 text-[2.81rem] leading-none mb-5">👋</p>
 
-        <Title>Sign up for your account!</Title>
+        <Title>Login into Eduport!</Title>
 
-        <p className="text-[1.17rem] leading-7 my-4">Nice to see you! Please Sign up with your account.</p>
+        <p className="text-[1.17rem] leading-7 my-4">Nice to see you! Please log in with your account.</p>
 
-        <form onSubmit={handleSubmit(onSubmitRegister)}>
+        <form onSubmit={handleSubmit(onSubmitLogin)}>
           <div className="mb-6">
             <label className="inline-block mb-2">Email address *</label>
 
@@ -62,48 +62,27 @@ const SignUpForm = () => {
                 name="password"
                 {...register("password", { required: "your password is required" })}
               />
+              <div className="text-neutral-800/[0.75] text-[0.82rem]">Your password must be 8 characters at least</div>
               {errors.password && <span className="text-red-500 my-1">{errors.password?.message}</span>}
             </div>
           </div>
 
           <div className="mb-6">
-            <label className="inline-block mb-2">Confirm Password *</label>
+            <div className="text-zinc-500 flex text-[0.94rem] leading-5 justify-between">
+              <div className="mb-1 min-h-[1.50rem] pl-6">
+                <input
+                  className="h-4 w-4 bg-gray-100 text-black cursor-pointer float-left -ml-6 mt-1 align-top border border-black/[0.25] border-solid rounded"
+                  type="checkbox"
+                />
 
-            <div className="w-full items-stretch flex flex-wrap relative">
-              <span className="items-center bg-slate-100 rounded-bl-md rounded-tl-md text-zinc-400 flex py-2 px-3 absolute top-1 left-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path
-                    fill="#a3a7ad"
-                    d="M17 9V7c0-2.8-2.2-5-5-5S7 4.2 7 7v2c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h10c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM9 7c0-1.7 1.3-3 3-3s3 1.3 3 3v2H9V7z"
-                  />
-                </svg>
-              </span>
+                <label className="cursor-pointer inline-block">Remember me</label>
+              </div>
 
-              <input
-                className="w-full h-12 bg-slate-100 rounded-br-md rounded-tr-md text-zinc-700 cursor-text flex-grow py-3 pr-6 pl-14"
-                placeholder="*********"
-                type="password"
-                name="confirm_password"
-                {...register("confirm_password", { required: "Re-type your password" })}
-              />
-              {errors.confirm_password && <span className="text-red-500 my-1">{errors.confirm_password?.message}</span>}
-            </div>
-          </div>
-
-          <div className="mb-6">
-            <div className="mb-1 min-h-[1.50rem] pl-6">
-              <input
-                className="h-4 w-4 bg-gray-100 text-black cursor-pointer float-left -ml-6 mt-1 align-top border border-black/[0.25] border-solid rounded"
-                type="checkbox"
-              />
-
-              <label className="cursor-pointer inline-block">
-                By signing up, you agree to the
-                <a className="text-sky-600" href="#">
-                  {" "}
-                  terms of service
-                </a>
-              </label>
+              <div>
+                <Link className="text-zinc-400 cursor-pointer hover:text-primary-500 duration-300 transition" href="/forgotpassword">
+                  <div className="underline">Forgot password?</div>
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -121,22 +100,22 @@ const SignUpForm = () => {
           <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 justify-center items-center">
             <Link className="bg-blue-500 text-white rounded-md p-3 block text-center" href="#">
               {/* <i className="w-5 inline-block mr-2" /> */}
-              Signup with Google
+              Login with Google
             </Link>
 
             <Link className="bg-indigo-500 text-white rounded-md p-3 block text-center" href="#">
               {/* <i className="w-5 inline-block mr-2" /> */}
-              Signup with Facebook
+              Login with Facebook
             </Link>
           </div>
         </div>
 
         <div className="mt-6 text-center">
           <span>
-            Already have an account?
-            <Link className="text-sky-600 cursor-pointer" href="/login">
+            Don&apos;t have an account?
+            <Link className="text-sky-600 cursor-pointer" href="/signup">
               {" "}
-              Sign in here
+              Sign up here
             </Link>
           </span>
         </div>
@@ -145,4 +124,4 @@ const SignUpForm = () => {
   );
 };
 
-export default SignUpForm;
+export default LoginForm;

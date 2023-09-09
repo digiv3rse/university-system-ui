@@ -23,20 +23,20 @@ const useLoginRegisterSubmit = () => {
   };
 
   // on submit login
-  /*   const onSubmitLogin = async (data) => {
+  const onSubmitLogin = async (data) => {
     try {
       console.log(data);
       return router.push("/");
     } catch (error) {
       console.log(err.message);
     }
-  }; */
+  };
 
   return {
     errors,
     register,
     handleSubmit,
-    // onSubmitLogin,
+    onSubmitLogin,
     onSubmitRegister,
   };
 };
