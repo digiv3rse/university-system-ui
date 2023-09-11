@@ -8,15 +8,17 @@ const Filters = () => {
   const itemsCategory = ["Accounting", "All", "Design", "Development", "Finance", "Legal", "Marketing", "Photography", "Translation", "Writing"];
   const itemsSort = ["Recently", "Most popular", "Most viewed", "Top rated"];
 
+  const handleFilters = (e) => {
+    console.log("filters");
+    e.preventDefault();
+  };
+
   return (
     <section className="mt-10">
-      {/* =========================  */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-7 gap-6">
+      {/* ================================================  */}
+      <form onSubmit={handleFilters} className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-7 gap-6">
         <div className="xl:col-span-2">
-          <form
-            onSubmit={(e) => e.preventDefault()}
-            className="text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2"
-          >
+          <div className="text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2">
             <div className="w-full items-stretch flex">
               <input
                 className="w-full h-10 bg-white rounded-bl-md rounded-tl-md text-zinc-700 cursor-text flex-grow mr-1 py-2 px-4 focus:outline-none"
@@ -24,7 +26,10 @@ const Filters = () => {
                 type="search"
               />
 
-              <button className="items-start bg-sky-600 text-white cursor-pointer py-2 px-3 align-middle z-[2] border border-sky-600 border-solid rounded-md overflow-hidden">
+              <button
+                className="items-start bg-sky-600 text-white cursor-pointer py-2 px-3 align-middle z-[2] border border-sky-600 border-solid rounded-md overflow-hidden"
+                type="submit"
+              >
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512">
                   <path
                     fill="white"
@@ -33,21 +38,24 @@ const Filters = () => {
                 </svg>
               </button>
             </div>
-          </form>
+          </div>
         </div>
+        {/* ============================================== */}
         <div className="xl:col-span-2 text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2">
           <FilterableList items={itemsCategory} title="Category" />
         </div>
+        {/* ============================================== */}
         <div className="xl:col-span-2 text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2">
           <FilterableList items={itemsSort} title="Sort by" />
         </div>
-
-        <div className="bg-primary-500 hover:bg-primary-600 duration-300 transition ease-in-out grid place-items-center text-white font-medium rounded-md cursor-pointer">
-          <Link className="" href="#">
+        {/* ============================================== */}
+        <div className="bg-primary-500 hover:bg-primary-600 duration-300 transition ease-in-out grid place-items-center text-white font-medium rounded-md cursor-pointer py-3">
+          <button className="border-none outline-none" type="submit">
             Filter Results
-          </Link>
+          </button>
         </div>
-      </div>
+        {/* ============================================== */}
+      </form>
     </section>
   );
 };
