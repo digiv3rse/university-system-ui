@@ -5,13 +5,18 @@ import React from "react";
 import FilterableList from "./FilterableList";
 
 const Filters = () => {
-  const items = ["Accounting", "All", "Design", "Development", "Finance", "Legal", "Marketing", "Photography", "Translation", "Writing"];
+  const itemsCategory = ["Accounting", "All", "Design", "Development", "Finance", "Legal", "Marketing", "Photography", "Translation", "Writing"];
+  const itemsSort = ["Recently", "Most popular", "Most viewed", "Top rated"];
+
   return (
     <section className="mt-10">
       {/* =========================  */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-7 gap-6">
         <div className="xl:col-span-2">
-          <form className="text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2">
+          <form
+            onSubmit={(e) => e.preventDefault()}
+            className="text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2"
+          >
             <div className="w-full items-stretch flex">
               <input
                 className="w-full h-10 bg-white rounded-bl-md rounded-tl-md text-zinc-700 cursor-text flex-grow mr-1 py-2 px-4 focus:outline-none"
@@ -31,13 +36,13 @@ const Filters = () => {
           </form>
         </div>
         <div className="xl:col-span-2 text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2">
-          <FilterableList items={items} />
+          <FilterableList items={itemsCategory} title="Category" />
         </div>
         <div className="xl:col-span-2 text-zinc-500 text-[0.94rem] leading-5 border border-gray-100 border-solid rounded-md p-2">
-          <div className="">dsf</div>
+          <FilterableList items={itemsSort} title="Sort by" />
         </div>
 
-        <div className="bg-primary-500 hover:bg-primary-600 duration-300 transition ease-in-out grid place-items-center text-white font-medium rounded-md">
+        <div className="bg-primary-500 hover:bg-primary-600 duration-300 transition ease-in-out grid place-items-center text-white font-medium rounded-md cursor-pointer">
           <Link className="" href="#">
             Filter Results
           </Link>

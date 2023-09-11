@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 
-const FilterableList = ({ items }) => {
+const FilterableList = ({ items, title }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isListVisible, setIsListVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState("");
@@ -29,17 +29,17 @@ const FilterableList = ({ items }) => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative pl-3">
       <input
         type="text"
-        placeholder="Category..."
+        placeholder={`${title}...`}
         className="w-full p-2  rounded-md focus:outline-none"
         value={searchTerm}
         onClick={() => setIsListVisible(true)}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       {isListVisible && (
-        <ul className="mt-2 bg-white shadow-3xl rounded-md absolute z-10 w-full h-72 overflow-y-scroll" ref={listRef}>
+        <ul className="mt-2 bg-white shadow-3xl rounded-md absolute z-10 w-[94%] max-h-72 overflow-y-scroll" ref={listRef}>
           {items.map((item, index) => (
             <li
               key={index}
