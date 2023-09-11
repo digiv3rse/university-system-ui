@@ -23,7 +23,7 @@ const Navbar = () => {
         </Link>
 
         <div className="w-full items-center flex flex-grow">
-          <ul className="flex mx-auto">
+          <ul className="flex mx-auto gap-x-4">
             <li className="list-item">
               <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/">
                 Home
@@ -45,7 +45,7 @@ const Navbar = () => {
                   </span>
                 </button>
 
-                <div className="hidden group-hover:block duration-300 transition ease-in-out absolute left-0 mt bg-white w-full lg:w-52 rounded-b-lg p-3 text-zinc-500 z-[999999]">
+                <div className="hidden group-hover:block duration-300 transition ease-in-out absolute left-0 mt bg-white w-full lg:w-52 rounded-b-lg p-3 text-zinc-500 z-[999999] shadow">
                   <ul className="w-full">
                     <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
                       <Link className="" href="/instructors">
@@ -58,18 +58,12 @@ const Navbar = () => {
                       </Link>
                     </li>{" "}
                     <li onClick={toggleAuthDropdown} className="relative group w-full px-4 py-1 cursor-pointer font-medium">
-                      <button onClick={toggleAuthDropdown} className="flex items-center w-full focus:outline-none">
-                        Auth
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5 ml-2 transition-transform transform group-hover:rotate-180"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
+                      <button onClick={toggleAuthDropdown} className="flex items-center w-full focus:outline-none justify-between">
+                        <span>Authentication</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                           <path
-                            fillRule="evenodd"
-                            d="M6.293 6.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
-                            clipRule="evenodd"
+                            fill="currentColor"
+                            d="M14 10.25a1.25 1.25 0 1 1 2.5 0a1.25 1.25 0 0 1-2.5 0Zm-5 0a1.25 1.25 0 1 1 2.5 0a1.25 1.25 0 0 1-2.5 0Zm-5 0a1.249 1.249 0 1 1 2.5 0a1.25 1.25 0 1 1-2.5 0Z"
                           />
                         </svg>
                       </button>
