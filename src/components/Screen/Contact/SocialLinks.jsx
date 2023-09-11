@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const SocialLinks = () => {
+const SocialLinks = () => { 
   return (
     <ul className=" space-x-3 lg:space-x-6 pl-2 lg:pl-3  mt-5">
       <li className="inline-block mr-2">
