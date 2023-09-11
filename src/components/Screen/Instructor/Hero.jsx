@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <section>
       <div className="bg-zinc-800 text-zinc-500 text-[0.94rem] leading-5 text-center rounded-lg p-6">
         <h2 className="text-white text-[25px] md:text-[2.34rem] leading-none font-bold">Instructors list</h2>
 
@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
