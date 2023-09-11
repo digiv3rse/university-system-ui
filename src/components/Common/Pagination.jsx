@@ -1,46 +1,46 @@
 import React from "react";
-import { ArrowRight } from "./SVGCollection";
+import { ArrowLeft, ArrowRight } from "./SVGCollection";
 import Link from "next/link";
 
 const Pagination = () => {
   return (
     <div className="mt-10">
       <div className="text-zinc-500 flex text-[0.94rem] leading-5 justify-center">
-        <ul className="flex rounded-md p-1">
+        <ul className="flex rounded-md p-1 font-bold">
           <li className="list-item float-left mx-1 mt-1">
-            <a
-              className="bg-primary-600/[0.1] text-primary-600 hover:text-white duration-300 transition ease-in-out cursor-pointer py-3 px-4 rounded-md"
+            <Link
+              className="bg-primary-600/[0.1] hover:bg-primary-600 text-primary-600 hover:text-white duration-300 transition ease-in-out cursor-pointer py-3 px-4 rounded-md"
               href="#"
             >
-              <i className="inline-block" />
-            </a>
+              <ArrowLeft className="inline-block" fillColor="currentColor" />
+            </Link>
           </li>
 
           <li className="list-item float-left mx-1 mt-1">
-            <a
+            <Link
               className="bg-primary-600/[0.1] hover:bg-primary-600 text-primary-600 hover:text-white duration-300 transition ease-in-out cursor-pointer py-3 px-4 rounded-md"
               href="#"
             >
               1
-            </a>
+            </Link>
           </li>
 
           <li className="list-item float-left mx-1 mt-1">
-            <a
+            <Link
               className="bg-primary-600/[0.1] hover:bg-primary-600 text-primary-600 hover:text-white duration-300 transition ease-in-out cursor-pointer py-3 px-4 z-[3] rounded-md"
               href="#"
             >
               2
-            </a>
+            </Link>
           </li>
 
           <li className="list-item float-left mx-1 mt-1">
-            <a
+            <Link
               className="bg-primary-600/[0.1] hover:bg-primary-600 text-primary-600 hover:text-white duration-300 transition ease-in-out cursor-pointer py-3 px-4 rounded-md"
               href="#"
             >
               ..
-            </a>
+            </Link>
           </li>
 
           <li className="list-item float-left mx-1 mt-1">
