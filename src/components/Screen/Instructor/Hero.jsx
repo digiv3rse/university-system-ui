@@ -4,8 +4,8 @@ import React from "react";
 const Hero = () => {
   return (
     <section>
-      <div className="bg-zinc-800 text-zinc-500 text-[0.94rem] leading-5 text-center rounded-lg p-6">
-        <h2 className="text-white text-[25px] md:text-[2.34rem] leading-none font-bold">Instructors list</h2>
+      <div className="bg-zinc-800 text-zinc-500 text-[0.94rem] leading-5 text-center rounded-lg p-[25.600px]">
+        <h2 className="text-white text-[25px] md:text-[45px] leading-none font-bold">Instructors list</h2>
 
         <div className="flex justify-center">
           <div>
