@@ -45,7 +45,7 @@ const Menu = () => {
             </li>{" "}
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
               <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/courses">
-                Course
+                Courses
               </Link>
             </li>
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
@@ -54,8 +54,13 @@ const Menu = () => {
               </Link>
             </li>
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
-              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/accounts">
-                Accounts
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/instructors">
+                Instructors
+              </Link>
+            </li>{" "}
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/instructors">
+                404
               </Link>
             </li>
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">

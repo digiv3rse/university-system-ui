@@ -1,9 +1,20 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [isPagesDropdownOpen, setIsPagesDropdownOpen] = useState(false);
+  const [isAuthDropdownOpen, setIsAuthDropdownOpen] = useState(false);
+
+  const togglePagesDropdown = () => {
+    setIsPagesDropdownOpen(!isPagesDropdownOpen);
+  };
+
+  const toggleAuthDropdown = () => {
+    setIsAuthDropdownOpen(!isAuthDropdownOpen);
+  };
   return (
     <header className="hidden lg:block">
       <div className="items-center text-zinc-500 flex text-[0.94rem] leading-5 justify-between px-3.5 container_fluid">
@@ -18,29 +29,90 @@ const Navbar = () => {
                 Home
               </Link>
             </li>{" "}
-            <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/courses">
-                Course
-              </Link>
+            <li className="list-item text-zinc-500">
+              <div className="relative group duration-300 transition ease-in-out">
+                <button onClick={togglePagesDropdown} className="font-medium focus:outline-none">
+                  <span>Pages</span>{" "}
+                  <span>
+                    {" "}
+                    <svg className="inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                      <g id="feArrowDown0" fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
+                        <g id="feArrowDown1" fill="currentColor">
+                          <path id="feArrowDown2" d="m6 7l6 6l6-6l2 2l-8 8l-8-8z" />
+                        </g>
+                      </g>
+                    </svg>
+                  </span>
+                </button>
+
+                <div className="hidden group-hover:block duration-300 transition ease-in-out absolute left-0 mt bg-white w-full lg:w-52 rounded-b-lg p-3 text-zinc-500 z-[999999]">
+                  <ul className="w-full">
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                      <Link className="" href="/instructors">
+                        Instructor Lists
+                      </Link>
+                    </li>{" "}
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                      <Link className="" href="/courses">
+                        Courses
+                      </Link>
+                    </li>{" "}
+                    <li onClick={toggleAuthDropdown} className="relative group w-full px-4 py-1 cursor-pointer font-medium">
+                      <button onClick={toggleAuthDropdown} className="flex items-center w-full focus:outline-none">
+                        Auth
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5 ml-2 transition-transform transform group-hover:rotate-180"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M6.293 6.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                      {isAuthDropdownOpen && (
+                        <div className="absolute left-full top-0 mt-0 p-3 rounded-lg shadow-3xl bg-white text-zinc-500 w-full lg:w-52">
+                          <ul className="w-full" onClick={toggleAuthDropdown}>
+                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                              <Link className="" href="/login">
+                                Login
+                              </Link>{" "}
+                            </li>{" "}
+                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                              <Link className="" href="/signup">
+                                Sign Up
+                              </Link>{" "}
+                            </li>{" "}
+                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                              <Link className="" href="/forgotpassword">
+                                Forgot Password
+                              </Link>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                      )}
+                    </li>
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                      <Link className="" href="/aaaa">
+                        Not Found
+                      </Link>
+                    </li>{" "}
+                  </ul>
+                </div>
+              </div>
             </li>
+            {/*  */}
             <li className="list-item">
               <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/about">
                 About
               </Link>
             </li>
             <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/accounts">
-                Accounts
-              </Link>
-            </li>
-            <li className="list-item">
               <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/contact">
                 Contact
-              </Link>
-            </li>
-            <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/signup">
-                Sign Up
               </Link>
             </li>
           </ul>
