@@ -3,7 +3,7 @@ import React from "react";
 
 const JoinBannerForInstructors = () => {
   return (
-    <div className="mt-10 md:mt-20">
+    <section className="mt-10 md:mt-20">
       <div className="bg-emerald-500 text-zinc-500 text-[0.94rem] leading-5 rounded-lg p-5 sm:p-6 lg:p-12">
         <div className=" relative">
           <div className="px-3.5">
@@ -29,7 +29,7 @@ const JoinBannerForInstructors = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Pagination = () => {
   return (
-    <div className="mt-10">
+    <section className="mt-10 md:mt-20">
       <div className="text-zinc-500 flex text-[0.94rem] leading-5 justify-center">
         <ul className="flex rounded-md p-1 font-bold">
           <li className="list-item float-left mx-1 mt-1">
@@ -62,7 +62,7 @@ const Pagination = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 
