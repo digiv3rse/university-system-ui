@@ -78,7 +78,7 @@ export const instructorsDetail = [
     id: 6,
     name: "Lori Stevens",
     position: "Professor at Oxford University",
-    rating: 4.0,
+    rating: 4.1,
     description: "Yet no jokes worse her why. Bed one supposing breakfast day fulfilled off depending questions.",
     specialty: "Medical Science",
     socialMediaLinks: [
