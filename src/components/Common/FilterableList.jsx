@@ -29,7 +29,7 @@ const FilterableList = ({ items, title }) => {
   };
 
   return (
-    <div className="relative pl-3">
+    <div className="relative">
       <input
         type="text"
         placeholder={`${title}...`}

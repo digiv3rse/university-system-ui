@@ -9,6 +9,7 @@ import RecentViewsCourse from "@/components/Screen/Courses/CourseDetails/RecentV
 import Curriculum from "@/components/Screen/Courses/CourseDetails/Tabs/Curriculum";
 import Instructor from "@/components/Screen/Courses/CourseDetails/Tabs/Instructor";
 import Overview from "@/components/Screen/Courses/CourseDetails/Tabs/Overview";
+import Reviews from "@/components/Screen/Courses/CourseDetails/Tabs/Reviews";
 import TopListedCourses from "@/components/Screen/Courses/CourseDetails/TopListedCourses";
 import React, { useState } from "react";
 
@@ -24,6 +25,7 @@ const CourseDetailsPage = () => {
           {tabOpen === "Overview" ? <Overview /> : ""}
           {tabOpen === "Curriculum" ? <Curriculum /> : ""}
           {tabOpen === "Instructor" ? <Instructor /> : ""}
+          {tabOpen === "Reviews" ? <Reviews /> : ""}
         </div>
         <div>
           <CourseCard />
