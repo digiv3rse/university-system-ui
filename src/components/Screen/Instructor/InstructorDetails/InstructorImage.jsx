@@ -7,10 +7,14 @@ const InstructorImage = () => {
   return (
     <div className="bg-white text-zinc-500 text-[0.94rem] leading-5 break-words text-center rounded-lg p-2 shadow-3xl">
       <div className="rounded-lg">
-        <img className="w-full h-full lg:h-96 lg:w-96 align-middle rounded-lg overflow-clip" src="https://eduport.webestica.com/assets/images/instructor/07.jpg" alt="" />
+        <img
+          className="w-full h-full lg:h-96 lg:w-96 align-middle rounded-lg overflow-clip"
+          src="https://eduport.webestica.com/assets/images/instructor/07.jpg"
+          alt=""
+        />
       </div>
 
-      <div className="p-4">
+      <div className="p-4 mb-2">
         <StarSVG />
         <ul className="flex items-center justify-center gap-3">
           <li className="">
