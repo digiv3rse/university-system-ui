@@ -14,7 +14,7 @@ import Title from "@/components/Common/Title";
 import { courses } from "../../../../data/coursesData";
 import CourseList from "../Courses/CourseList";
 
-const TopCollege = () => {
+const TopCourses = () => {
   return (
     <section id="college" className="mt-10 md:mt-20">
       <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between">
@@ -102,4 +102,4 @@ const TopCollege = () => {
   );
 };
 
-export default TopCollege;
+export default TopCourses;
