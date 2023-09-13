@@ -27,11 +27,21 @@ const CourseDetailsPage = () => {
           {tabOpen === "Instructor" ? <Instructor /> : ""}
           {tabOpen === "Reviews" ? <Reviews /> : ""}
         </div>
-        <div>
-          <CourseCard />
-          <CourseLessons />
-          <RecentViewsCourse />
-          <CourseTags />
+        <div className="space-y-6">
+          <section>
+            <CourseCard />
+          </section>
+          <section>
+            {" "}
+            <CourseLessons />
+          </section>
+          <section>
+            {" "}
+            <RecentViewsCourse />
+          </section>
+          <section>
+            <CourseTags />
+          </section>
         </div>
       </div>
       <TopListedCourses />
