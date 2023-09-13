@@ -21,7 +21,7 @@ const Overview = () => {
             If you wish to find out the skills that should be covered in a basic digital marketing course syllabus in India or anywhere around the
             world, then reading this blog will help. Before we delve into the advanced{" "}
             <strong className="font-bold">
-              <a className="cursor-pointer underline" href="https://eduport.webestica.com/#">
+              <a className="cursor-pointer underline" href="#">
                 digital marketing course
               </a>
             </strong>{" "}
