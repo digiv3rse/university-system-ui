@@ -1,7 +1,12 @@
+import Hero from "@/components/Screen/Courses/Hero";
 import React from "react";
 
 const CoursesPage = () => {
-  return <div>CoursesPage</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default CoursesPage;
