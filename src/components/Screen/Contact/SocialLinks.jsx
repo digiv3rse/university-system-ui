@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const SocialLinks = () => { 
+const SocialLinks = () => {
   return (
     <ul className=" space-x-3 lg:space-x-6 pl-2 lg:pl-3  mt-5">
       <li className="inline-block mr-2">
@@ -92,7 +92,7 @@ const SocialLinks = () => {
         {" "}
         <a className="text-sky-600 cursor-pointer mr-1" href="https://eduport.webestica.com/#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
-            <g fill="none" stroke="#de60bc" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+            <g fill="none" stroke="#de60bc" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4">
               <path d="M44 24a19.938 19.938 0 0 1-5.889 14.173A19.937 19.937 0 0 1 24 44C12.954 44 4 35.046 4 24a19.932 19.932 0 0 1 5.5-13.775A19.943 19.943 0 0 1 24 4a19.937 19.937 0 0 1 14.111 5.827A19.938 19.938 0 0 1 44 24Z" />
               <path d="M44 24c-2.918 0-10.968-1.1-18.173 2.063C18 29.5 12.333 34.831 9.863 38.147" />
               <path d="M16.5 5.454C19.63 8.343 26.46 15.698 29 23c2.54 7.302 3.48 16.28 4.06 18.835" />

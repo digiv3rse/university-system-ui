@@ -19,7 +19,7 @@ const CourseDetailsHero = () => {
           <ul>
             <li className="text-zinc-800 inline-block font-bold mr-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" className="text-amber-400 inline-block mr-2 -mt-1">
-                <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <g fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                   <path d="M0 0h24v24H0z" />
                   <path
                     fill="currentColor"
