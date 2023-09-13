@@ -2,7 +2,7 @@ import Blogs from "@/components/Screen/Home/Blogs";
 import CounterHome from "@/components/Screen/Home/CounterHome";
 import Hero from "@/components/Screen/Home/Hero";
 import News from "@/components/Screen/Home/News";
-import TopCollege from "@/components/Screen/Home/TopCollege";
+import TopCourses from "@/components/Screen/Home/TopCourses";
 import Welcome from "@/components/Screen/Home/Welcome";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Hero />
       <Welcome />
-      <TopCollege />
+      <TopCourses />
       <CounterHome />
       <News />
       <Blogs />

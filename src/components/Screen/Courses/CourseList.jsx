@@ -37,7 +37,7 @@ const CourseList = ({ course }) => {
 
           <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-2 hover:text-primary-600 duration-300 ease-in-out">
             <Link className="cursor-pointer" href="/courses/id">
-              Sketch from A to Z: for app designer
+              {name}
             </Link>
           </h5>
 
