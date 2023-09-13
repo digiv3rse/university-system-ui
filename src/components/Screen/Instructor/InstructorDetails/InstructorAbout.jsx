@@ -2,7 +2,7 @@ import React from "react";
 
 const InstructorAbout = () => {
   return (
-    <div className="bg-white text-zinc-500 text-[0.94rem] leading-5 break-words rounded-lg p-6 shadow-3xl">
+    <section className="bg-white text-zinc-500 text-[0.94rem] leading-5 break-words rounded-lg p-6 shadow-3xl">
       <div>
         <h4 className="text-zinc-800 text-[1.64rem] leading-8 font-bold break-words">Education</h4>
 
@@ -126,7 +126,7 @@ const InstructorAbout = () => {
           </div>{" "}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

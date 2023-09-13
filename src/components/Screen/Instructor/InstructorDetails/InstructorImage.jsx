@@ -5,7 +5,7 @@ import React from "react";
 
 const InstructorImage = () => {
   return (
-    <div className="bg-white text-zinc-500 text-[0.94rem] leading-5 break-words text-center rounded-lg p-2 shadow-3xl">
+    <section className="bg-white text-zinc-500 text-[0.94rem] leading-5 break-words text-center rounded-lg p-2 shadow-3xl">
       <div className="rounded-lg">
         <img
           className="w-full h-full lg:h-96 lg:w-96 align-middle rounded-lg overflow-clip"
@@ -71,7 +71,7 @@ const InstructorImage = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

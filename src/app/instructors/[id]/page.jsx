@@ -1,5 +1,6 @@
 import InstructorAbout from "@/components/Screen/Instructor/InstructorDetails/InstructorAbout";
 import InstructorImage from "@/components/Screen/Instructor/InstructorDetails/InstructorImage";
+import InstructorIntro from "@/components/Screen/Instructor/InstructorDetails/InstructorIntro";
 import React from "react";
 
 const InstructorDetailsPage = () => {
@@ -10,7 +11,9 @@ const InstructorDetailsPage = () => {
           <InstructorImage />
           <InstructorAbout />
         </div>
-        <div className="lg:col-span-2 h-auto">2</div>
+        <div className="lg:col-span-2 h-auto">
+          <InstructorIntro />
+        </div>
       </div>
     </section>
   );

@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutPortal = () => {
   return (
-    <div className="mt-10 md:mt-20">
+    <section className="mt-10 md:mt-20">
       <div className="text-zinc-500 text-[0.94rem] leading-5 lg:px-3.5 w-full lg:w-[65%]">
         <Title>About Portal</Title>
 
@@ -18,7 +18,7 @@ const AboutPortal = () => {
       {AboutPortalDescribe()}
 
       {/* ===================== details */}
-    </div>
+    </section>
   );
 };
 
