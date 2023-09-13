@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import SocialLinksInstructor from "./SocialLinksInstructor";
+import Link from "next/link";
 
 const InstructorList = ({ instructor }) => {
   const { name, position, specialty, description, rating, imageSrc } = instructor;
@@ -17,9 +18,9 @@ const InstructorList = ({ instructor }) => {
               <div className="flex justify-between mb-4">
                 <div>
                   <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold hover:text-primary-600 duration-300 transition ease-in-out">
-                    <a className="cursor-pointer" href="#">
+                    <Link className="cursor-pointer" href="/instructors/id">
                       {name}
-                    </a>
+                    </Link>
                   </h5>
 
                   <p className="text-[0.82rem]">{position}</p>
