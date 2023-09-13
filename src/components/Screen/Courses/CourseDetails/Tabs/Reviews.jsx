@@ -7,12 +7,14 @@ const Reviews = () => {
   const reviewRatingNumbers = ["★★★★☆ (4/5)", "★★★☆☆ (3/5)", "★★☆☆☆ (2/5)", "★☆☆☆☆ (1/5)"];
 
   const handleFilters = (e) => {
-    console.log("filters");
+    console.log("reviews");
     e.preventDefault();
   };
 
   return (
     <div className="py-8 px-5">
+      <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-6">Our Student Reviews</h5>
+
       <div className="text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 flex items-start">
         <div className="">
           <div className="mr-6 !w-24 !h-24">
@@ -74,47 +76,54 @@ const Reviews = () => {
 
       <hr className="my-10" />
       {/* give a review */}
-      <div className="text-zinc-500 text-[0.94rem] leading-5 break-words">
-        <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-6">Leave a Review</h5>
-
-        <form className="" onSubmit={handleFilters}>
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            {" "}
-            <div className="mt-4 px-2">
-              <input
-                className="w-full h-10 bg-slate-100 text-zinc-700 cursor-text py-2 px-4 border border-slate-100 border-solid rounded-md"
-                placeholder="Name"
-                type="text"
-              />
-            </div>
-            <div className="mt-4 px-2">
-              <input
-                className="w-full h-10 bg-slate-100 text-zinc-700 cursor-text py-2 px-4 border border-slate-100 border-solid rounded-md"
-                placeholder="Email"
-                type="email"
-              />
-            </div>
-          </div>
-
-          <div className="w-full mt-4 px-2">
-            <div className="w-full bg-slate-100 text-zinc-700 cursor-text border border-slate-100 border-solid rounded-md">
-              <FilterableList items={reviewRatingNumbers} title="★★★★★ (5/5)" />
-            </div>
-          </div>
-
-          <div className="w-full mt-4 px-2">
-            <textarea className="w-full h-20 bg-slate-100 text-zinc-700 cursor-text min-h-[2.53rem] py-2 px-4 resize-y border border-slate-100 border-solid rounded-md overflow-auto" />
-          </div>
-
-          <div className="w-full mt-4 px-2">
-            <button className="items-start bg-primary-600 text-white cursor-pointer inline-block font-medium py-2 px-4 text-center align-middle border border-primary-600 border-solid rounded-md overflow-hidden hover:text-primary-600 hover:bg-white hover:border-primary-600 duration-300 transition ease-in-out">
-              Post Review
-            </button>
-          </div>
-        </form>
-      </div>
+      {ReviewForm(handleFilters, reviewRatingNumbers)}
     </div>
   );
 };
 
 export default Reviews;
+
+// ================================ Review form
+function ReviewForm(handleFilters, reviewRatingNumbers) {
+  return (
+    <div className="text-zinc-500 text-[0.94rem] leading-5 break-words">
+      <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-6">Leave a Review</h5>
+
+      <form className="" onSubmit={handleFilters}>
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          {" "}
+          <div className="mt-4 px-2">
+            <input
+              className="w-full h-10 bg-slate-100 text-zinc-700 cursor-text py-2 px-4 border border-slate-100 border-solid rounded-md"
+              placeholder="Name"
+              type="text"
+            />
+          </div>
+          <div className="mt-4 px-2">
+            <input
+              className="w-full h-10 bg-slate-100 text-zinc-700 cursor-text py-2 px-4 border border-slate-100 border-solid rounded-md"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+        </div>
+
+        <div className="w-full mt-4 px-2">
+          <div className="w-full bg-slate-100 text-zinc-700 cursor-text border border-slate-100 border-solid rounded-md">
+            <FilterableList items={reviewRatingNumbers} title="★★★★★ (5/5)" />
+          </div>
+        </div>
+
+        <div className="w-full mt-4 px-2">
+          <textarea className="w-full h-20 bg-slate-100 text-zinc-700 cursor-text min-h-[2.53rem] py-2 px-4 resize-y border border-slate-100 border-solid rounded-md overflow-auto" />
+        </div>
+
+        <div className="w-full mt-4 px-2">
+          <button className="items-start bg-primary-600 text-white cursor-pointer inline-block font-medium py-2 px-4 text-center align-middle border border-primary-600 border-solid rounded-md overflow-hidden hover:text-primary-600 hover:bg-white hover:border-primary-600 duration-300 transition ease-in-out">
+            Post Review
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+}

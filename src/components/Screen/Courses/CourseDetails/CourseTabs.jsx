@@ -49,7 +49,7 @@ const CourseTabs = ({ tabOpen, setTabOpen }) => {
             </button>
           </li>
 
-          <li className="list-item -mb-1 mr-6">
+          {/*     <li className="list-item -mb-1 mr-6">
             <button
               onClick={() => setTabOpen("FAQs")}
               className={`items-start ${
@@ -58,9 +58,9 @@ const CourseTabs = ({ tabOpen, setTabOpen }) => {
             >
               FAQs{" "}
             </button>
-          </li>
+          </li> */}
 
-          <li className="list-item -mb-1 mr-6">
+          {/*   <li className="list-item -mb-1 mr-6">
             <button
               onClick={() => setTabOpen("Comment")}
               className={`items-start ${
@@ -69,7 +69,7 @@ const CourseTabs = ({ tabOpen, setTabOpen }) => {
             >
               Comment
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
