@@ -7,7 +7,7 @@ const InstructorDetailsPage = () => {
   return (
     <section className="mt-10 md:mt-20">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 lg:gap-8">
-        <div className="space-y-8">
+        <div className="space-y-8 md:space-y-0 lg:space-y-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
           <InstructorImage />
           <InstructorAbout />
         </div>
