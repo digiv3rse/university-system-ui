@@ -1,5 +1,7 @@
+"use client";
 import Title from "@/components/Common/Title";
 import React from "react";
+import CountUp from "react-countup";
 
 const InstructorIntro = () => {
   return (
@@ -92,7 +94,10 @@ const InstructorIntro = () => {
 
               <div className="ml-4">
                 <div className="flex">
-                  <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold">10</h5>
+                  <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold">
+                    {" "}
+                    <CountUp start={0} end={10} duration={5} delay={2} />
+                  </h5>
 
                   <span className="text-zinc-800 text-[1.31rem] leading-7 font-bold">+</span>
                 </div>
@@ -115,7 +120,10 @@ const InstructorIntro = () => {
 
               <div className="ml-4">
                 <div className="flex">
-                  <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold">36</h5>
+                  <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold">
+                    {" "}
+                    <CountUp start={0} end={36} duration={5} delay={2} />
+                  </h5>
 
                   <span className="text-zinc-800 text-[1.31rem] leading-7 font-bold">K+</span>
                 </div>
@@ -138,7 +146,10 @@ const InstructorIntro = () => {
 
               <div className="ml-4">
                 <div className="flex">
-                  <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold">11</h5>
+                  <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold">
+                    {" "}
+                    <CountUp start={0} end={11} duration={5} delay={2} />
+                  </h5>
 
                   <span className="text-zinc-800 text-[1.31rem] leading-7 font-bold">+</span>
                 </div>

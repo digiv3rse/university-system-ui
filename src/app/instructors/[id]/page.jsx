@@ -1,7 +1,8 @@
+import Title from "@/components/Common/Title";
+import React from "react";
 import InstructorAbout from "@/components/Screen/Instructor/InstructorDetails/InstructorAbout";
 import InstructorImage from "@/components/Screen/Instructor/InstructorDetails/InstructorImage";
 import InstructorIntro from "@/components/Screen/Instructor/InstructorDetails/InstructorIntro";
-import React from "react";
 
 const InstructorDetailsPage = () => {
   return (
@@ -15,6 +16,11 @@ const InstructorDetailsPage = () => {
           <InstructorIntro />
         </div>
       </div>
+      {/* ============================== related course instructor */}
+      <section className="mt-10 md:mt-20">
+        <Title>Related Instructors</Title>
+        <div className="mt-10"></div>
+      </section>
     </section>
   );
 };
