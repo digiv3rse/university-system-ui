@@ -39,11 +39,11 @@ const FilterableList = ({ items, title }) => {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       {isListVisible && (
-        <ul className="mt-2 bg-white shadow-3xl rounded-md absolute z-10 w-[94%] max-h-72 overflow-y-scroll" ref={listRef}>
+        <ul className="mt-2 bg-white shadow-3xl rounded-md absolute z-10 w-full max-h-72 overflow-y-scroll" ref={listRef}>
           {items.map((item, index) => (
             <li
               key={index}
-              className="cursor-pointer p-2 hover:bg-primary-50 hover:text-primary-400 text-[.85rem]"
+              className="cursor-pointer pl-4 pr-2 py-2 hover:bg-primary-50 hover:text-primary-400 text-[.85rem]"
               onClick={() => handleItemClick(item)}
             >
               {item}

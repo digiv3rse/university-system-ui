@@ -46,7 +46,7 @@ const Hero = () => {
         <div>
           <div className="bg-gradient-to-r from-[#f28e26] to-[#fd644f] p-8 xl:p-12 rounded-2xl">
             <span className="text-white text-[0.94rem] leading-5">Our goal:</span>
-            <h3 className="text-white text-2xl leading-loose lg:text-3xl font-bold">
+            <h3 className="text-white text-2xl lg:leading-loose lg:text-3xl font-bold">
               “Be open to new ideas and approaches. Develop your problem-solving skills.”
             </h3>
           </div>

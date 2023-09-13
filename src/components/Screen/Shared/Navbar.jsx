@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="w-full items-center flex flex-grow">
           <ul className="flex mx-auto gap-x-4">
             <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/">
+              <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/">
                 Home
               </Link>
             </li>{" "}
@@ -47,22 +47,27 @@ const Navbar = () => {
 
                 <div className="hidden group-hover:block duration-300 transition ease-in-out absolute left-0 mt bg-white w-full lg:w-52 rounded-b-lg p-3 text-zinc-500 z-[999999] shadow">
                   <ul className="w-full">
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                       <Link className="" href="/instructors">
                         Instructor Lists
                       </Link>
                     </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                       <Link className="" href="/instructors/id">
                         Instructor Details
                       </Link>
                     </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                       <Link className="" href="/courses">
                         Courses
                       </Link>
                     </li>{" "}
-                    <li onClick={toggleAuthDropdown} className="relative group w-full px-4 py-1 cursor-pointer font-medium">
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
+                      <Link className="" href="/courses/id">
+                        Course Details
+                      </Link>
+                    </li>{" "}
+                    <li onClick={toggleAuthDropdown} className="relative group w-full px-4 py-2 cursor-pointer font-medium">
                       <button onClick={toggleAuthDropdown} className="flex items-center w-full focus:outline-none justify-between">
                         <span>Authentication</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
@@ -75,17 +80,17 @@ const Navbar = () => {
                       {isAuthDropdownOpen && (
                         <div className="absolute left-full top-0 mt-0 p-3 rounded-lg shadow-3xl bg-white text-zinc-500 w-full lg:w-52">
                           <ul className="w-full" onClick={toggleAuthDropdown}>
-                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                               <Link className="" href="/login">
                                 Login
                               </Link>{" "}
                             </li>{" "}
-                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                               <Link className="" href="/signup">
                                 Sign Up
                               </Link>{" "}
                             </li>{" "}
-                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                               <Link className="" href="/forgotpassword">
                                 Forgot Password
                               </Link>{" "}
@@ -94,7 +99,17 @@ const Navbar = () => {
                         </div>
                       )}
                     </li>
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
+                      <Link className="" href="/help">
+                        Help
+                      </Link>
+                    </li>{" "}
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
+                      <Link className="" href="/faq">
+                        FAQ
+                      </Link>
+                    </li>{" "}
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                       <Link className="" href="/aaaa">
                         Not Found
                       </Link>
@@ -105,12 +120,12 @@ const Navbar = () => {
             </li>
             {/*  */}
             <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/about">
+              <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/about">
                 About
               </Link>
             </li>
             <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-1 px-4" href="/contact">
+              <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/contact">
                 Contact
               </Link>
             </li>

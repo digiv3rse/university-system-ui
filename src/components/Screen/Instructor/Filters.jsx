@@ -1,8 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
-import FilterableList from "./FilterableList";
+import FilterableList from "../../Common/FilterableList";
 
 const Filters = () => {
   const itemsCategory = ["Accounting", "All", "Design", "Development", "Finance", "Legal", "Marketing", "Photography", "Translation", "Writing"];
