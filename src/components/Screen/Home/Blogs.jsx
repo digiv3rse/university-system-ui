@@ -40,7 +40,7 @@ const Blogs = () => {
               spaceBetween: 40,
             },
             "@1.25": {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 50,
             },
             "@1.75": {
