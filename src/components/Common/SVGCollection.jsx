@@ -88,6 +88,7 @@ export const ArrowLeft = (props) => {
 };
 
 export const StarSVG = (props) => {
+  const rating = props?.rating || 4.5;
   return (
     <ul {...props}>
       <li>
@@ -162,7 +163,7 @@ export const StarSVG = (props) => {
           />
         </svg>
       </li>
-      <li className="text-zinc-800 ml-2">4.5/5.0</li>
+      <li className="text-zinc-800 ml-2">{rating}/5.0</li>
     </ul>
   );
 };
