@@ -3,12 +3,12 @@ import React from "react";
 const CourseDetailsHero = () => {
   return (
     <section className="py-12 bg-[#F5F7F9] rounded-lg">
-      <div className="text-zinc-500 flex flex-wrap text-[0.94rem] py-12">
-        <div className="px-12">
+      <div className="text-zinc-500 flex flex-wrap text-[0.94rem] lg:py-12">
+        <div className="px-2 sm:px-12">
           <h6 className="bg-primary-600 text-white inline-block font-bold mb-4 py-2 px-6 rounded-md">Digital Marketing</h6>
 
-          <h1 className="text-zinc-800 text-[2.81rem] leading-tight font-bold mb-2">
-            The Complete Digital Marketing Course - <br /> 12 Courses in 1
+          <h1 className="text-zinc-800 text-[30px] lg:text-[2.81rem] leading-tight font-bold mb-2">
+            The Complete Digital Marketing Course - <br className="hidden xl:block" /> 12 Courses in 1
           </h1>
 
           <p className="mb-4">
