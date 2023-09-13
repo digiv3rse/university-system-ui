@@ -12,8 +12,9 @@ const CourseDetailsPage = () => {
     <>
       <CourseDetailsHero />
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-12 gap-8">
-        <div className=" bg-white rounded-lg p-4 lg:col-span-2 shadow-3xl">
+        <div className=" bg-white rounded-lg  lg:col-span-2 shadow-3xl">
           <CourseTabs />
+          
         </div>
         <div>
           <CourseCard />
