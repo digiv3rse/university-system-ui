@@ -15,7 +15,7 @@ const Reviews = () => {
     <div className="py-8 px-5">
       <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-6">Our Student Reviews</h5>
 
-      <div className="text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 flex items-start">
+      <div className="text-zinc-500 text-[0.94rem] leading-5 break-words px-3.5 md:flex items-start">
         <div className="">
           <div className="mr-6 !w-24 !h-24">
             <img
@@ -27,7 +27,7 @@ const Reviews = () => {
         </div>
 
         <div>
-          <div className="items-center flex">
+          <div className="items-center md:flex">
             <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mr-4">Jacqueline Miller</h5>
 
             <StarSVG className="flex items-center" />
