@@ -48,14 +48,14 @@ const Hero = () => {
                   </p>
 
                   <Link
-                    className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
+                    className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden hover:bg-white duration-300 hover:text-primary-600 transition ease-in-out"
                     href="/"
                   >
                     Admissions
                   </Link>
 
                   <Link
-                    className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
+                    className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden hover:bg-white hover:text-primary-600 hover:border-primary-600 duration-300 transition ease-in-out"
                     href="#"
                   >
                     Learn More
@@ -84,14 +84,14 @@ const Hero = () => {
                   </p>
 
                   <Link
-                    className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
+                    className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden hover:bg-white duration-300 hover:text-primary-600 transition ease-in-out"
                     href="/"
                   >
                     Admissions
                   </Link>
 
                   <Link
-                    className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
+                    className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden hover:bg-white hover:text-primary-600 hover:border-primary-600 duration-300 transition ease-in-out"
                     href="#"
                   >
                     Learn More
@@ -120,14 +120,14 @@ const Hero = () => {
                   </p>
 
                   <Link
-                    className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden"
+                    className="bg-sky-600 text-white cursor-pointer inline-block font-medium mr-2 py-2 px-4 align-middle border border-sky-600 border-solid rounded-md overflow-hidden hover:bg-white duration-300 hover:text-primary-600 transition ease-in-out"
                     href="/"
                   >
                     Admissions
                   </Link>
 
                   <Link
-                    className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden"
+                    className="text-white cursor-pointer inline-block font-medium py-2 px-4 align-middle border border-white border-solid rounded-md overflow-hidden hover:bg-white hover:text-primary-600 hover:border-primary-600 duration-300 transition ease-in-out"
                     href="#"
                   >
                     Learn More
