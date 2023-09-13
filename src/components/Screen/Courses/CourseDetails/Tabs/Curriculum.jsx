@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import CurriculumItem from "./CurriculumItem";
 
 const Curriculum = () => {
+  const [open, setOpen] = useState(false);
+  const toggle = (index) => {
+    if (open === index) {
+      return setOpen(null);
+    } else {
+      setOpen(index);
+    }
+  };
   const curriculumData = [
     {
-      title: "This is demo title 1",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quidem culpa atque unde molestias ipsum, excepturi maiores fuga repudiandae nobis tempora laudantium sapiente temporibus omnis.",
+      title: "Introduction of Digital Marketing",
+      desc: "Introduction",
+      lecture: "3",
+      minute: "2",
+      second: "10",
     },
     {
       title: "This is demo title 2",
@@ -20,7 +31,7 @@ const Curriculum = () => {
   return (
     <div className="py-8 px-5">
       {curriculumData.map((data, idx) => {
-        return <CurriculumItem key={idx} data={data} />;
+        return <CurriculumItem key={idx} data={data} open={idx === open} toggle={() => toggle(idx)} />;
       })}
     </div>
   );
