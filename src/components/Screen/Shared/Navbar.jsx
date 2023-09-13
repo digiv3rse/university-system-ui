@@ -53,6 +53,11 @@ const Navbar = () => {
                       </Link>
                     </li>{" "}
                     <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
+                      <Link className="" href="/instructors/id">
+                        Instructor Details
+                      </Link>
+                    </li>{" "}
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-1 px-4 rounded">
                       <Link className="" href="/courses">
                         Courses
                       </Link>
