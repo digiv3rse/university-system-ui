@@ -1,9 +1,6 @@
-"use client";
+import React from "react";
 
-import React, { useState } from "react";
-
-const CourseTabs = () => {
-  const [tabOpen, setTabOpen] = useState("Overview");
+const CourseTabs = ({ tabOpen, setTabOpen }) => {
   return (
     <div>
       <div className="bg-white border-b rounded-tl-lg rounded-tr-lg text-zinc-500 text-[0.94rem] leading-5 break-words py-4 px-6 border-gray-200/60 border-solid">
