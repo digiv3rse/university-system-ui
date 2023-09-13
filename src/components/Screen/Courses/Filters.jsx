@@ -31,7 +31,7 @@ const Filters = () => {
         </div>
         {/* ============================================== */}
         <div className="xl:col-span-3 ">
-          <div className="flex gap-x-4 justify-between">
+          <div className="sm:flex sm:gap-x-4 space-y-4 sm:space-y-0 justify-between">
             <div className="text-zinc-500 text-[0.94rem] leading-5 border border-gray-200 border-solid rounded-md py-1 bg-white">
               {" "}
               <FilterableList items={itemsCategory} title="Category" />
@@ -44,7 +44,7 @@ const Filters = () => {
         </div>
         {/* ============================================== */}
         <div className="xl:col-span-3">
-          <div className="flex gap-x-4 justify-between">
+          <div className="sm:flex sm:gap-x-4 space-y-4 sm:space-y-0 justify-between">
             <div className="text-zinc-500 text-[0.94rem] leading-5 border border-gray-200 border-solid rounded-md py-1 bg-white">
               {" "}
               <FilterableList items={skillLevel} title="Skill Level" />

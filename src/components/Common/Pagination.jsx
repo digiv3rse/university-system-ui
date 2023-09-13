@@ -27,7 +27,7 @@ const Pagination = () => {
 
           <li className="list-item float-left mx-1 mt-1">
             <Link
-              className="bg-primary-600/[0.1] hover:bg-primary-600 text-primary-600 hover:text-white duration-300 transition ease-in-out cursor-pointer py-3 px-4 z-[3] rounded-md"
+              className="hover:bg-primary-600/[0.1] bg-primary-600 hover:text-primary-600 text-white duration-300 transition ease-in-out cursor-pointer py-3 px-4 z-[3] rounded-md"
               href="#"
             >
               2
