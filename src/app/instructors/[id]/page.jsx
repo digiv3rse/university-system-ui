@@ -3,6 +3,7 @@ import React from "react";
 import InstructorAbout from "@/components/Screen/Instructor/InstructorDetails/InstructorAbout";
 import InstructorImage from "@/components/Screen/Instructor/InstructorDetails/InstructorImage";
 import InstructorIntro from "@/components/Screen/Instructor/InstructorDetails/InstructorIntro";
+import InstructorCourses from "@/components/Screen/Instructor/InstructorDetails/InstructorCourses";
 
 const InstructorDetailsPage = () => {
   return (
@@ -14,6 +15,7 @@ const InstructorDetailsPage = () => {
         </div>
         <div className="lg:col-span-2 h-auto">
           <InstructorIntro />
+          <InstructorCourses />
         </div>
       </div>
       {/* ============================== related course instructor */}
