@@ -11,7 +11,7 @@ const CourseTags = () => {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               blog
@@ -21,7 +21,7 @@ const CourseTags = () => {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               business
@@ -31,7 +31,7 @@ const CourseTags = () => {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               theme
@@ -41,7 +41,7 @@ const CourseTags = () => {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               bootstrap
@@ -51,7 +51,7 @@ const CourseTags = () => {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               data science
@@ -61,7 +61,7 @@ const CourseTags = () => {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               web development
@@ -71,7 +71,7 @@ const CourseTags = () => {
           <li className="inline-block mr-2">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               tips
@@ -81,7 +81,7 @@ const CourseTags = () => {
           <li className="inline-block">
             {" "}
             <Link
-              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden"
+              className="cursor-pointer inline-block text-[0.81rem] font-medium mb-1.5 py-1.5 px-3 text-center align-middle border border-gray-300 border-solid rounded overflow-hidden hover:bg-gray-200 duration-300"
               href="#"
             >
               machine learning
