@@ -19,12 +19,18 @@ const Curriculum = () => {
       second: "10",
     },
     {
-      title: "This is demo title 2",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quidem culpa atque unde molestias ipsum, excepturi maiores fuga repudiandae nobis tempora laudantium sapiente temporibus omnis.",
+      title: "Customer Life cycle",
+      desc: "What is digital marketing",
+      lecture: "4",
+      minute: "11",
+      second: "20",
     },
     {
-      title: "This is demo title 3",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quidem culpa atque unde molestias ipsum, excepturi maiores fuga repudiandae nobis tempora laudantium sapiente temporibus omnis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quidem culpa atque unde molestias ipsum, excepturi maiores fuga repudiandae nobis tempora laudantium sapiente temporibus omnis.",
+      title: "Introduction of Digital Marketing",
+      desc: "Introduction",
+      lecture: "3",
+      minute: "2",
+      second: "10",
     },
   ];
 
