@@ -87,9 +87,9 @@ export const ArrowLeft = (props) => {
   );
 };
 
-export const StarSVG = () => {
+export const StarSVG = (props) => {
   return (
-    <ul className="items-center flex justify-center mb-4">
+    <ul {...props}>
       <li>
         <svg
           xmlns="http://www.w3.org/2000/svg"

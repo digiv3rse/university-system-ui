@@ -7,15 +7,22 @@ import InstructorCourses from "@/components/Screen/Instructor/InstructorDetails/
 
 const InstructorDetailsPage = () => {
   return (
-    <section className="mt-10 md:mt-20">
+    <section className="mt-10">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 lg:gap-8">
-        <div className="space-y-8 md:space-y-0 lg:space-y-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+        <div className="space-y-8 md:space-y-0 lg:space-y-8 grid grid-cols-1 md:grid-cols-2 lg:block gap-6">
           <InstructorImage />
           <InstructorAbout />
         </div>
-        <div className="lg:col-span-2 h-auto">
+        <div className="lg:col-span-2">
           <InstructorIntro />
-          <InstructorCourses />
+          <div className="mt-10 md:mt-20">
+            <Title>Courses List</Title>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-10">
+              {Array.from({ length: 4 }).map((_, idx) => (
+                <InstructorCourses key={idx} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
       {/* ============================== related course instructor */}

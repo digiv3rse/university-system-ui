@@ -5,7 +5,7 @@ import React from "react";
 
 const InstructorImage = () => {
   return (
-    <section className="bg-white text-zinc-500 text-[0.94rem] leading-5 break-words text-center rounded-lg p-2 shadow-3xl h-auto">
+    <section className="bg-white text-zinc-500 text-[0.94rem] leading-5 break-words text-center rounded-lg p-2 shadow-3xl">
       <div className="rounded-lg">
         <img
           className="w-full h-full xl:h-96 xl:w-96 align-middle rounded-lg overflow-clip object-fill object-top"
@@ -15,7 +15,7 @@ const InstructorImage = () => {
       </div>
 
       <div className="p-4 mb-2">
-        <StarSVG />
+        <StarSVG className="items-center flex justify-center mb-4" />
         <ul className="flex items-center justify-center gap-3">
           <li className="">
             <Link
