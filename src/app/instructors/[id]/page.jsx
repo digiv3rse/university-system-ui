@@ -10,7 +10,7 @@ const InstructorDetailsPage = () => {
           <InstructorImage />
           <InstructorAbout />
         </div>
-        <div className="border p-3 col-span-2">2</div>
+        <div className="lg:col-span-2 h-auto">2</div>
       </div>
     </section>
   );
