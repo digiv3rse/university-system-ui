@@ -27,7 +27,8 @@ const CourseDetailsPage = () => {
           {tabOpen === "Instructor" ? <Instructor /> : ""}
           {tabOpen === "Reviews" ? <Reviews /> : ""}
         </div>
-        <div className="space-y-6">
+
+        <div className="space-y-8">
           <section>
             <CourseCard />
           </section>
