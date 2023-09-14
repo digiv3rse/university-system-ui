@@ -15,7 +15,7 @@ import { blogs } from "../../../../data/blogs";
 import Image from "next/image";
 import Title from "@/components/Common/Title";
 
-const Blogs = () => {
+const HomeEvents = () => {
   return (
     <div className="mt-10 md:mt-20">
       <Title>Upcoming Events</Title>
@@ -137,4 +137,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default HomeEvents;
