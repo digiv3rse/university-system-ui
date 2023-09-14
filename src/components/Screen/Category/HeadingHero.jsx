@@ -10,15 +10,15 @@ const HeadingHero = () => {
   };
 
   return (
-    <div className="py-12 bg-[#F5F7F9] rounded-lg">
-      <div className=" text-zinc-500 text-[0.94rem] grid grid-cols-1 lg:grid-cols-4 items-center">
-        <div className="px-3.5 text-center">
+    <div className="pt-12 lg:py-12 bg-[#F5F7F9] rounded-lg">
+      <div className=" text-zinc-500 text-[0.94rem] grid grid-cols-1 lg:grid-cols-4 items-center gap-8">
+        <div className="px-3.5 text-center order-2 lg:order-1">
           <img className="h-80 w-72 align-middle overflow-clip" src="/category-1.svg" alt="" />
         </div>
 
         {SearchBox(handleSubmit)}
 
-        <div className="">
+        <div className=" order-2 lg:order-3">
           <img className="h-64 w-64 align-middle overflow-clip" src="/category-2.svg" alt="" />
         </div>
       </div>
@@ -31,7 +31,7 @@ export default HeadingHero;
 // ==================================== search category function
 function SearchBox(handleSubmit) {
   return (
-    <div className="px-12 relative text-center col-span-2">
+    <div className=" px-6 lg:px-12 relative text-center col-span-2 lg:order-2">
       <Title>What do you want to learn?</Title>
 
       <p className="my-4">Grow your skill with the most reliable online courses and certifications</p>
