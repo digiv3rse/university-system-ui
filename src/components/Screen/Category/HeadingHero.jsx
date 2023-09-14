@@ -1,8 +1,14 @@
+"use client";
+
 /* eslint-disable @next/next/no-img-element */
 import Title from "@/components/Common/Title";
 import React from "react";
 
 const HeadingHero = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className="py-12 bg-[#F5F7F9] rounded-lg">
       <div className=" text-zinc-500 text-[0.94rem] grid grid-cols-1 lg:grid-cols-4 items-center">
@@ -10,7 +16,7 @@ const HeadingHero = () => {
           <img className="h-80 w-72 align-middle overflow-clip" src="/category-1.svg" alt="" />
         </div>
 
-        {SearchBox()}
+        {SearchBox(handleSubmit)}
 
         <div className="">
           <img className="h-64 w-64 align-middle overflow-clip" src="/category-2.svg" alt="" />
@@ -23,7 +29,7 @@ const HeadingHero = () => {
 export default HeadingHero;
 
 // ==================================== search category function
-function SearchBox() {
+function SearchBox(handleSubmit) {
   return (
     <div className="px-12 relative text-center col-span-2">
       <Title>What do you want to learn?</Title>
@@ -32,7 +38,7 @@ function SearchBox() {
 
       {/* stated form */}
 
-      <form className="bg-white rounded-md p-2">
+      <form onSubmit={handleSubmit} className="bg-white rounded-md p-2">
         <div className="w-full relative">
           <input
             className="w-full h-10 rounded-bl-md rounded-tl-md text-zinc-700 cursor-text flex-grow mr-1 py-2 px-4 outline-none"
@@ -40,7 +46,7 @@ function SearchBox() {
             type="search"
           />
 
-          <button className="items-start bg-zinc-800 text-white cursor-pointer font-medium py-2 px-4 align-middle z-[2] border border-zinc-800 border-solid rounded-md overflow-hidden absolute top-0 right-0">
+          <button className="items-start bg-zinc-800 text-white cursor-pointer font-medium py-2 px-4 align-middle z-[2] border border-zinc-800 border-solid rounded-md overflow-hidden absolute top-0 right-0 hover:bg-zinc-600 duration-300 transition ease-in-out">
             Search
           </button>
         </div>
