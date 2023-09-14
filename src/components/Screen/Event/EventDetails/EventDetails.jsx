@@ -36,7 +36,7 @@ function InstructorOfEvents() {
       {/* ========= */}
       <div className="text-zinc-500 text-[0.94rem] leading-5 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 mt-6">
         <div className="">
-          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-100 border-solid rounded-lg">
+          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-200 border-solid rounded-lg">
             <div className="items-center flex justify-between">
               <div className="items-center self-stretch gap-2 flex">
                 <div className="h-12 w-12">
@@ -68,7 +68,7 @@ function InstructorOfEvents() {
         </div>
 
         <div className="">
-          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-100 border-solid rounded-lg">
+          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-200 border-solid rounded-lg">
             <div className="items-center flex justify-between">
               <div className="items-center self-stretch gap-2 flex">
                 <div className="h-12 w-12">
