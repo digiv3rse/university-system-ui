@@ -20,12 +20,14 @@ const CourseDetailsPage = () => {
     <>
       <CourseDetailsHero />
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-12 gap-8">
-        <div className=" bg-white rounded-lg  lg:col-span-2 shadow-3xl">
-          <CourseTabs tabOpen={tabOpen} setTabOpen={setTabOpen} />
-          {tabOpen === "Overview" ? <Overview /> : ""}
-          {tabOpen === "Curriculum" ? <Curriculum /> : ""}
-          {tabOpen === "Instructor" ? <Instructor /> : ""}
-          {tabOpen === "Reviews" ? <Reviews /> : ""}
+        <div className=" bg-white rounded-lg  lg:col-span-2">
+          <div className="shadow-3xl">
+            <CourseTabs tabOpen={tabOpen} setTabOpen={setTabOpen} />
+            {tabOpen === "Overview" ? <Overview /> : ""}
+            {tabOpen === "Curriculum" ? <Curriculum /> : ""}
+            {tabOpen === "Instructor" ? <Instructor /> : ""}
+            {tabOpen === "Reviews" ? <Reviews /> : ""}
+          </div>
         </div>
 
         <div className="space-y-8">
