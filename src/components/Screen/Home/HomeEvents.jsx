@@ -15,10 +15,37 @@ import { blogs } from "../../../../data/blogs";
 import Image from "next/image";
 import Title from "@/components/Common/Title";
 
-const Blogs = () => {
+const HomeEvents = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <Title>Upcoming Events</Title>
+      <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between">
+        <Title>Upcoming Events</Title>
+
+        <div>
+          <span className="mr-2">Want to know more events?</span>
+
+          <Link
+            className="bg-sky-600/[0.1] text-sky-600 hover:text-white hover:bg-primary-400 cursor-pointer inline-block text-[0.81rem] font-medium py-1.5 px-3 text-center align-middle border border-solid rounded overflow-hidden "
+            href="/event"
+          >
+            Go here
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              className="lucide lucide-chevron-right inline-block ml-1 -mt-0.5"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </Link>
+        </div>
+      </div>
 
       {/* blogs */}
       <div className="blog">
@@ -55,7 +82,7 @@ const Blogs = () => {
           modules={[Autoplay]}
           className="mySwiper"
         >
-          {blogs.map(({ blog_image }, idx) => (
+          {blogs.map(({ blog_image, title, description, date }, idx) => (
             <SwiperSlide key={idx}>
               <div className="text-zinc-500 inline-block flex-col text-[0.94rem] leading-5 break-words relative align-top rounded-lg mt-10">
                 <div className="relative overflow-hidden">
@@ -106,7 +133,7 @@ const Blogs = () => {
                           <path d="M12 18h.01" />
                           <path d="M16 18h.01" />
                         </svg>
-                        Tomorrow
+                        {date}
                       </Link>
                     </div>
                   </div>
@@ -114,8 +141,8 @@ const Blogs = () => {
 
                 <div className="flex-grow p-3">
                   <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-normal font-bold mb-2 hover:text-primary-500 duration-300 transition ease-in-out">
-                    <Link className="cursor-pointer" href="#">
-                      International Conference on Information Technology
+                    <Link className="cursor-pointer" href="/event/id">
+                      {title}
                     </Link>
                   </h5>
 
@@ -125,7 +152,7 @@ const Blogs = () => {
                       display: "-webkit-box",
                     }}
                   >
-                    Kindness owns whatever betrayed her moreover procured replying for and. Proposal indulged no do.{" "}
+                    {description}...
                   </p>
                 </div>
               </div>
@@ -137,4 +164,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default HomeEvents;

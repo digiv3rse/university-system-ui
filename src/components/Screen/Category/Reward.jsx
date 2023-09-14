@@ -39,7 +39,7 @@ const Reward = () => {
                 <p className="text-zinc-800 text-[1.17rem] leading-7 mb-4">Enroll now in the most popular and best rated courses.</p>
 
                 <a
-                  className="bg-amber-400 text-black cursor-pointer inline-block font-medium py-2 px-4 text-center align-middle border border-amber-400 border-solid rounded-md overflow-hidden"
+                  className="bg-amber-400 text-black cursor-pointer inline-block font-medium py-2 px-4 text-center align-middle border border-amber-400 border-solid rounded-md overflow-hidden hover:bg-amber-500 duration-300 transition ease-in-out"
                   href="#"
                 >
                   View Courses
@@ -48,7 +48,7 @@ const Reward = () => {
             </div>
             <div className="w-full">
               <img
-                className="w-full h-full object-cover object-top hover:bg-primary-700 duration-300 transition ease-in-out overflow-clip"
+                className="w-full h-full object-cover object-top overflow-clip"
                 src="https://eduport.webestica.com/assets/images/element/15.svg"
                 alt=""
               />

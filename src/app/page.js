@@ -1,4 +1,4 @@
-import Blogs from "@/components/Screen/Home/Blogs";
+import HomeEvents from "@/components/Screen/Home/HomeEvents";
 import CounterHome from "@/components/Screen/Home/CounterHome";
 import Hero from "@/components/Screen/Home/Hero";
 import News from "@/components/Screen/Home/News";
@@ -13,7 +13,7 @@ export default function Home() {
       <TopCourses />
       <CounterHome />
       <News />
-      <Blogs />
+      <HomeEvents />
     </>
   );
 }
