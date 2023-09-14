@@ -115,6 +115,16 @@ const Navbar = () => {
                       </Link>
                     </li>{" "}
                     <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
+                      <Link className="" href="/blog">
+                        Blogs
+                      </Link>
+                    </li>{" "}
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
+                      <Link className="" href="/blog/id">
+                        Blog Details
+                      </Link>
+                    </li>{" "}
+                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                       <Link className="" href="/help">
                         Help
                       </Link>

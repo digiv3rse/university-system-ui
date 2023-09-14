@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
+import EventSchedule from "./EventSchedule";
 
 const EventDetails = () => {
   return (
@@ -15,14 +16,63 @@ const EventDetails = () => {
 
           {/* ==================== */}
           {InstructorOfEvents()}
+
+          {/* =========== */}
+          <div className="mt-10">
+            <h4 className="text-zinc-800 text-[1.64rem] leading-8 font-bold">Event Schedule</h4>
+            <p className="text-zinc-500 text-[0.94rem] leading-5">
+              Understand that theory is important to build a solid foundation, we understand that theory alone
+            </p>
+            {/* ============== event schedule */}
+            <EventSchedule />{" "}
+          </div>
         </div>
-        <div>2</div>
+        <div>{EventTicketDetails()}</div>
       </div>
     </div>
   );
 };
 
 export default EventDetails;
+
+// =========================  event ticket details
+function EventTicketDetails() {
+  return (
+    <div className="bg-white text-zinc-500 flex flex-col flex-grow text-[0.94rem] leading-5 break-words py-4 px-5 rounded-lg shadow-3xl">
+      <Link
+        className="w-full bg-sky-600 text-white cursor-pointer font-medium mb-1.5 py-2 px-4 text-center align-middle border border-sky-600 border-solid rounded-md overflow-hidden hover:bg-primary-600 duration-300 transition ease-in-out"
+        href="/"
+      >
+        {" "}
+        Buy ticket{" "}
+      </Link>
+
+      <div className="mt-6">
+        <ul className="mb-6">
+          <li className="flex justify-between mb-4">
+            {" "}
+            <span className="w-36">Ticket Price:</span> <h6 className="text-zinc-800 font-bold text-right"> $210.00 </h6>
+          </li>
+
+          <li className="flex justify-between mb-4">
+            {" "}
+            <span className="w-36">Entry fees:</span> <h6 className="text-zinc-800 font-bold text-right"> $1 per ticket </h6>
+          </li>
+
+          <li className="flex justify-between mb-4">
+            {" "}
+            <span className="w-36">Address:</span> <h6 className="text-zinc-800 font-bold text-right"> 750 Sing Sing Rd, Horseheads, NY, 14845 </h6>
+          </li>
+        </ul>
+
+        <iframe
+          className="w-full h-56 rounded-md overflow-clip"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sin!4v1586000412513!5m2!1sen!2sin"
+        />
+      </div>
+    </div>
+  );
+}
 
 // ============================= instructors event
 
@@ -36,7 +86,7 @@ function InstructorOfEvents() {
       {/* ========= */}
       <div className="text-zinc-500 text-[0.94rem] leading-5 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 mt-6">
         <div className="">
-          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-100 border-solid rounded-lg">
+          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-200 border-solid rounded-lg">
             <div className="items-center flex justify-between">
               <div className="items-center self-stretch gap-2 flex">
                 <div className="h-12 w-12">
@@ -68,7 +118,7 @@ function InstructorOfEvents() {
         </div>
 
         <div className="">
-          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-100 border-solid rounded-lg">
+          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-200 border-solid rounded-lg">
             <div className="items-center flex justify-between">
               <div className="items-center self-stretch gap-2 flex">
                 <div className="h-12 w-12">
