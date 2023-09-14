@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 const EventDetails = () => {
@@ -8,6 +10,11 @@ const EventDetails = () => {
           {/* ================== */}
           {OrganizedDetails()}
           {/* ========================= */}
+
+          {EventAboutContent()}
+
+          {/* ==================== */}
+          {InstructorOfEvents()}
         </div>
         <div>2</div>
       </div>
@@ -16,6 +23,104 @@ const EventDetails = () => {
 };
 
 export default EventDetails;
+
+// ============================= instructors event
+
+function InstructorOfEvents() {
+  return (
+    <div className="mt-10">
+      <h4 className="text-zinc-800 text-[1.64rem] leading-8 font-bold">Speakers</h4>
+      <p className="text-zinc-500 text-[0.94rem] leading-5">
+        Understand that theory is important to build a solid foundation, we understand that theory alone
+      </p>
+      {/* ========= */}
+      <div className="text-zinc-500 text-[0.94rem] leading-5 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 mt-6">
+        <div className="">
+          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-100 border-solid rounded-lg">
+            <div className="items-center flex justify-between">
+              <div className="items-center self-stretch gap-2 flex">
+                <div className="h-12 w-12">
+                  <img
+                    className="h-full w-full object-cover align-middle rounded-full overflow-clip"
+                    src="https://eduport.webestica.com/assets/images/avatar/08.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div>
+                  <h6 className="text-zinc-800 font-bold">
+                    <Link className="cursor-pointer" href="#">
+                      Dennis Barrett
+                    </Link>
+                  </h6>
+
+                  <small className="text-[0.82rem]">2.5M followers</small>
+                </div>
+              </div>
+
+              <Link href="/instructors/id">
+                <button className="items-start bg-zinc-800 hover:bg-zinc-600 duration-300 transition ease-in-out text-white cursor-pointer text-[0.81rem] font-medium py-1.5 px-3 text-center align-middle border border-zinc-800 border-solid rounded overflow-hidden">
+                  Know more
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="">
+          <div className="bg-white flex flex-col flex-grow break-words py-4 px-5 border border-gray-100 border-solid rounded-lg">
+            <div className="items-center flex justify-between">
+              <div className="items-center self-stretch gap-2 flex">
+                <div className="h-12 w-12">
+                  <img
+                    className="h-full w-full object-cover align-middle rounded-full overflow-clip"
+                    src="https://eduport.webestica.com/assets/images/avatar/01.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div>
+                  <h6 className="text-zinc-800 font-bold">
+                    <Link className="cursor-pointer" href="#">
+                      Jacqueline Miller
+                    </Link>
+                  </h6>
+
+                  <small className="text-[0.82rem]">40K followers</small>
+                </div>
+              </div>
+
+              <Link href="/instructors/id">
+                <button className="items-start bg-zinc-800 hover:bg-zinc-600 duration-300 transition ease-in-out text-white cursor-pointer text-[0.81rem] font-medium py-1.5 px-3 text-center align-middle border border-zinc-800 border-solid rounded overflow-hidden">
+                  Know more
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ================================ about event
+
+function EventAboutContent() {
+  return (
+    <div className="mt-8">
+      <h4 className="text-zinc-800 text-[1.64rem] leading-8 font-bold">About this event</h4>
+      <p className="text-zinc-500 text-[0.94rem] leading-5 mt-3">
+        Satisfied conveying a dependent contented he gentleman agreeable do be. Warrant private blushes removed and in equally totally if. Delivered
+        dejection necessary objection do Mr prevailed. Mr feeling chiefly cordial in doing.
+      </p>
+      <p className="text-zinc-500 text-[0.94rem] leading-5 mt-4">
+        We focus a great deal on the understanding of behavioral psychology and influence triggers which are crucial for becoming a well-rounded
+        Digital Marketer. We understand that theory is important to build a solid foundation, we understand that theory alone isn’t going to get the
+        job done so that’s why this course is packed with practical hands-on examples that you can follow step by step.
+      </p>
+    </div>
+  );
+}
 
 // ============================================ date time location details
 function OrganizedDetails() {
