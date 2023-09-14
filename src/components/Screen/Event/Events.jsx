@@ -66,7 +66,7 @@ const Events = () => {
 
               <div className="flex-grow p-3">
                 <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-snug font-bold mb-2 hover:text-primary-500 duration-300 transition ease-in-out">
-                  <Link className="cursor-pointer" href="#">
+                  <Link className="cursor-pointer" href="/event/id">
                     {title}
                   </Link>
                 </h5>
