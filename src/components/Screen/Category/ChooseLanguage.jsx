@@ -32,7 +32,7 @@ function Language(imageSrc, lang_name) {
       <img className="h-10 w-16 mr-4 align-middle overflow-clip" src={imageSrc} alt="" />
 
       <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold hover:text-primary-600">
-        <Link className="text-zinc-500 cursor-pointer" href="#">
+        <Link className=" cursor-pointer" href="#">
           {lang_name}
         </Link>
       </h5>
