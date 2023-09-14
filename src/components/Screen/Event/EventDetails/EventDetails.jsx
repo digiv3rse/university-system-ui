@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
+import EventSchedule from "./EventSchedule";
 
 const EventDetails = () => {
   return (
@@ -15,6 +16,16 @@ const EventDetails = () => {
 
           {/* ==================== */}
           {InstructorOfEvents()}
+
+          {/* =========== */}
+          <div className="mt-10">
+            <h4 className="text-zinc-800 text-[1.64rem] leading-8 font-bold">Event Schedule</h4>
+            <p className="text-zinc-500 text-[0.94rem] leading-5">
+              Understand that theory is important to build a solid foundation, we understand that theory alone
+            </p>
+            {/* ============== event schedule */}
+            <EventSchedule />{" "}
+          </div>
         </div>
         <div>2</div>
       </div>
