@@ -82,7 +82,7 @@ const HomeEvents = () => {
           modules={[Autoplay]}
           className="mySwiper"
         >
-          {blogs.map(({ blog_image }, idx) => (
+          {blogs.map(({ blog_image, title, description, date }, idx) => (
             <SwiperSlide key={idx}>
               <div className="text-zinc-500 inline-block flex-col text-[0.94rem] leading-5 break-words relative align-top rounded-lg mt-10">
                 <div className="relative overflow-hidden">
@@ -133,7 +133,7 @@ const HomeEvents = () => {
                           <path d="M12 18h.01" />
                           <path d="M16 18h.01" />
                         </svg>
-                        Tomorrow
+                        {date}
                       </Link>
                     </div>
                   </div>
@@ -142,7 +142,7 @@ const HomeEvents = () => {
                 <div className="flex-grow p-3">
                   <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-normal font-bold mb-2 hover:text-primary-500 duration-300 transition ease-in-out">
                     <Link className="cursor-pointer" href="#">
-                      International Conference on Information Technology
+                      {title}
                     </Link>
                   </h5>
 
@@ -152,7 +152,7 @@ const HomeEvents = () => {
                       display: "-webkit-box",
                     }}
                   >
-                    Kindness owns whatever betrayed her moreover procured replying for and. Proposal indulged no do.{" "}
+                    {description}...
                   </p>
                 </div>
               </div>

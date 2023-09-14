@@ -7,7 +7,7 @@ const Events = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8 ">
-        {blogs.slice(0, 8).map(({ blog_image }, idx) => (
+        {blogs.slice(0, 8).map(({ blog_image, title, description, date }, idx) => (
           <div key={idx} className="shadow-3xl rounded-lg">
             <div className="text-zinc-500 inline-block flex-col text-[0.94rem] leading-5 break-words relative align-top rounded-lg">
               <div className="relative overflow-hidden">
@@ -58,16 +58,16 @@ const Events = () => {
                         <path d="M12 18h.01" />
                         <path d="M16 18h.01" />
                       </svg>
-                      Tomorrow
+                      {date}
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className="flex-grow p-3">
-                <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-normal font-bold mb-2 hover:text-primary-500 duration-300 transition ease-in-out">
+                <h5 className="text-zinc-800 text-[20px] lg:text-[1.31rem] leading-snug font-bold mb-2 hover:text-primary-500 duration-300 transition ease-in-out">
                   <Link className="cursor-pointer" href="#">
-                    International Conference on Information Technology
+                    {title}
                   </Link>
                 </h5>
 
@@ -77,22 +77,8 @@ const Events = () => {
                     display: "-webkit-box",
                   }}
                 >
-                  Kindness owns whatever betrayed her moreover procured replying for and. Proposal indulged no do.{" "}
+                  {description}...
                 </p>
-              </div>
-              <hr className="my-2" />
-              <div className="rounded-bl-lg rounded-br-lg pb-4 px-4">
-                <div className="flex justify-between">
-                  <span className="text-zinc-800">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" className="text-rose-600 inline-block mr-2">
-                      <path
-                        fill="currentColor"
-                        d="M12 20a8 8 0 0 0 8-8a8 8 0 0 0-8-8a8 8 0 0 0-8 8a8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10a10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67l-.75 1.23L11 13V7h1.5Z"
-                      />
-                    </svg>
-                    15h 6m
-                  </span>
-                </div>
               </div>
             </div>
           </div>
