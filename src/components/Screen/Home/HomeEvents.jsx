@@ -18,7 +18,34 @@ import Title from "@/components/Common/Title";
 const HomeEvents = () => {
   return (
     <div className="mt-10 md:mt-20">
-      <Title>Upcoming Events</Title>
+      <div className="items-center text-zinc-500 md:flex space-y-3 md:space-y-0 text-[0.94rem] leading-5 justify-between">
+        <Title>Upcoming Events</Title>
+
+        <div>
+          <span className="mr-2">Want to know more events?</span>
+
+          <Link
+            className="bg-sky-600/[0.1] text-sky-600 hover:text-white hover:bg-primary-400 cursor-pointer inline-block text-[0.81rem] font-medium py-1.5 px-3 text-center align-middle border border-solid rounded overflow-hidden "
+            href="/event"
+          >
+            Go here
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              className="lucide lucide-chevron-right inline-block ml-1 -mt-0.5"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </Link>
+        </div>
+      </div>
 
       {/* blogs */}
       <div className="blog">
