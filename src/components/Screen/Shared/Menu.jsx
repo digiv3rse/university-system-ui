@@ -59,6 +59,21 @@ const Menu = () => {
               </Link>
             </li>{" "}
             <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/category">
+                Categories
+              </Link>
+            </li>
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/event">
+                Events
+              </Link>
+            </li>{" "}
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
+              <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/blog">
+                Blogs
+              </Link>
+            </li>{" "}
+            <li onClick={() => setMenuOpen(!menuOpen)} className="list-item py-2 border-b border-primary-50">
               <Link className="cursor-pointer font-medium py-2 align-middle px-4 " href="/instructors">
                 404
               </Link>
