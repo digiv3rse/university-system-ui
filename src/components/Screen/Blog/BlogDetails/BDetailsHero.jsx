@@ -4,7 +4,7 @@ import React from "react";
 
 const BDetailsHero = () => {
   return (
-    <div className=" mt-2 lg:mt-5">
+    <section className=" mt-2 lg:mt-5">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 items-center">
         <div className=" order-2 lg:order-1">
           <div className="text-zinc-500 text-[0.94rem] leading-5 lg:text-center">
@@ -80,7 +80,7 @@ const BDetailsHero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
