@@ -23,12 +23,10 @@ const Navbar = () => {
         </Link>
 
         <div className="w-full items-center flex flex-grow">
-          <ul className="flex mx-auto gap-x-4">
-            <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/">
-                Home
-              </Link>
-            </li>{" "}
+          <ul className="flex mx-auto gap-x-4 items-center">
+            <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/">
+              <li className="list-item">Home</li>{" "}
+            </Link>
             <li className="list-item text-zinc-500">
               <div className="relative group duration-300 transition ease-in-out">
                 <button onClick={togglePagesDropdown} className="font-medium focus:outline-none">
@@ -47,31 +45,31 @@ const Navbar = () => {
 
                 <div className="hidden group-hover:block duration-300 transition ease-in-out absolute left-0 mt bg-white w-full lg:w-52 rounded-b-lg p-3 text-zinc-500 z-[999999] shadow">
                   <ul className="w-full">
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/instructors">
+                    <Link className="" href="/instructors">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Instructor Lists
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/instructors/id">
+                      </li>{" "}
+                    </Link>
+                    <Link className="" href="/instructors/id">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Instructor Details
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/category">
+                      </li>{" "}
+                    </Link>
+                    <Link className="" href="/category">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Course Category
-                      </Link>
-                    </li>
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/courses">
+                      </li>
+                    </Link>
+                    <Link className="" href="/courses">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Courses
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/courses/id">
+                      </li>{" "}
+                    </Link>
+                    <Link className="" href="/courses/id">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Course Details
-                      </Link>
-                    </li>{" "}
+                      </li>{" "}
+                    </Link>
                     <li onClick={toggleAuthDropdown} className="relative group w-full px-4 py-2 cursor-pointer font-medium">
                       <button onClick={toggleAuthDropdown} className="flex items-center w-full focus:outline-none justify-between">
                         <span>Authentication</span>
@@ -85,75 +83,63 @@ const Navbar = () => {
                       {isAuthDropdownOpen && (
                         <div className="absolute left-full top-0 mt-0 p-3 rounded-lg shadow-3xl bg-white text-zinc-500 w-full lg:w-52">
                           <ul className="w-full" onClick={toggleAuthDropdown}>
-                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                              <Link className="" href="/login">
+                            <Link className="" href="/login">
+                              <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                                 Login
-                              </Link>{" "}
-                            </li>{" "}
-                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                              <Link className="" href="/signup">
+                              </li>{" "}
+                            </Link>{" "}
+                            <Link className="" href="/signup">
+                              <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                                 Sign Up
-                              </Link>{" "}
-                            </li>{" "}
-                            <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                              <Link className="" href="/forgotpassword">
+                              </li>{" "}
+                            </Link>{" "}
+                            <Link className="" href="/forgotpassword">
+                              <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                                 Forgot Password
-                              </Link>{" "}
-                            </li>
+                              </li>
+                            </Link>{" "}
                           </ul>
                         </div>
                       )}
                     </li>
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/event">
-                        Events
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/event/id">
+                    <Link className="" href="/event">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">Events</li>{" "}
+                    </Link>
+                    <Link className="" href="/event/id">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Event Details
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/blog">
-                        Blogs
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/blog/id">
+                      </li>{" "}
+                    </Link>
+                    <Link className="" href="/blog">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">Blogs</li>{" "}
+                    </Link>
+                    <Link className="" href="/blog/id">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Blog Details
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/help">
-                        Help
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/faq">
-                        FAQ
-                      </Link>
-                    </li>{" "}
-                    <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
-                      <Link className="" href="/aaaa">
+                      </li>{" "}
+                    </Link>
+                    <Link className="" href="/help">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">Help</li>{" "}
+                    </Link>
+                    <Link className="" href="/faq">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">FAQ</li>{" "}
+                    </Link>
+                    <Link className="" href="/aaaa">
+                      <li className="list-item w-full hover:bg-primary-50 hover:text-sky-600 cursor-pointer font-medium py-2 px-4 rounded">
                         Not Found
-                      </Link>
-                    </li>{" "}
+                      </li>{" "}
+                    </Link>
                   </ul>
                 </div>
               </div>
             </li>
             {/*  */}
-            <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/about">
-                About
-              </Link>
-            </li>
-            <li className="list-item">
-              <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/contact">
-                Contact
-              </Link>
-            </li>
+            <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/about">
+              <li className="list-item">About</li>
+            </Link>
+            <Link className="hover:text-sky-600 cursor-pointer font-medium py-2 px-4" href="/contact">
+              <li className="list-item">Contact</li>
+            </Link>
           </ul>
 
           <div className="items-center hidden lg:flex px-6">
