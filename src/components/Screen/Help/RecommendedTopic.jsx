@@ -17,7 +17,7 @@ const RecommendedTopic = () => {
             <div className="h-full bg-slate-100 flex flex-col break-words rounded-lg py-2">
               <div className="rounded-tl-lg rounded-tr-lg px-4 pt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 14 14" className="text-emerald-500">
-                  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M7 13.5a6.5 6.5 0 1 0 0-13a6.5 6.5 0 0 0 0 13Z" />
                     <path d="M3.7 8c.5 1.8 2.5 2.9 4.3 2.4c1.1-.4 2-1.3 2.3-2.4M4.8 5.45a.25.25 0 0 1 0-.5m0 .5a.25.25 0 0 0 0-.5m4.4.5a.25.25 0 0 1 0-.5m0 .5a.25.25 0 0 0 0-.5" />
                   </g>
@@ -34,9 +34,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -50,9 +50,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -66,9 +66,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -82,9 +82,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -98,9 +98,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -119,9 +119,9 @@ const RecommendedTopic = () => {
                   <path
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="m21 14l-9 6l-9-6m18-4l-9 6l-9-6l9-6l9 6Z"
                   />
                 </svg>
@@ -137,9 +137,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -153,9 +153,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -169,9 +169,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -185,9 +185,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -201,9 +201,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -236,9 +236,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -252,9 +252,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -268,9 +268,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -284,9 +284,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -300,9 +300,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -318,14 +318,14 @@ const RecommendedTopic = () => {
             <div className="h-full bg-slate-100 flex flex-col break-words rounded-lg py-2">
               <div className="rounded-tl-lg rounded-tr-lg px-4 pt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" className="text-violet-500">
-                  <g fill="none" stroke="currentColor" stroke-width="1.5">
+                  <g fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path
-                      stroke-linecap="round"
+                      strokeLinecap="round"
                       d="M22 22H2m0-11l4.063-3.25M22 11l-8.126-6.5a3 3 0 0 0-3.748 0l-.782.625M15.5 5.5v-2A.5.5 0 0 1 16 3h2.5a.5.5 0 0 1 .5.5v5M4 22V9.5m16 0v4m0 8.5v-4.5"
                     />
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M15 22v-5c0-1.414 0-2.121-.44-2.56C14.122 14 13.415 14 12 14c-1.414 0-2.121 0-2.56.44M9 22v-5"
                     />
                     <path d="M14 9.5a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z" />
@@ -342,9 +342,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -358,9 +358,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -374,9 +374,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -390,9 +390,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>
@@ -406,9 +406,9 @@ const RecommendedTopic = () => {
                         <path
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m10 17l5-5m0 0l-5-5"
                         />
                       </svg>

@@ -16,9 +16,9 @@ const EDetailsHero = () => {
             <div className="absolute right-5 top-5">
               <button className=" bg-white hover:bg-slate-200 duration-300 transition ease-in-out items-start text-zinc-800 cursor-pointer text-[0.81rem] font-medium py-1.5 px-3 text-center align-middle border border-white border-solid rounded overflow-hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" className="inline-block mr-1 -mt-1">
-                  <g fill="none" stroke="currentColor" stroke-width="1.5">
+                  <g fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M9 12a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0Z" />
-                    <path stroke-linecap="round" d="M14 6.5L9 10m5 7.5L9 14" />
+                    <path strokeLinecap="round" d="M14 6.5L9 10m5 7.5L9 14" />
                     <path d="M19 18.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0Zm0-13a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0Z" />
                   </g>
                 </svg>{" "}
