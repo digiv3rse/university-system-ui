@@ -226,8 +226,6 @@ const BDetailsVideo = () => {
           </ul>
         </div>
       </div>
-      {/* horizontal line */}
-      <hr className="my-10" />
     </section>
   );
 };
