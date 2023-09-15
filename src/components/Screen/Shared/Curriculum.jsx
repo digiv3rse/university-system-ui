@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import CurriculumItem from "./CurriculumItem";
-import { curriculumData } from "../../../../../../data/curriculumData";
+import AccordionItem from "./AccordionItem";
+import { curriculumData } from "../../../../data/curriculumData";
 
-const Curriculum = () => {
+const Accordion = () => {
   const [open, setOpen] = useState(false);
   const toggle = (index) => {
     if (open === index) {
@@ -15,10 +15,10 @@ const Curriculum = () => {
   return (
     <div className="py-8 px-5">
       {curriculumData.map((data, idx) => {
-        return <CurriculumItem key={idx} data={data} open={idx === open} toggle={() => toggle(idx)} />;
+        return <AccordionItem key={idx} data={data} open={idx === open} toggle={() => toggle(idx)} />;
       })}
     </div>
   );
 };
 
-export default Curriculum;
+export default Accordion;
