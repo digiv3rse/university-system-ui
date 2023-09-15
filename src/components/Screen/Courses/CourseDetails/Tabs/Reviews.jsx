@@ -41,9 +41,9 @@ const Reviews = () => {
           </p>
 
           <div className="inline-flex relative align-middle rounded-md">
-            <input className="h-3 w-3 bottom-[1.33rem] text-black left-0 absolute right-[6.24rem] top-0" type="radio" />
+            {/* <input className="h-3 w-3 bottom-[1.33rem] text-black left-0 absolute right-[6.24rem] top-0" type="radio" /> */}
 
-            <label className="bg-gray-300 rounded-bl rounded-tl text-zinc-800 cursor-pointer flex-grow text-[0.81rem] font-medium py-1.5 px-3 text-center z-[1] border border-gray-300 border-solid overflow-hidden">
+            <label className="hover:bg-gray-300 duration-300 transition ease-in-out rounded-bl rounded-tl text-zinc-800 cursor-pointer flex-grow text-[0.81rem] font-medium py-1.5 px-3 text-center z-[1] border border-gray-300 border-solid overflow-hidden">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 1024 1024" className="inline-block mr-1 -mt-1">
                 <path
                   fill="currentColor"
@@ -58,9 +58,9 @@ const Reviews = () => {
               25
             </label>
 
-            <input className="h-3 w-3 bottom-[1.33rem] text-black left-0 absolute right-[6.24rem] top-0" type="radio" />
+            {/* <input className="h-3 w-3 bottom-[1.33rem] text-black left-0 absolute right-[6.24rem] top-0" type="radio" /> */}
 
-            <label className="rounded-br rounded-tr cursor-pointer flex-grow text-[0.81rem] font-medium py-1.5 px-3 text-center border border-gray-300 border-solid overflow-hidden">
+            <label className="hover:bg-gray-300 duration-300 transition ease-in-out rounded-br rounded-tr cursor-pointer flex-grow text-[0.81rem] font-medium py-1.5 px-3 text-center border border-gray-300 border-solid overflow-hidden">
               {" "}
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" className="inline-block mr-1 -mt-1">
                 <path
