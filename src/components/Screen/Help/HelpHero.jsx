@@ -3,7 +3,7 @@ import React from "react";
 
 const HelpHero = () => {
   return (
-    <div className="py-12 bg-slate-200 rounded-lg">
+    <div className="py-12 bg-[#E6F0F9] rounded-lg">
       <div className="text-zinc-500 flex flex-wrap text-[0.94rem] leading-5">
         <div className="mx-auto px-3.5 text-center">
           <h1 className="text-zinc-800 text-[2.2rem] md:text-[2.8rem] lg:text-[3.2rem] xl:text-[3.50rem] leading-none font-bold mb-2">
@@ -26,7 +26,7 @@ const HelpHero = () => {
             </div>
           </form>
 
-          <div className="items-center flex flex-wrap mt-6">
+          <div className="items-center flex flex-wrap mt-6 w-full sm:w-[75%] mx-auto">
             <div className="w-full px-3.5">
               <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold mb-4">Popular questions</h5>
 
@@ -72,8 +72,8 @@ const HelpHero = () => {
                 </a>
 
                 <a
-                  className="bg-sky-600/[0.1] text-sky-600 cursor-pointer text-[0.81rem] mb-1.5 py-1.5 px-3 align-middle border border-solid rounded overflow-hidden"
-                  href="https://eduport.webestica.com/#!"
+                  className="bg-sky-600/[0.1] text-sky-600 cursor-pointer text-[0.81rem] mb-1.5 py-1.5 px-3 align-middle border border-solid rounded overflow-hidden hover:bg-primary-200 duration-300"
+                  href="/"
                 >
                   View all question
                 </a>
