@@ -14,7 +14,7 @@ const News = () => {
 
           <Link
             className="bg-sky-600/[0.1] text-sky-600 hover:text-white hover:bg-primary-400 cursor-pointer inline-block text-[0.81rem] font-medium py-1.5 px-3 text-center align-middle border border-solid rounded overflow-hidden "
-            href="/"
+            href="/blog"
           >
             Go here
             <svg

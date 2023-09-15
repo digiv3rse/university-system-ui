@@ -11,7 +11,7 @@ import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
 import Link from "next/link";
-import { blogs } from "../../../../data/blogs";
+import { events } from "../../../../data/events";
 import Image from "next/image";
 import Title from "@/components/Common/Title";
 
@@ -82,7 +82,7 @@ const HomeEvents = () => {
           modules={[Autoplay]}
           className="mySwiper"
         >
-          {blogs.map(({ blog_image, title, description, date }, idx) => (
+          {events.map(({ blog_image, title, description, date }, idx) => (
             <SwiperSlide key={idx}>
               <div className="text-zinc-500 inline-block flex-col text-[0.94rem] leading-5 break-words relative align-top rounded-lg mt-10">
                 <div className="relative overflow-hidden">

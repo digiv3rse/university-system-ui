@@ -3,7 +3,7 @@ import React from "react";
 
 const SocialLinks = () => {
   return (
-    <ul className=" space-x-3 lg:space-x-6 pl-2 lg:pl-3  mt-5">
+    <ul className=" space-x-3 lg:space-x-6 pl-2 lg:pl-3 mt-5">
       <li className="inline-block mr-2">
         {" "}
         <Link className="text-indigo-500 cursor-pointer mr-1" href="#">
@@ -19,7 +19,7 @@ const SocialLinks = () => {
 
       <li className="inline-block mr-2">
         {" "}
-        <a className="text-pink-600 cursor-pointer mr-1" href="https://eduport.webestica.com/#">
+        <a className="text-pink-600 cursor-pointer mr-1" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256">
             <g fill="none">
               <rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60" />
@@ -62,7 +62,7 @@ const SocialLinks = () => {
 
       <li className="inline-block mr-2">
         {" "}
-        <a className="text-sky-400 cursor-pointer mr-1" href="https://eduport.webestica.com/#">
+        <a className="text-sky-400 cursor-pointer mr-1" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 128 128">
             <path
               fill="#1d9bf0"
@@ -74,7 +74,7 @@ const SocialLinks = () => {
 
       <li className="inline-block mr-2">
         {" "}
-        <a className="text-red-600 cursor-pointer mr-1" href="https://eduport.webestica.com/#">
+        <a className="text-red-600 cursor-pointer mr-1" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 128 128">
             <path
               fill="#0076b2"
@@ -90,7 +90,7 @@ const SocialLinks = () => {
 
       <li className="inline-block mr-2">
         {" "}
-        <a className="text-sky-600 cursor-pointer mr-1" href="https://eduport.webestica.com/#">
+        <a className="text-sky-600 cursor-pointer mr-1" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
             <g fill="none" stroke="#de60bc" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4">
               <path d="M44 24a19.938 19.938 0 0 1-5.889 14.173A19.937 19.937 0 0 1 24 44C12.954 44 4 35.046 4 24a19.932 19.932 0 0 1 5.5-13.775A19.943 19.943 0 0 1 24 4a19.937 19.937 0 0 1 14.111 5.827A19.938 19.938 0 0 1 44 24Z" />
@@ -105,7 +105,7 @@ const SocialLinks = () => {
 
       <li className="inline-block">
         {" "}
-        <a className="text-rose-400 cursor-pointer mr-1" href="https://eduport.webestica.com/#">
+        <a className="text-rose-400 cursor-pointer mr-1" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256">
             <path
               fill="#CB1F27"

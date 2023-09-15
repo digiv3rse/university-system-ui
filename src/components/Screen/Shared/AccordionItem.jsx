@@ -4,18 +4,22 @@ import Link from "next/link";
 import React from "react";
 import { Collapse } from "react-collapse";
 
-const CurriculumItem = ({ open, toggle, data }) => {
+const AccordionItem = ({ open, toggle, data }) => {
   return (
     <div className="pt-4">
       <div onClick={toggle}>
-        <div className="w-full bg-slate-100 cursor-pointer flex text-[0.94rem] leading-5  break-words py-4 px-5 rounded-md items-center justify-between">
+        <div
+          className={`w-full  cursor-pointer flex text-[0.94rem] leading-5  break-words py-4 px-5 rounded-md items-center justify-between ${
+            open ? "bg-zinc-800" : "bg-slate-100"
+          }`}
+        >
           <p>
-            <span className="text-black font-bold">{data.title}</span>
-            <span className="text-[0.82rem] ml-2 text-zinc-500">({data.lecture} Lectures)</span>
+            <span className={`${open ? "text-white" : "text-black"} font-bold`}>{data.title}</span>
+            <span className={`text-[0.82rem] ml-2 ${open ? "text-slate-100" : "text-zinc-500"}`}>({data.lecture} Lectures)</span>
           </p>
           <div>
             {open ? (
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="text-white">
                 <path fill="currentColor" d="M19 13H5v-2h14v2Z" />
               </svg>
             ) : (
@@ -62,4 +66,4 @@ const CurriculumItem = ({ open, toggle, data }) => {
   );
 };
 
-export default CurriculumItem;
+export default AccordionItem;

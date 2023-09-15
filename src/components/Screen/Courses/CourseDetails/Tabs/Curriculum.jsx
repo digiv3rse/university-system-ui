@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CurriculumItem from "./CurriculumItem";
+import AccordionItem from "../../../Shared/AccordionItem";
 import { curriculumData } from "../../../../../../data/curriculumData";
 
 const Curriculum = () => {
@@ -15,7 +15,7 @@ const Curriculum = () => {
   return (
     <div className="py-8 px-5">
       {curriculumData.map((data, idx) => {
-        return <CurriculumItem key={idx} data={data} open={idx === open} toggle={() => toggle(idx)} />;
+        return <AccordionItem key={idx} data={data} open={idx === open} toggle={() => toggle(idx)} />;
       })}
     </div>
   );

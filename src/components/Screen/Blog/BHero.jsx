@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
 
-const Hero = () => {
+const BHero = () => {
   return (
     <section>
       <div className="bg-[#F5F7F9] text-zinc-500 text-[0.94rem] leading-5 text-center rounded-lg p-[25.600px]">
-        <h2 className="text-black text-[25px] md:text-[45px] leading-none font-bold">Courses</h2>
+        <h2 className="text-black text-[25px] md:text-[45px] leading-none font-bold">Blogs</h2>
 
         <div className="flex justify-center">
           <div>
@@ -23,7 +23,7 @@ const Hero = () => {
                   />
                 </svg>
               </li>
-              <li className="text-gray-800 list-item">courses</li>
+              <li className="text-gray-800 list-item">blogs</li>
             </ol>
           </div>
         </div>
@@ -32,4 +32,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default BHero;
