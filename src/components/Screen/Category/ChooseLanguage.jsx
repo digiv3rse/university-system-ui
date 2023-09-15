@@ -12,9 +12,9 @@ const ChooseLanguage = () => {
       </div>
 
       {/* ============================== language grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-6">
         {languages.map(({ imageSrc, lang_name }, idx) => (
-          <div key={idx} className="text-zinc-500 text-[0.94rem] leading-5 px-3">
+          <div key={idx} className="text-zinc-500 text-[0.94rem] leading-5 ">
             {Language(imageSrc, lang_name)}
           </div>
         ))}
@@ -29,7 +29,7 @@ export default ChooseLanguage;
 function Language(imageSrc, lang_name) {
   return (
     <div className="items-center bg-slate-100 flex justify-center rounded-md p-4">
-      <img className="h-10 w-16 mr-4 align-middle overflow-clip" src={imageSrc} alt="" />
+      <img className="w-12 h-8 sm:h-10 sm:w-16 mr-4 align-middle overflow-clip" src={imageSrc} alt="" />
 
       <h5 className="text-zinc-800 text-[1.31rem] leading-7 font-bold hover:text-primary-600">
         <Link className=" cursor-pointer" href="#">
