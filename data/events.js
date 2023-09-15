@@ -4,7 +4,7 @@ import b3 from "../src/assets/blog/blog (3).jpg";
 import b4 from "../src/assets/blog/blog (4).jpg";
 import b5 from "../src/assets/blog/blog (5).jpg";
 
-export const blogs = [
+export const events = [
   {
     id: 1,
     blog_image: b1,

@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { blogs } from "../../../../data/blogs";
+import { events } from "../../../../data/events";
 
 const Events = () => {
   return (
     <div className="mt-10 md:mt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8 ">
-        {blogs.slice(0, 8).map(({ blog_image, title, description, date }, idx) => (
+        {events.slice(0, 8).map(({ blog_image, title, description, date }, idx) => (
           <div key={idx} className="shadow-3xl rounded-lg">
             <div className="text-zinc-500 inline-block flex-col text-[0.94rem] leading-5 break-words relative align-top rounded-lg">
               <div className="relative overflow-hidden">
