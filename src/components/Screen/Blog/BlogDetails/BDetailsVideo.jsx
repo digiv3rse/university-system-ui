@@ -13,13 +13,14 @@ const BDetailsVideo = () => {
             backgroundSize: "cover",
           }}
         >
-          <div className="items-center bottom-0 flex left-[45%] absolute top-0 z-[2] rounded-lg p-6">
+          <div className="items-center bottom-0 flex left-[37%] lg:left-[45%] absolute top-0 z-[2] rounded-lg p-6">
             <div className="w-full my-auto">
               <div className="flex flex-wrap justify-center">
                 <div className="p-3 rounded-[50%] bg-white/50 hover:p-2.5 duration-500 transition-all ease-in-out">
                   <Link
                     className="h-10 w-10 text-rose-600 cursor-pointer inline-flex items-center justify-center font-medium align-middle border border-solid rounded-full overflow-hidden bg-white"
                     href="https://www.youtube.com/embed/tXHviS-4ygo"
+                    target="_blank"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" className="inline-block pl-1">
                       <path
@@ -81,7 +82,7 @@ const BDetailsVideo = () => {
               </mask>
               <path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipSCheckOne0)" />
             </svg>
-            ThaT where it came from it would have been rewritten a thousand times and everything that was left from origin would be the world
+            ThaT where it came from it rewritten.
           </li>
 
           <li className="rounded-bl-md rounded-br-md py-1.5">
