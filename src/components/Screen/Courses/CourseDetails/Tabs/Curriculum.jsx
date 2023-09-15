@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import AccordionItem from "./AccordionItem";
-import { curriculumData } from "../../../../data/curriculumData";
+import AccordionItem from "../../../Shared/AccordionItem";
+import { curriculumData } from "../../../../../../data/curriculumData";
 
-const Accordion = () => {
+const Curriculum = () => {
   const [open, setOpen] = useState(false);
   const toggle = (index) => {
     if (open === index) {
@@ -21,4 +21,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default Curriculum;
