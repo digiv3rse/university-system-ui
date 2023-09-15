@@ -110,11 +110,11 @@ const BDetailsVideo = () => {
       </div>
 
       {/* ==================== */}
-      <div className="text-zinc-500 flex text-[0.94rem] leading-5 justify-between mt-10 items-center">
-        <div className="items-center">
-          <h6 className="text-zinc-800 inline-block font-bold mb-5 mr-6">Share on:</h6>
+      <div className="text-zinc-500 flex text-[0.94rem] leading-5 lg:justify-between mt-10 lg:items-center flex-col lg:flex-row gap-y-4 lg:gap-y-0">
+        <div className="">
+          <h6 className="text-zinc-800 inline-block font-bold mb-2 lg:mb-5 mr-6">Share on:</h6>
 
-          <ul className="flex items-center justify-center gap-3">
+          <ul className="flex lg:items-center lg:justify-center gap-3">
             <li className="">
               <Link
                 className="bg-[#5475BC] text-white flex items-center justify-center w-8 h-8 rounded cursor-pointer hover:bg-primary-600  duration-300 transition ease-in-out "
@@ -171,9 +171,9 @@ const BDetailsVideo = () => {
         </div>
 
         <div className="items-center">
-          <h6 className="text-zinc-800 inline-block font-bold mb-5 mr-6">Popular Tags:</h6>
+          <h6 className="text-zinc-800 inline-block font-bold mb-2 lg:mb-5 mr-6">Popular Tags:</h6>
 
-          <ul className="">
+          <ul className=" space-y-2 lg:space-y-0">
             <li className="inline-block mr-2">
               {" "}
               <Link
