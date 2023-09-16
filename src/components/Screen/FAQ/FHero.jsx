@@ -7,7 +7,7 @@ const FHero = () => {
     <div className="py-12 bg-[#F5F7F9] rounded-lg">
       <div className="text-zinc-500 text-[0.94rem] leading-5 relative">
         <div className="mx-auto px-6 relative text-center">
-          <h1 className="text-zinc-800 text-[2.2rem] md:text-[2.8rem] lg:text-[3.2rem] xl:text-[3.50rem] leading-none font-bold mb-2">
+          <h1 className="text-zinc-800 text-[2.2rem] md:text-[2.8rem] lg:text-[3.2rem] xl:text-[3.50rem] leading-snug font-bold mb-2">
             Hello, how can we help?
           </h1>
 
