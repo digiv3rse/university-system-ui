@@ -1,6 +1,6 @@
 export const faqQuestions = [
   {
-    title: "Day-1 (Wed, January 1)",
+    title: "How can we help?",
     details: [
       {
         desc: "Grad Opening (8:00 am)",
@@ -21,7 +21,7 @@ export const faqQuestions = [
     lecture: "3",
   },
   {
-    title: "Enchanted Garden Gala",
+    title: "How to edit my profile?",
     lecture: "4",
     details: [
       {
@@ -47,7 +47,7 @@ export const faqQuestions = [
     ],
   },
   {
-    title: "Tech Innovators Summit",
+    title: "How much should I offer  the sellers?",
     lecture: "4",
     details: [
       {
@@ -68,7 +68,7 @@ export const faqQuestions = [
     ],
   },
   {
-    title: "Harvest Moon Masquerade",
+    title: "Installation Guide",
     lecture: "4",
     details: [
       {
@@ -79,7 +79,7 @@ export const faqQuestions = [
     ],
   },
   {
-    title: "Artistry Unleashed: Creative Showcase",
+    title: "Additional Options and Services",
     lecture: "4",
     details: [
       {
@@ -100,30 +100,8 @@ export const faqQuestions = [
     ],
   },
   {
-    title: "Culinary Fusion Fest",
+    title: "What's are the difference between a college and a university?",
     lecture: "4",
-    details: [
-      {
-        desc: "Introduction",
-        minute: "2",
-        second: "10",
-      },
-    ],
-  },
-  {
-    title: "Fitness Fiesta: Wellness Expo",
-    lecture: "4",
-    details: [
-      {
-        desc: "Introduction",
-        minute: "2",
-        second: "10",
-      },
-    ],
-  },
-  {
-    title: "Introduction of Digital Marketing",
-    lecture: "3",
     details: [
       {
         desc: "Introduction",
