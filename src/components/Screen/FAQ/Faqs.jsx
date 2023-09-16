@@ -10,7 +10,7 @@ const Faqs = () => {
           <h3 className="text-zinc-800 text-3xl font-bold">Frequently Asked Questions</h3>
           <FaqQuestions />
         </div>
-        <div>
+        <div className="">
           <div className="text-zinc-500 text-[0.94rem] leading-5">
             <div className="items-center bg-cyan-600/[0.1] flex justify-between mb-4 rounded-md p-2">
               <h6 className="text-cyan-600 font-bold">Last Question</h6>
